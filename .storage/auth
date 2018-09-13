@@ -1,0 +1,37 @@
+{
+    "data": {
+        "credentials": [
+            {
+                "auth_provider_id": null,
+                "auth_provider_type": "homeassistant",
+                "data": {
+                    "username": "mitch"
+                },
+                "id": "74fbc10f225b4f4085abf1ff1084743b",
+                "user_id": "07d4e29cb9154986b598d9b40c44093f"
+            }
+        ],
+        "refresh_tokens": [
+            {
+                "access_token_expiration": 1800.0,
+                "client_id": "http://localhost:8123/",
+                "created_at": "2018-09-13T08:39:42.055649+00:00",
+                "id": "7c8406df08984a43ac8a22857a1d907f",
+                "jwt_key": "24d126f1fd664c2b4943289e6a4cc21f2c4b62caa2bd0eae7cf350db459b0e9f181e76e908ae22d26d388baeacd8ad096eaec54c981668f56effeef4f416376a",
+                "token": "4a51811d3c22e1f17c8f81d706ee69a9b287f2e64ca170a68cb247706e383645395df22a3ed7ead7550849f9e8c54b4392ae743a8f07cd194c755758aa6ea024",
+                "user_id": "07d4e29cb9154986b598d9b40c44093f"
+            }
+        ],
+        "users": [
+            {
+                "id": "07d4e29cb9154986b598d9b40c44093f",
+                "is_active": true,
+                "is_owner": true,
+                "name": "mitch",
+                "system_generated": false
+            }
+        ]
+    },
+    "key": "auth",
+    "version": 1
+}

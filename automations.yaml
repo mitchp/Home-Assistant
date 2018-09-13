@@ -1,0 +1,18 @@
+- alias: 'Good Morning'
+  trigger:
+    platform: time
+    at: '05:30'
+  condition:
+  - condition: time
+    weekday:
+    - sun
+    - mon
+    - tue
+    - wed
+    - thu
+    - fri
+  action:
+  - service: switch.turn_on
+    data:
+      entity_id: switch.coffee_pot
+

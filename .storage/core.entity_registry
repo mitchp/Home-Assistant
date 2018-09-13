@@ -1,0 +1,336 @@
+{
+    "data": {
+        "entities": [
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "zwave.aeotec_zw090_zstick_gen5_us",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-1"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "zwave.ge_unknown_type5044_id3031",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-16"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "zwave.linear_ps15z2_plugin_appliance_module",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-20"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "zwave.inovelli_nzw36_smart_plugin_module_1_channel",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-17"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.neo_coolcam_power_plug_12a_previous_reading",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "13-72057594261045266"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.neo_coolcam_power_plug_12a_interval",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "13-72057594261045283"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.neo_coolcam_power_plug_12a_power",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "13-72057594261045378"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.neo_coolcam_power_plug_12a_voltage",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "13-72057594261045506"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.neo_coolcam_power_plug_12a_current",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "13-72057594261045570"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.neo_coolcam_power_plug_12a_exporting",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "13-72057594261045760"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.neo_coolcam_power_plug_12a_sourcenodeid",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "13-72057594262077473"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.neo_coolcam_power_plug_12a_power_management",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "13-72057594262077617"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.neo_coolcam_power_plug_12a_alarm_type",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "13-72057594262077441"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.neo_coolcam_power_plug_12a_alarm_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "13-72057594262077457"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.neo_coolcam_power_plug_12a_energy",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "13-72057594261045250"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.zooz_zen15_power_switch_power",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "15-72057594294599810"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.zooz_zen15_power_switch_voltage",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "15-72057594294599938"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.zooz_zen15_power_switch_current",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "15-72057594294600002"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.zooz_zen15_power_switch_energy",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "15-72057594294599682"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.neo_coolcam_power_plug_12a_previous_reading_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "13-72057594261045394"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.neo_coolcam_power_plug_12a_interval_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "13-72057594261045411"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.neo_coolcam_power_plug_12a_previous_reading_3",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "13-72057594261045522"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.neo_coolcam_power_plug_12a_interval_3",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "13-72057594261045539"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.neo_coolcam_power_plug_12a_previous_reading_4",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "13-72057594261045586"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.neo_coolcam_power_plug_12a_interval_4",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "13-72057594261045603"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "sensor.zooz_zen15_power_switch_previous_reading",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "15-72057594294599698"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "switch.reading_light",
+                "name": "Reading Light",
+                "platform": "zwave",
+                "unique_id": "17-72057594327941120"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "switch.desk_lamp",
+                "name": "Desk Lamp",
+                "platform": "zwave",
+                "unique_id": "13-72057594260832256"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "switch.plata",
+                "name": "Plata",
+                "platform": "zwave",
+                "unique_id": "15-72057594294386688"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "switch.urn",
+                "name": "Urn",
+                "platform": "zwave",
+                "unique_id": "20-72057594378272768"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "light.torch",
+                "name": "Torch",
+                "platform": "zwave",
+                "unique_id": "16-72057594311180289"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "light.barbara_light",
+                "name": "Barbara Light",
+                "platform": "zwave",
+                "unique_id": "21-72057594395066369"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "switch.coffee_pot",
+                "name": "Coffee Pot",
+                "platform": "zwave",
+                "unique_id": "22-72057594411827200"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "zwave.coffee_pot",
+                "name": "Coffee Pot",
+                "platform": "zwave",
+                "unique_id": "node-22"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "zwave.desk_lamp",
+                "name": "Desk Lamp",
+                "platform": "zwave",
+                "unique_id": "node-13"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "zwave.plata",
+                "name": "Plata",
+                "platform": "zwave",
+                "unique_id": "node-15"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "zwave.bedroom_fan",
+                "name": "Bedroom Fan",
+                "platform": "zwave",
+                "unique_id": "node-18"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "switch.bedroom_fan",
+                "name": "Bedroom Fan",
+                "platform": "zwave",
+                "unique_id": "18-72057594344718336"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "zwave.barbara_light",
+                "name": "Barbara Light",
+                "platform": "zwave",
+                "unique_id": "node-21"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "switch.cpap",
+                "name": "C-PAP",
+                "platform": "zwave",
+                "unique_id": "19-72057594361495552"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "entity_id": "zwave.cpap",
+                "name": "C-PAP",
+                "platform": "zwave",
+                "unique_id": "node-19"
+            }
+        ]
+    },
+    "key": "core.entity_registry",
+    "version": 1
+}

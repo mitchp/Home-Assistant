@@ -1,0 +1,2276 @@
+2018-09-13 03:33:20.123 Always, OpenZwave Version 1.4.3142 Starting Up
+2018-09-13 03:33:22.329 Info, Setting Up Provided Network Key for Secure Communications
+2018-09-13 03:33:22.330 Warning, Failed - Network Key Not Set
+2018-09-13 03:33:22.330 Info, mgr,     Added driver for controller /dev/ttyACM1
+2018-09-13 03:33:22.330 Info,   Opening controller /dev/ttyACM1
+2018-09-13 03:33:22.330 Info, Trying to open serial port /dev/ttyACM1 (attempt 1)
+2018-09-13 03:33:22.331 Info, Serial port /dev/ttyACM1 opened (attempt 1)
+2018-09-13 03:33:22.331 Detail, contrlr, Queuing (Command) FUNC_ID_ZW_GET_VERSION: 0x01, 0x03, 0x00, 0x15, 0xe9
+2018-09-13 03:33:22.331 Detail, contrlr, Queuing (Command) FUNC_ID_ZW_MEMORY_GET_ID: 0x01, 0x03, 0x00, 0x20, 0xdc
+2018-09-13 03:33:22.331 Detail, contrlr, Queuing (Command) FUNC_ID_ZW_GET_CONTROLLER_CAPABILITIES: 0x01, 0x03, 0x00, 0x05, 0xf9
+2018-09-13 03:33:22.331 Detail, contrlr, Queuing (Command) FUNC_ID_SERIAL_API_GET_CAPABILITIES: 0x01, 0x03, 0x00, 0x07, 0xfb
+2018-09-13 03:33:22.331 Detail, contrlr, Queuing (Command) FUNC_ID_ZW_GET_SUC_NODE_ID: 0x01, 0x03, 0x00, 0x56, 0xaa
+2018-09-13 03:33:22.331 Detail, 
+2018-09-13 03:33:22.331 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x15) - FUNC_ID_ZW_GET_VERSION: 0x01, 0x03, 0x00, 0x15, 0xe9
+2018-09-13 03:33:22.334 Detail, contrlr,   Received: 0x01, 0x10, 0x01, 0x15, 0x5a, 0x2d, 0x57, 0x61, 0x76, 0x65, 0x20, 0x33, 0x2e, 0x39, 0x35, 0x00, 0x01, 0x99
+2018-09-13 03:33:22.334 Detail, 
+2018-09-13 03:33:22.334 Info, contrlr, Received reply to FUNC_ID_ZW_GET_VERSION:
+2018-09-13 03:33:22.334 Info, contrlr,     Static Controller library, version Z-Wave 3.95
+2018-09-13 03:33:22.334 Detail, Node045,   Expected reply was received
+2018-09-13 03:33:22.334 Detail, Node045,   Message transaction complete
+2018-09-13 03:33:22.334 Detail, 
+2018-09-13 03:33:22.334 Detail, contrlr, Removing current message
+2018-09-13 03:33:22.334 Detail, 
+2018-09-13 03:33:22.334 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x20) - FUNC_ID_ZW_MEMORY_GET_ID: 0x01, 0x03, 0x00, 0x20, 0xdc
+2018-09-13 03:33:22.337 Detail, contrlr,   Received: 0x01, 0x08, 0x01, 0x20, 0xca, 0x3b, 0xb7, 0x65, 0x01, 0xf4
+2018-09-13 03:33:22.337 Detail, 
+2018-09-13 03:33:22.337 Info, contrlr, Received reply to FUNC_ID_ZW_MEMORY_GET_ID. Home ID = 0xca3bb765.  Our node ID = 1
+2018-09-13 03:33:22.337 Detail, Node059,   Expected reply was received
+2018-09-13 03:33:22.337 Detail, Node059,   Message transaction complete
+2018-09-13 03:33:22.337 Detail, 
+2018-09-13 03:33:22.337 Detail, contrlr, Removing current message
+2018-09-13 03:33:22.337 Detail, 
+2018-09-13 03:33:22.337 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x05) - FUNC_ID_ZW_GET_CONTROLLER_CAPABILITIES: 0x01, 0x03, 0x00, 0x05, 0xf9
+2018-09-13 03:33:22.339 Detail, contrlr,   Received: 0x01, 0x04, 0x01, 0x05, 0x08, 0xf7
+2018-09-13 03:33:22.339 Detail, 
+2018-09-13 03:33:22.339 Info, contrlr, Received reply to FUNC_ID_ZW_GET_CONTROLLER_CAPABILITIES:
+2018-09-13 03:33:22.339 Info, contrlr,     There is no SUC ID Server (SIS) in this network.
+2018-09-13 03:33:22.339 Info, contrlr,     The PC controller is a primary controller.
+2018-09-13 03:33:22.339 Detail, Node247,   Expected reply was received
+2018-09-13 03:33:22.339 Detail, Node247,   Message transaction complete
+2018-09-13 03:33:22.339 Detail, 
+2018-09-13 03:33:22.339 Detail, contrlr, Removing current message
+2018-09-13 03:33:22.340 Detail, 
+2018-09-13 03:33:22.340 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x07) - FUNC_ID_SERIAL_API_GET_CAPABILITIES: 0x01, 0x03, 0x00, 0x07, 0xfb
+2018-09-13 03:33:22.343 Detail, contrlr,   Received: 0x01, 0x2b, 0x01, 0x07, 0x01, 0x00, 0x00, 0x86, 0x01, 0x01, 0x00, 0x5a, 0xfe, 0x81, 0xff, 0x88, 0x4f, 0x1f, 0x00, 0x00, 0xfb, 0x9f, 0x7d, 0xa0, 0x67, 0x00, 0x00, 0x80, 0x00, 0x80, 0x86, 0x00, 0x00, 0x00, 0xe8, 0x73, 0x00, 0x00, 0x0e, 0x00, 0x00, 0x60, 0x00, 0x00, 0xfa
+2018-09-13 03:33:22.343 Detail, 
+2018-09-13 03:33:22.343 Info, contrlr,  Received reply to FUNC_ID_SERIAL_API_GET_CAPABILITIES
+2018-09-13 03:33:22.344 Info, contrlr,     Serial API Version:   1.0
+2018-09-13 03:33:22.344 Info, contrlr,     Manufacturer ID:      0x0086
+2018-09-13 03:33:22.344 Info, contrlr,     Product Type:         0x0101
+2018-09-13 03:33:22.344 Info, contrlr,     Product ID:           0x005a
+2018-09-13 03:33:22.344 Detail, contrlr, Queuing (Command) FUNC_ID_ZW_GET_RANDOM: 0x01, 0x04, 0x00, 0x1c, 0x20, 0xc7
+2018-09-13 03:33:22.344 Detail, contrlr, Queuing (Command) FUNC_ID_SERIAL_API_GET_INIT_DATA: 0x01, 0x03, 0x00, 0x02, 0xfe
+2018-09-13 03:33:22.344 Detail, contrlr, Queuing (Command) FUNC_ID_SERIAL_API_SET_TIMEOUTS: 0x01, 0x05, 0x00, 0x06, 0x64, 0x0f, 0x97
+2018-09-13 03:33:22.344 Detail, contrlr, Queuing (Command) FUNC_ID_SERIAL_API_APPL_NODE_INFORMATION: 0x01, 0x07, 0x00, 0x03, 0x01, 0x02, 0x01, 0x00, 0xf9
+2018-09-13 03:33:22.344 Detail,   Expected reply was received
+2018-09-13 03:33:22.344 Detail,   Message transaction complete
+2018-09-13 03:33:22.344 Detail, 
+2018-09-13 03:33:22.344 Detail, contrlr, Removing current message
+2018-09-13 03:33:22.344 Detail, 
+2018-09-13 03:33:22.344 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x56) - FUNC_ID_ZW_GET_SUC_NODE_ID: 0x01, 0x03, 0x00, 0x56, 0xaa
+2018-09-13 03:33:22.346 Detail, contrlr,   Received: 0x01, 0x04, 0x01, 0x56, 0x00, 0xac
+2018-09-13 03:33:22.346 Detail, 
+2018-09-13 03:33:22.346 Info, contrlr, Received reply to GET_SUC_NODE_ID.  Node ID = 0
+2018-09-13 03:33:22.346 Info, Controller Does not Support SUC - Cannot Setup Controller as SUC Node
+2018-09-13 03:33:22.346 Detail, Node172,   Expected reply was received
+2018-09-13 03:33:22.346 Detail, Node172,   Message transaction complete
+2018-09-13 03:33:22.346 Detail, 
+2018-09-13 03:33:22.346 Detail, contrlr, Removing current message
+2018-09-13 03:33:22.346 Detail, 
+2018-09-13 03:33:22.346 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x1c) - FUNC_ID_ZW_GET_RANDOM: 0x01, 0x04, 0x00, 0x1c, 0x20, 0xc7
+2018-09-13 03:33:22.402 Detail, contrlr,   Received: 0x01, 0x25, 0x01, 0x1c, 0x01, 0x20, 0xa8, 0x8c, 0xac, 0x40, 0x00, 0x1b, 0x82, 0x2f, 0x09, 0x32, 0x40, 0xa9, 0x62, 0x50, 0x5a, 0x7e, 0x57, 0x44, 0x96, 0x9c, 0xdd, 0xa4, 0x43, 0x80, 0xa7, 0x2d, 0xd6, 0xaa, 0x2d, 0x02, 0x10, 0xde, 0xe8
+2018-09-13 03:33:22.402 Detail, 
+2018-09-13 03:33:22.402 Info, contrlr, Received reply to FUNC_ID_ZW_GET_RANDOM: true
+2018-09-13 03:33:22.402 Detail, Node032,   Expected reply was received
+2018-09-13 03:33:22.402 Detail, Node032,   Message transaction complete
+2018-09-13 03:33:22.402 Detail, 
+2018-09-13 03:33:22.402 Detail, contrlr, Removing current message
+2018-09-13 03:33:22.402 Detail, 
+2018-09-13 03:33:22.402 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x02) - FUNC_ID_SERIAL_API_GET_INIT_DATA: 0x01, 0x03, 0x00, 0x02, 0xfe
+2018-09-13 03:33:22.504 Detail, contrlr,   Received: 0x01, 0x25, 0x01, 0x02, 0x05, 0x00, 0x1d, 0x01, 0xd0, 0x37, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x00, 0x22
+2018-09-13 03:33:22.504 Detail, 
+2018-09-13 03:33:22.504 Info, mgr,     Driver with Home ID of 0xca3bb765 is now ready.
+2018-09-13 03:33:22.504 Info, 
+2018-09-13 03:33:22.524 Detail, Node013, Queuing (Controller) Delete All Return Routes
+2018-09-13 03:33:22.525 Detail, Node013, Queuing (Controller) Assign Return Route
+2018-09-13 03:33:22.528 Detail, Node021, Queuing (Controller) Delete All Return Routes
+2018-09-13 03:33:22.528 Detail, Node021, Queuing (Controller) Assign Return Route
+2018-09-13 03:33:22.532 Info, contrlr, Received reply to FUNC_ID_SERIAL_API_GET_INIT_DATA:
+2018-09-13 03:33:22.532 Info, contrlr,     Node 001 - Known
+2018-09-13 03:33:22.532 Detail, Node001, AdvanceQueries queryPending=0 queryRetries=0 queryStage=CacheLoad live=1
+2018-09-13 03:33:22.533 Detail, Node001, QueryStage_CacheLoad
+2018-09-13 03:33:22.533 Info, Node001, Node Identity Codes: 0086:0101:005a
+2018-09-13 03:33:22.533 Detail, Node001, QueryStage_Associations
+2018-09-13 03:33:22.533 Detail, Node001, QueryStage_Neighbors
+2018-09-13 03:33:22.533 Detail, contrlr, Requesting routing info (neighbor list) for Node 1
+2018-09-13 03:33:22.534 Detail, Node001, Queuing (Command) Get Routing Info (Node=1): 0x01, 0x07, 0x00, 0x80, 0x01, 0x00, 0x00, 0x03, 0x7a
+2018-09-13 03:33:22.534 Detail, Node001, Queuing (Query) Query Stage Complete (Neighbors)
+2018-09-13 03:33:22.535 Info, contrlr,     Node 013 - Known
+2018-09-13 03:33:22.535 Detail, Node013, AdvanceQueries queryPending=0 queryRetries=0 queryStage=CacheLoad live=1
+2018-09-13 03:33:22.535 Detail, Node013, QueryStage_CacheLoad
+2018-09-13 03:33:22.535 Info, Node013, Node Identity Codes: 0258:0003:0087
+2018-09-13 03:33:22.535 Info, Node013, NoOperation::Set - Routing=true
+2018-09-13 03:33:22.535 Detail, Node013, Queuing (NoOp) NoOperation_Set (Node=13): 0x01, 0x09, 0x00, 0x13, 0x0d, 0x02, 0x00, 0x00, 0x25, 0x0a, 0xc5
+2018-09-13 03:33:22.535 Detail, Node013, Queuing (Query) Query Stage Complete (CacheLoad)
+2018-09-13 03:33:22.535 Info, contrlr,     Node 015 - Known
+2018-09-13 03:33:22.535 Detail, Node015, AdvanceQueries queryPending=0 queryRetries=0 queryStage=CacheLoad live=1
+2018-09-13 03:33:22.535 Detail, Node015, QueryStage_CacheLoad
+2018-09-13 03:33:22.535 Info, Node015, Node Identity Codes: 027a:0101:000d
+2018-09-13 03:33:22.535 Info, Node015, NoOperation::Set - Routing=true
+2018-09-13 03:33:22.535 Detail, Node015, Queuing (NoOp) NoOperation_Set (Node=15): 0x01, 0x09, 0x00, 0x13, 0x0f, 0x02, 0x00, 0x00, 0x25, 0x0b, 0xc6
+2018-09-13 03:33:22.535 Detail, Node015, Queuing (Query) Query Stage Complete (CacheLoad)
+2018-09-13 03:33:22.535 Info, contrlr,     Node 016 - Known
+2018-09-13 03:33:22.535 Detail, Node016, AdvanceQueries queryPending=0 queryRetries=0 queryStage=CacheLoad live=1
+2018-09-13 03:33:22.535 Detail, Node016, QueryStage_CacheLoad
+2018-09-13 03:33:22.535 Info, Node016, Node Identity Codes: 0063:5044:3031
+2018-09-13 03:33:22.535 Info, Node016, NoOperation::Set - Routing=true
+2018-09-13 03:33:22.535 Detail, Node016, Queuing (NoOp) NoOperation_Set (Node=16): 0x01, 0x09, 0x00, 0x13, 0x10, 0x02, 0x00, 0x00, 0x25, 0x0c, 0xde
+2018-09-13 03:33:22.535 Detail, Node016, Queuing (Query) Query Stage Complete (CacheLoad)
+2018-09-13 03:33:22.535 Info, contrlr,     Node 017 - Known
+2018-09-13 03:33:22.535 Detail, Node017, AdvanceQueries queryPending=0 queryRetries=0 queryStage=CacheLoad live=1
+2018-09-13 03:33:22.535 Detail, Node017, QueryStage_CacheLoad
+2018-09-13 03:33:22.535 Info, Node017, Node Identity Codes: 0312:b211:241c
+2018-09-13 03:33:22.536 Info, Node017, NoOperation::Set - Routing=true
+2018-09-13 03:33:22.536 Detail, Node017, Queuing (NoOp) NoOperation_Set (Node=17): 0x01, 0x09, 0x00, 0x13, 0x11, 0x02, 0x00, 0x00, 0x25, 0x0d, 0xde
+2018-09-13 03:33:22.536 Detail, Node017, Queuing (Query) Query Stage Complete (CacheLoad)
+2018-09-13 03:33:22.536 Info, contrlr,     Node 018 - Known
+2018-09-13 03:33:22.536 Detail, Node018, AdvanceQueries queryPending=0 queryRetries=0 queryStage=CacheLoad live=1
+2018-09-13 03:33:22.536 Detail, Node018, QueryStage_CacheLoad
+2018-09-13 03:33:22.536 Info, Node018, Node Identity Codes: 0312:b211:241c
+2018-09-13 03:33:22.536 Info, Node018, NoOperation::Set - Routing=true
+2018-09-13 03:33:22.536 Detail, Node018, Queuing (NoOp) NoOperation_Set (Node=18): 0x01, 0x09, 0x00, 0x13, 0x12, 0x02, 0x00, 0x00, 0x25, 0x0e, 0xde
+2018-09-13 03:33:22.536 Detail, Node018, Queuing (Query) Query Stage Complete (CacheLoad)
+2018-09-13 03:33:22.536 Info, contrlr,     Node 019 - Known
+2018-09-13 03:33:22.536 Detail, Node019, AdvanceQueries queryPending=0 queryRetries=0 queryStage=CacheLoad live=1
+2018-09-13 03:33:22.536 Detail, Node019, QueryStage_CacheLoad
+2018-09-13 03:33:22.536 Info, Node019, Node Identity Codes: 0063:5052:3031
+2018-09-13 03:33:22.536 Info, Node019, NoOperation::Set - Routing=true
+2018-09-13 03:33:22.536 Detail, Node019, Queuing (NoOp) NoOperation_Set (Node=19): 0x01, 0x09, 0x00, 0x13, 0x13, 0x02, 0x00, 0x00, 0x25, 0x0f, 0xde
+2018-09-13 03:33:22.536 Detail, Node019, Queuing (Query) Query Stage Complete (CacheLoad)
+2018-09-13 03:33:22.536 Info, contrlr,     Node 021 - Known
+2018-09-13 03:33:22.536 Detail, Node021, AdvanceQueries queryPending=0 queryRetries=0 queryStage=CacheLoad live=1
+2018-09-13 03:33:22.536 Detail, Node021, QueryStage_CacheLoad
+2018-09-13 03:33:22.536 Info, Node021, Node Identity Codes: 5254:8200:8130
+2018-09-13 03:33:22.536 Info, Node021, NoOperation::Set - Routing=true
+2018-09-13 03:33:22.536 Detail, Node021, Queuing (NoOp) NoOperation_Set (Node=21): 0x01, 0x09, 0x00, 0x13, 0x15, 0x02, 0x00, 0x00, 0x25, 0x10, 0xc7
+2018-09-13 03:33:22.536 Detail, Node021, Queuing (Query) Query Stage Complete (CacheLoad)
+2018-09-13 03:33:22.536 Info, contrlr,     Node 022 - Known
+2018-09-13 03:33:22.536 Detail, Node022, AdvanceQueries queryPending=0 queryRetries=0 queryStage=CacheLoad live=1
+2018-09-13 03:33:22.536 Detail, Node022, QueryStage_CacheLoad
+2018-09-13 03:33:22.536 Info, Node022, Node Identity Codes: 014f:5250:3030
+2018-09-13 03:33:22.537 Info, Node022, NoOperation::Set - Routing=true
+2018-09-13 03:33:22.537 Detail, Node022, Queuing (NoOp) NoOperation_Set (Node=22): 0x01, 0x09, 0x00, 0x13, 0x16, 0x02, 0x00, 0x00, 0x25, 0x11, 0xc5
+2018-09-13 03:33:22.537 Detail, Node022, Queuing (Query) Query Stage Complete (CacheLoad)
+2018-09-13 03:33:22.537 Detail,   Expected reply was received
+2018-09-13 03:33:22.537 Detail,   Message transaction complete
+2018-09-13 03:33:22.537 Detail, 
+2018-09-13 03:33:22.537 Detail, contrlr, Removing current message
+2018-09-13 03:33:22.537 Detail, Node001, Notification: DriverReady
+2018-09-13 03:33:22.544 Detail, Node001, Notification: NodeAdded
+2018-09-13 03:33:22.558 Detail, Node001, Notification: NodeProtocolInfo
+2018-09-13 03:33:22.561 Detail, Node001, Notification: EssentialNodeQueriesComplete
+2018-09-13 03:33:22.561 Detail, Node001, Notification: ValueAdded
+2018-09-13 03:33:22.567 Detail, Node001, Notification: NodeNaming
+2018-09-13 03:33:22.568 Detail, Node013, Notification: NodeAdded
+2018-09-13 03:33:22.576 Detail, Node013, Notification: NodeProtocolInfo
+2018-09-13 03:33:22.577 Detail, Node013, Notification: EssentialNodeQueriesComplete
+2018-09-13 03:33:22.578 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.594 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.601 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.635 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.652 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.670 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.700 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.717 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.724 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.747 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.754 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.766 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.773 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.784 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.794 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.807 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.815 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.820 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.824 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.826 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.829 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.835 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.848 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.853 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.864 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.869 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.870 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.872 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.874 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.875 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.881 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.890 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.905 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.916 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.921 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.926 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.927 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.931 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.944 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.946 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.948 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.953 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.956 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.959 Detail, Node013, Notification: Group
+2018-09-13 03:33:22.961 Detail, Node013, Notification: Group
+2018-09-13 03:33:22.964 Detail, Node013, Notification: Group
+2018-09-13 03:33:22.966 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.969 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.973 Detail, Node013, Notification: ValueAdded
+2018-09-13 03:33:22.974 Detail, Node013, Notification: NodeNaming
+2018-09-13 03:33:22.976 Detail, Node015, Notification: NodeAdded
+2018-09-13 03:33:22.989 Detail, Node015, Notification: NodeProtocolInfo
+2018-09-13 03:33:22.992 Detail, Node015, Notification: EssentialNodeQueriesComplete
+2018-09-13 03:33:22.993 Detail, Node015, Notification: ValueAdded
+2018-09-13 03:33:23.006 Detail, Node015, Notification: ValueAdded
+2018-09-13 03:33:23.010 Detail, Node015, Notification: ValueAdded
+2018-09-13 03:33:23.025 Detail, Node015, Notification: ValueAdded
+2018-09-13 03:33:23.039 Detail, Node015, Notification: ValueAdded
+2018-09-13 03:33:23.047 Detail, Node015, Notification: ValueAdded
+2018-09-13 03:33:23.061 Detail, Node015, Notification: ValueAdded
+2018-09-13 03:33:23.069 Detail, Node015, Notification: ValueAdded
+2018-09-13 03:33:23.078 Detail, Node015, Notification: ValueAdded
+2018-09-13 03:33:23.088 Detail, Node015, Notification: ValueAdded
+2018-09-13 03:33:23.092 Detail, Node015, Notification: ValueAdded
+2018-09-13 03:33:23.095 Detail, Node015, Notification: ValueAdded
+2018-09-13 03:33:23.097 Detail, Node015, Notification: ValueAdded
+2018-09-13 03:33:23.103 Detail, Node015, Notification: ValueAdded
+2018-09-13 03:33:23.108 Detail, Node015, Notification: ValueAdded
+2018-09-13 03:33:23.112 Detail, Node015, Notification: ValueAdded
+2018-09-13 03:33:23.116 Detail, Node015, Notification: ValueAdded
+2018-09-13 03:33:23.118 Detail, Node015, Notification: ValueAdded
+2018-09-13 03:33:23.119 Detail, Node015, Notification: ValueAdded
+2018-09-13 03:33:23.135 Detail, Node015, Notification: ValueAdded
+2018-09-13 03:33:23.140 Detail, Node015, Notification: ValueAdded
+2018-09-13 03:33:23.142 Detail, Node015, Notification: ValueAdded
+2018-09-13 03:33:23.157 Detail, Node015, Notification: ValueAdded
+2018-09-13 03:33:23.158 Detail, Node015, Notification: ValueAdded
+2018-09-13 03:33:23.160 Detail, Node015, Notification: ValueAdded
+2018-09-13 03:33:23.165 Detail, Node015, Notification: ValueAdded
+2018-09-13 03:33:23.170 Detail, Node015, Notification: ValueAdded
+2018-09-13 03:33:23.171 Detail, Node015, Notification: ValueAdded
+2018-09-13 03:33:23.173 Detail, Node015, Notification: ValueAdded
+2018-09-13 03:33:23.174 Detail, Node015, Notification: ValueAdded
+2018-09-13 03:33:23.175 Detail, Node015, Notification: ValueAdded
+2018-09-13 03:33:23.178 Detail, Node015, Notification: ValueAdded
+2018-09-13 03:33:23.180 Detail, Node015, Notification: ValueAdded
+2018-09-13 03:33:23.181 Detail, Node015, Notification: Group
+2018-09-13 03:33:23.182 Detail, Node015, Notification: ValueAdded
+2018-09-13 03:33:23.183 Detail, Node015, Notification: ValueAdded
+2018-09-13 03:33:23.184 Detail, Node015, Notification: ValueAdded
+2018-09-13 03:33:23.186 Detail, Node015, Notification: NodeNaming
+2018-09-13 03:33:23.187 Detail, Node016, Notification: NodeAdded
+2018-09-13 03:33:23.195 Detail, Node016, Notification: NodeProtocolInfo
+2018-09-13 03:33:23.199 Detail, Node016, Notification: EssentialNodeQueriesComplete
+2018-09-13 03:33:23.199 Detail, Node016, Notification: ValueAdded
+2018-09-13 03:33:23.212 Detail, Node016, Notification: ValueAdded
+2018-09-13 03:33:23.214 Detail, Node016, Notification: ValueAdded
+2018-09-13 03:33:23.217 Detail, Node016, Notification: ValueAdded
+2018-09-13 03:33:23.220 Detail, Node016, Notification: ValueAdded
+2018-09-13 03:33:23.222 Detail, Node016, Notification: ValueAdded
+2018-09-13 03:33:23.225 Detail, Node016, Notification: ValueAdded
+2018-09-13 03:33:23.227 Detail, Node016, Notification: ValueAdded
+2018-09-13 03:33:23.234 Detail, Node016, Notification: ValueAdded
+2018-09-13 03:33:23.236 Detail, Node016, Notification: ValueAdded
+2018-09-13 03:33:23.238 Detail, Node016, Notification: ValueAdded
+2018-09-13 03:33:23.241 Detail, Node016, Notification: ValueAdded
+2018-09-13 03:33:23.243 Detail, Node016, Notification: ValueAdded
+2018-09-13 03:33:23.245 Detail, Node016, Notification: ValueAdded
+2018-09-13 03:33:23.250 Detail, Node016, Notification: ValueAdded
+2018-09-13 03:33:23.254 Detail, Node016, Notification: ValueAdded
+2018-09-13 03:33:23.257 Detail, Node016, Notification: ValueAdded
+2018-09-13 03:33:23.260 Detail, Node016, Notification: ValueAdded
+2018-09-13 03:33:23.264 Detail, Node016, Notification: ValueAdded
+2018-09-13 03:33:23.268 Detail, Node016, Notification: NodeNaming
+2018-09-13 03:33:23.269 Detail, Node017, Notification: NodeAdded
+2018-09-13 03:33:23.289 Detail, Node017, Notification: NodeProtocolInfo
+2018-09-13 03:33:23.292 Detail, Node017, Notification: EssentialNodeQueriesComplete
+2018-09-13 03:33:23.293 Detail, Node017, Notification: ValueAdded
+2018-09-13 03:33:23.305 Detail, Node017, Notification: ValueAdded
+2018-09-13 03:33:23.308 Detail, Node017, Notification: ValueAdded
+2018-09-13 03:33:23.310 Detail, Node017, Notification: ValueAdded
+2018-09-13 03:33:23.315 Detail, Node017, Notification: ValueAdded
+2018-09-13 03:33:23.317 Detail, Node017, Notification: ValueAdded
+2018-09-13 03:33:23.319 Detail, Node017, Notification: ValueAdded
+2018-09-13 03:33:23.321 Detail, Node017, Notification: ValueAdded
+2018-09-13 03:33:23.324 Detail, Node017, Notification: ValueAdded
+2018-09-13 03:33:23.328 Detail, Node017, Notification: ValueAdded
+2018-09-13 03:33:23.332 Detail, Node017, Notification: ValueAdded
+2018-09-13 03:33:23.337 Detail, Node017, Notification: ValueAdded
+2018-09-13 03:33:23.342 Detail, Node017, Notification: ValueAdded
+2018-09-13 03:33:23.345 Detail, Node017, Notification: ValueAdded
+2018-09-13 03:33:23.346 Detail, Node017, Notification: ValueAdded
+2018-09-13 03:33:23.349 Detail, Node017, Notification: Group
+2018-09-13 03:33:23.351 Detail, Node017, Notification: ValueAdded
+2018-09-13 03:33:23.357 Detail, Node017, Notification: ValueAdded
+2018-09-13 03:33:23.359 Detail, Node017, Notification: ValueAdded
+2018-09-13 03:33:23.364 Detail, Node017, Notification: NodeNaming
+2018-09-13 03:33:23.369 Detail, Node018, Notification: NodeAdded
+2018-09-13 03:33:23.378 Detail, Node018, Notification: NodeProtocolInfo
+2018-09-13 03:33:23.380 Detail, Node018, Notification: EssentialNodeQueriesComplete
+2018-09-13 03:33:23.380 Detail, Node018, Notification: ValueAdded
+2018-09-13 03:33:23.392 Detail, Node018, Notification: ValueAdded
+2018-09-13 03:33:23.394 Detail, Node018, Notification: ValueAdded
+2018-09-13 03:33:23.397 Detail, Node018, Notification: ValueAdded
+2018-09-13 03:33:23.409 Detail, Node018, Notification: ValueAdded
+2018-09-13 03:33:23.411 Detail, Node018, Notification: ValueAdded
+2018-09-13 03:33:23.421 Detail, Node018, Notification: ValueAdded
+2018-09-13 03:33:23.427 Detail, Node018, Notification: ValueAdded
+2018-09-13 03:33:23.437 Detail, Node018, Notification: ValueAdded
+2018-09-13 03:33:23.444 Detail, Node018, Notification: ValueAdded
+2018-09-13 03:33:23.450 Detail, Node018, Notification: ValueAdded
+2018-09-13 03:33:23.455 Detail, Node018, Notification: ValueAdded
+2018-09-13 03:33:23.459 Detail, Node018, Notification: ValueAdded
+2018-09-13 03:33:23.480 Detail, Node018, Notification: ValueAdded
+2018-09-13 03:33:23.490 Detail, Node018, Notification: ValueAdded
+2018-09-13 03:33:23.508 Detail, Node018, Notification: Group
+2018-09-13 03:33:23.511 Detail, Node018, Notification: ValueAdded
+2018-09-13 03:33:23.520 Detail, Node018, Notification: ValueAdded
+2018-09-13 03:33:23.523 Detail, Node018, Notification: ValueAdded
+2018-09-13 03:33:23.527 Detail, Node018, Notification: NodeNaming
+2018-09-13 03:33:23.531 Detail, Node019, Notification: NodeAdded
+2018-09-13 03:33:23.542 Detail, Node019, Notification: NodeProtocolInfo
+2018-09-13 03:33:23.547 Detail, Node019, Notification: EssentialNodeQueriesComplete
+2018-09-13 03:33:23.547 Detail, Node019, Notification: ValueAdded
+2018-09-13 03:33:23.552 Detail, Node019, Notification: ValueAdded
+2018-09-13 03:33:23.554 Detail, Node019, Notification: ValueAdded
+2018-09-13 03:33:23.559 Detail, Node019, Notification: ValueAdded
+2018-09-13 03:33:23.562 Detail, Node019, Notification: ValueAdded
+2018-09-13 03:33:23.564 Detail, Node019, Notification: ValueAdded
+2018-09-13 03:33:23.568 Detail, Node019, Notification: ValueAdded
+2018-09-13 03:33:23.572 Detail, Node019, Notification: ValueAdded
+2018-09-13 03:33:23.574 Detail, Node019, Notification: ValueAdded
+2018-09-13 03:33:23.590 Detail, Node019, Notification: ValueAdded
+2018-09-13 03:33:23.593 Detail, Node019, Notification: ValueAdded
+2018-09-13 03:33:23.595 Detail, Node019, Notification: ValueAdded
+2018-09-13 03:33:23.603 Detail, Node019, Notification: ValueAdded
+2018-09-13 03:33:23.605 Detail, Node019, Notification: Group
+2018-09-13 03:33:23.606 Detail, Node019, Notification: ValueAdded
+2018-09-13 03:33:23.608 Detail, Node019, Notification: ValueAdded
+2018-09-13 03:33:23.611 Detail, Node019, Notification: ValueAdded
+2018-09-13 03:33:23.613 Detail, Node019, Notification: NodeNaming
+2018-09-13 03:33:23.617 Detail, Node021, Notification: NodeAdded
+2018-09-13 03:33:23.645 Detail, Node021, Notification: NodeProtocolInfo
+2018-09-13 03:33:23.646 Detail, Node021, Notification: EssentialNodeQueriesComplete
+2018-09-13 03:33:23.647 Detail, Node021, Notification: ValueAdded
+2018-09-13 03:33:23.652 Detail, Node021, Notification: ValueAdded
+2018-09-13 03:33:23.661 Detail, Node021, Notification: ValueAdded
+2018-09-13 03:33:23.670 Detail, Node021, Notification: ValueAdded
+2018-09-13 03:33:23.673 Detail, Node021, Notification: ValueAdded
+2018-09-13 03:33:23.680 Detail, Node021, Notification: ValueAdded
+2018-09-13 03:33:23.687 Detail, Node021, Notification: ValueAdded
+2018-09-13 03:33:23.697 Detail, Node021, Notification: ValueAdded
+2018-09-13 03:33:23.707 Detail, Node021, Notification: ValueAdded
+2018-09-13 03:33:23.710 Detail, Node021, Notification: ValueAdded
+2018-09-13 03:33:23.712 Detail, Node021, Notification: ValueAdded
+2018-09-13 03:33:23.715 Detail, Node021, Notification: ValueAdded
+2018-09-13 03:33:23.718 Detail, Node021, Notification: ValueAdded
+2018-09-13 03:33:23.732 Detail, Node021, Notification: ValueAdded
+2018-09-13 03:33:23.735 Detail, Node021, Notification: ValueAdded
+2018-09-13 03:33:23.738 Detail, Node021, Notification: ValueAdded
+2018-09-13 03:33:23.743 Detail, Node021, Notification: ValueAdded
+2018-09-13 03:33:23.745 Detail, Node021, Notification: Group
+2018-09-13 03:33:23.745 Detail, Node021, Notification: Group
+2018-09-13 03:33:23.750 Detail, Node021, Notification: ValueAdded
+2018-09-13 03:33:23.753 Detail, Node021, Notification: ValueAdded
+2018-09-13 03:33:23.779 Detail, Node021, Notification: ValueAdded
+2018-09-13 03:33:23.781 Detail, Node021, Notification: NodeNaming
+2018-09-13 03:33:23.794 Detail, Node022, Notification: NodeAdded
+2018-09-13 03:33:25.359 Detail, Node022, Notification: NodeProtocolInfo
+2018-09-13 03:33:25.374 Detail, Node022, Notification: EssentialNodeQueriesComplete
+2018-09-13 03:33:25.383 Detail, Node022, Notification: ValueAdded
+2018-09-13 03:33:25.390 Detail, Node022, Notification: ValueAdded
+2018-09-13 03:33:25.397 Detail, Node022, Notification: ValueAdded
+2018-09-13 03:33:25.407 Detail, Node022, Notification: ValueAdded
+2018-09-13 03:33:25.419 Detail, Node022, Notification: ValueAdded
+2018-09-13 03:33:25.427 Detail, Node022, Notification: ValueAdded
+2018-09-13 03:33:25.431 Detail, Node022, Notification: ValueAdded
+2018-09-13 03:33:25.433 Detail, Node022, Notification: ValueAdded
+2018-09-13 03:33:25.444 Detail, Node022, Notification: ValueAdded
+2018-09-13 03:33:25.457 Detail, Node022, Notification: ValueAdded
+2018-09-13 03:33:25.465 Detail, Node022, Notification: ValueAdded
+2018-09-13 03:33:25.469 Detail, Node022, Notification: ValueAdded
+2018-09-13 03:33:25.477 Detail, Node022, Notification: ValueAdded
+2018-09-13 03:33:25.487 Detail, Node022, Notification: ValueAdded
+2018-09-13 03:33:25.494 Detail, Node022, Notification: ValueAdded
+2018-09-13 03:33:25.502 Detail, Node022, Notification: ValueAdded
+2018-09-13 03:33:25.508 Detail, Node022, Notification: NodeNaming
+2018-09-13 03:33:25.517 Detail, 
+2018-09-13 03:33:25.517 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x06) - FUNC_ID_SERIAL_API_SET_TIMEOUTS: 0x01, 0x05, 0x00, 0x06, 0x64, 0x0f, 0x97
+2018-09-13 03:33:25.519 Detail, contrlr,   Received: 0x01, 0x05, 0x01, 0x06, 0x64, 0x0f, 0x96
+2018-09-13 03:33:25.519 Detail, 
+2018-09-13 03:33:25.519 Info, contrlr, Received reply to FUNC_ID_SERIAL_API_SET_TIMEOUTS
+2018-09-13 03:33:25.519 Detail, Node015,   Expected reply was received
+2018-09-13 03:33:25.519 Detail, Node015,   Message transaction complete
+2018-09-13 03:33:25.519 Detail, 
+2018-09-13 03:33:25.519 Detail, contrlr, Removing current message
+2018-09-13 03:33:25.519 Detail, 
+2018-09-13 03:33:25.519 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x00) - FUNC_ID_SERIAL_API_APPL_NODE_INFORMATION: 0x01, 0x07, 0x00, 0x03, 0x01, 0x02, 0x01, 0x00, 0xf9
+2018-09-13 03:33:25.521 Detail, contrlr, Removing current message
+2018-09-13 03:33:25.521 Detail, 
+2018-09-13 03:33:25.521 Info, Node001, Sending (Command) message (Callback ID=0x00, Expected Reply=0x80) - Get Routing Info (Node=1): 0x01, 0x07, 0x00, 0x80, 0x01, 0x00, 0x00, 0x03, 0x7a
+2018-09-13 03:33:25.526 Detail, Node001,   Received: 0x01, 0x20, 0x01, 0x80, 0x00, 0x50, 0x34, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x3a
+2018-09-13 03:33:25.526 Detail, 
+2018-09-13 03:33:25.526 Info, Node001, Received reply to FUNC_ID_ZW_GET_ROUTING_INFO
+2018-09-13 03:33:25.526 Info, Node001,     Neighbors of this node are:
+2018-09-13 03:33:25.526 Info, Node001,     Node 13
+2018-09-13 03:33:25.526 Info, Node001,     Node 15
+2018-09-13 03:33:25.526 Info, Node001,     Node 19
+2018-09-13 03:33:25.526 Info, Node001,     Node 21
+2018-09-13 03:33:25.526 Info, Node001,     Node 22
+2018-09-13 03:33:25.526 Detail, Node080,   Expected reply was received
+2018-09-13 03:33:25.526 Detail, Node080,   Message transaction complete
+2018-09-13 03:33:25.526 Detail, 
+2018-09-13 03:33:25.526 Detail, Node001, Removing current message
+2018-09-13 03:33:25.526 Detail, 
+2018-09-13 03:33:25.526 Info, Node013, Sending (NoOp) message (Callback ID=0x0a, Expected Reply=0x13) - NoOperation_Set (Node=13): 0x01, 0x09, 0x00, 0x13, 0x0d, 0x02, 0x00, 0x00, 0x25, 0x0a, 0xc5
+2018-09-13 03:33:25.536 Detail, Node013,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:25.536 Detail, Node013,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:25.555 Detail, Node013,   Received: 0x01, 0x07, 0x00, 0x13, 0x0a, 0x00, 0x00, 0x03, 0xe2
+2018-09-13 03:33:25.555 Detail, Node013,   ZW_SEND_DATA Request with callback ID 0x0a received (expected 0x0a)
+2018-09-13 03:33:25.555 Info, Node013, Request RTT 28 Average Request RTT 28
+2018-09-13 03:33:25.555 Detail,   Expected callbackId was received
+2018-09-13 03:33:25.555 Detail,   Expected reply was received
+2018-09-13 03:33:25.555 Detail,   Message transaction complete
+2018-09-13 03:33:25.555 Detail, 
+2018-09-13 03:33:25.555 Detail, Node013, Removing current message
+2018-09-13 03:33:25.555 Detail, Node013, Notification: Notification - NoOperation
+2018-09-13 03:33:25.563 Detail, 
+2018-09-13 03:33:25.563 Info, Node015, Sending (NoOp) message (Callback ID=0x0b, Expected Reply=0x13) - NoOperation_Set (Node=15): 0x01, 0x09, 0x00, 0x13, 0x0f, 0x02, 0x00, 0x00, 0x25, 0x0b, 0xc6
+2018-09-13 03:33:25.571 Detail, Node015,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:25.571 Detail, Node015,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:25.591 Detail, Node015,   Received: 0x01, 0x07, 0x00, 0x13, 0x0b, 0x00, 0x00, 0x02, 0xe2
+2018-09-13 03:33:25.592 Detail, Node015,   ZW_SEND_DATA Request with callback ID 0x0b received (expected 0x0b)
+2018-09-13 03:33:25.592 Info, Node015, Request RTT 28 Average Request RTT 28
+2018-09-13 03:33:25.592 Detail,   Expected callbackId was received
+2018-09-13 03:33:25.592 Detail,   Expected reply was received
+2018-09-13 03:33:25.592 Detail,   Message transaction complete
+2018-09-13 03:33:25.592 Detail, 
+2018-09-13 03:33:25.592 Detail, Node015, Removing current message
+2018-09-13 03:33:25.592 Detail, Node015, Notification: Notification - NoOperation
+2018-09-13 03:33:25.598 Detail, 
+2018-09-13 03:33:25.599 Info, Node016, Sending (NoOp) message (Callback ID=0x0c, Expected Reply=0x13) - NoOperation_Set (Node=16): 0x01, 0x09, 0x00, 0x13, 0x10, 0x02, 0x00, 0x00, 0x25, 0x0c, 0xde
+2018-09-13 03:33:25.724 Detail, Node016,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:25.725 Detail, Node016,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:25.777 Detail, Node016,   Received: 0x01, 0x07, 0x00, 0x13, 0x0c, 0x00, 0x00, 0x12, 0xf5
+2018-09-13 03:33:25.777 Detail, Node016,   ZW_SEND_DATA Request with callback ID 0x0c received (expected 0x0c)
+2018-09-13 03:33:25.777 Info, Node016, Request RTT 178 Average Request RTT 178
+2018-09-13 03:33:25.777 Detail,   Expected callbackId was received
+2018-09-13 03:33:25.777 Detail,   Expected reply was received
+2018-09-13 03:33:25.777 Detail,   Message transaction complete
+2018-09-13 03:33:25.777 Detail, 
+2018-09-13 03:33:25.777 Detail, Node016, Removing current message
+2018-09-13 03:33:25.777 Detail, Node016, Notification: Notification - NoOperation
+2018-09-13 03:33:25.781 Detail, 
+2018-09-13 03:33:25.782 Info, Node017, Sending (NoOp) message (Callback ID=0x0d, Expected Reply=0x13) - NoOperation_Set (Node=17): 0x01, 0x09, 0x00, 0x13, 0x11, 0x02, 0x00, 0x00, 0x25, 0x0d, 0xde
+2018-09-13 03:33:26.254 Detail, Node017,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:26.254 Detail, Node017,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:26.542 Detail, Node017,   Received: 0x01, 0x07, 0x00, 0x13, 0x0d, 0x00, 0x00, 0x4b, 0xad
+2018-09-13 03:33:26.543 Detail, Node017,   ZW_SEND_DATA Request with callback ID 0x0d received (expected 0x0d)
+2018-09-13 03:33:26.543 Info, Node017, Request RTT 761 Average Request RTT 761
+2018-09-13 03:33:26.543 Detail,   Expected callbackId was received
+2018-09-13 03:33:26.543 Detail,   Expected reply was received
+2018-09-13 03:33:26.543 Detail,   Message transaction complete
+2018-09-13 03:33:26.543 Detail, 
+2018-09-13 03:33:26.543 Detail, Node017, Removing current message
+2018-09-13 03:33:26.543 Detail, Node017, Notification: Notification - NoOperation
+2018-09-13 03:33:26.545 Detail, 
+2018-09-13 03:33:26.545 Info, Node018, Sending (NoOp) message (Callback ID=0x0e, Expected Reply=0x13) - NoOperation_Set (Node=18): 0x01, 0x09, 0x00, 0x13, 0x12, 0x02, 0x00, 0x00, 0x25, 0x0e, 0xde
+2018-09-13 03:33:26.554 Detail, Node018,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:26.554 Detail, Node018,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:26.594 Detail, Node018,   Received: 0x01, 0x07, 0x00, 0x13, 0x0e, 0x00, 0x00, 0x05, 0xe0
+2018-09-13 03:33:26.594 Detail, Node018,   ZW_SEND_DATA Request with callback ID 0x0e received (expected 0x0e)
+2018-09-13 03:33:26.594 Info, Node018, Request RTT 48 Average Request RTT 48
+2018-09-13 03:33:26.594 Detail,   Expected callbackId was received
+2018-09-13 03:33:26.594 Detail,   Expected reply was received
+2018-09-13 03:33:26.594 Detail,   Message transaction complete
+2018-09-13 03:33:26.594 Detail, 
+2018-09-13 03:33:26.594 Detail, Node018, Removing current message
+2018-09-13 03:33:26.595 Detail, Node018, Notification: Notification - NoOperation
+2018-09-13 03:33:26.597 Detail, 
+2018-09-13 03:33:26.597 Info, Node019, Sending (NoOp) message (Callback ID=0x0f, Expected Reply=0x13) - NoOperation_Set (Node=19): 0x01, 0x09, 0x00, 0x13, 0x13, 0x02, 0x00, 0x00, 0x25, 0x0f, 0xde
+2018-09-13 03:33:26.604 Detail, Node019,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:26.604 Detail, Node019,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:26.626 Detail, Node019,   Received: 0x01, 0x07, 0x00, 0x13, 0x0f, 0x00, 0x00, 0x03, 0xe7
+2018-09-13 03:33:26.626 Detail, Node019,   ZW_SEND_DATA Request with callback ID 0x0f received (expected 0x0f)
+2018-09-13 03:33:26.626 Info, Node019, Request RTT 29 Average Request RTT 29
+2018-09-13 03:33:26.626 Detail,   Expected callbackId was received
+2018-09-13 03:33:26.626 Detail,   Expected reply was received
+2018-09-13 03:33:26.627 Detail,   Message transaction complete
+2018-09-13 03:33:26.627 Detail, 
+2018-09-13 03:33:26.627 Detail, Node019, Removing current message
+2018-09-13 03:33:26.627 Detail, Node019, Notification: Notification - NoOperation
+2018-09-13 03:33:26.629 Detail, 
+2018-09-13 03:33:26.629 Info, Node021, Sending (NoOp) message (Callback ID=0x10, Expected Reply=0x13) - NoOperation_Set (Node=21): 0x01, 0x09, 0x00, 0x13, 0x15, 0x02, 0x00, 0x00, 0x25, 0x10, 0xc7
+2018-09-13 03:33:26.640 Detail, Node021,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:26.641 Detail, Node021,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:26.906 Detail, Node021,   Received: 0x01, 0x07, 0x00, 0x13, 0x10, 0x00, 0x00, 0x1c, 0xe7
+2018-09-13 03:33:26.906 Detail, Node021,   ZW_SEND_DATA Request with callback ID 0x10 received (expected 0x10)
+2018-09-13 03:33:26.906 Info, Node021, Request RTT 276 Average Request RTT 276
+2018-09-13 03:33:26.906 Detail,   Expected callbackId was received
+2018-09-13 03:33:26.906 Detail,   Expected reply was received
+2018-09-13 03:33:26.906 Detail,   Message transaction complete
+2018-09-13 03:33:26.906 Detail, 
+2018-09-13 03:33:26.906 Detail, Node021, Removing current message
+2018-09-13 03:33:26.906 Detail, Node021, Notification: Notification - NoOperation
+2018-09-13 03:33:26.908 Detail, 
+2018-09-13 03:33:26.908 Info, Node022, Sending (NoOp) message (Callback ID=0x11, Expected Reply=0x13) - NoOperation_Set (Node=22): 0x01, 0x09, 0x00, 0x13, 0x16, 0x02, 0x00, 0x00, 0x25, 0x11, 0xc5
+2018-09-13 03:33:26.917 Detail, Node022,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:26.917 Detail, Node022,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:26.963 Detail, Node022,   Received: 0x01, 0x07, 0x00, 0x13, 0x11, 0x00, 0x00, 0x05, 0xff
+2018-09-13 03:33:26.964 Detail, Node022,   ZW_SEND_DATA Request with callback ID 0x11 received (expected 0x11)
+2018-09-13 03:33:26.964 Info, Node022, Request RTT 55 Average Request RTT 55
+2018-09-13 03:33:26.964 Detail,   Expected callbackId was received
+2018-09-13 03:33:26.964 Detail,   Expected reply was received
+2018-09-13 03:33:26.964 Detail,   Message transaction complete
+2018-09-13 03:33:26.964 Detail, 
+2018-09-13 03:33:26.964 Detail, Node022, Removing current message
+2018-09-13 03:33:26.964 Detail, Node022, Notification: Notification - NoOperation
+2018-09-13 03:33:26.966 Info, Deleting all return routes from node 13
+2018-09-13 03:33:26.967 Detail, Node013, Queuing (Command) ControllerCommand_DeleteAllReturnRoutess (Node=13): 0x01, 0x05, 0x00, 0x47, 0x0d, 0x12, 0xa2
+2018-09-13 03:33:26.967 Detail, Notification: ControllerCommand - Starting
+2018-09-13 03:33:26.967 Detail, 
+2018-09-13 03:33:26.967 Info, Node013, Sending (Command) message (Callback ID=0x12, Expected Reply=0x47) - ControllerCommand_DeleteAllReturnRoutess (Node=13): 0x01, 0x05, 0x00, 0x47, 0x0d, 0x12, 0xa2
+2018-09-13 03:33:26.974 Detail, Node013,   Received: 0x01, 0x04, 0x01, 0x47, 0x01, 0xbc
+2018-09-13 03:33:26.974 Detail, 
+2018-09-13 03:33:26.974 Info, Node013, Received reply to FUNC_ID_ZW_DELETE_RETURN_ROUTE - command in progress
+2018-09-13 03:33:26.974 Detail, Notification: ControllerCommand - InProgress
+2018-09-13 03:33:27.268 Detail, Node013,   Received: 0x01, 0x05, 0x00, 0x47, 0x12, 0x00, 0xaf
+2018-09-13 03:33:27.268 Detail, 
+2018-09-13 03:33:27.268 Info, Node013, Received reply to FUNC_ID_ZW_DELETE_RETURN_ROUTE for node 13 - SUCCESS
+2018-09-13 03:33:27.269 Detail,   Expected callbackId was received
+2018-09-13 03:33:27.269 Detail,   Expected reply was received
+2018-09-13 03:33:27.269 Detail,   Message transaction complete
+2018-09-13 03:33:27.269 Detail, 
+2018-09-13 03:33:27.269 Detail, Node013, Removing current message
+2018-09-13 03:33:27.269 Detail, Notification: ControllerCommand - Completed
+2018-09-13 03:33:27.270 Info, Assigning return route from node 13 to node 1
+2018-09-13 03:33:27.270 Detail, Node013, Queuing (Command) ControllerCommand_AssignReturnRoute (Node=13): 0x01, 0x06, 0x00, 0x46, 0x0d, 0x01, 0x13, 0xa0
+2018-09-13 03:33:27.271 Detail, Notification: ControllerCommand - Starting
+2018-09-13 03:33:27.271 Detail, 
+2018-09-13 03:33:27.271 Info, Node013, Sending (Command) message (Callback ID=0x13, Expected Reply=0x46) - ControllerCommand_AssignReturnRoute (Node=13): 0x01, 0x06, 0x00, 0x46, 0x0d, 0x01, 0x13, 0xa0
+2018-09-13 03:33:27.285 Detail, Node013,   Received: 0x01, 0x04, 0x01, 0x46, 0x01, 0xbd
+2018-09-13 03:33:27.285 Detail, 
+2018-09-13 03:33:27.285 Info, Node013, Received reply to FUNC_ID_ZW_ASSIGN_RETURN_ROUTE - command in progress
+2018-09-13 03:33:27.285 Detail, Notification: ControllerCommand - InProgress
+2018-09-13 03:33:29.309 Detail, Node013,   Received: 0x01, 0x05, 0x00, 0x46, 0x13, 0x00, 0xaf
+2018-09-13 03:33:29.310 Detail, 
+2018-09-13 03:33:29.310 Info, Node013, Received reply to FUNC_ID_ZW_ASSIGN_RETURN_ROUTE for node 13 - SUCCESS
+2018-09-13 03:33:29.310 Detail,   Expected callbackId was received
+2018-09-13 03:33:29.310 Detail,   Expected reply was received
+2018-09-13 03:33:29.310 Detail,   Message transaction complete
+2018-09-13 03:33:29.310 Detail, 
+2018-09-13 03:33:29.310 Detail, Node013, Removing current message
+2018-09-13 03:33:29.310 Detail, Notification: ControllerCommand - Completed
+2018-09-13 03:33:29.310 Info, Deleting all return routes from node 21
+2018-09-13 03:33:29.310 Detail, Node021, Queuing (Command) ControllerCommand_DeleteAllReturnRoutess (Node=21): 0x01, 0x05, 0x00, 0x47, 0x15, 0x14, 0xbc
+2018-09-13 03:33:29.310 Detail, Notification: ControllerCommand - Starting
+2018-09-13 03:33:29.311 Detail, 
+2018-09-13 03:33:29.311 Info, Node021, Sending (Command) message (Callback ID=0x14, Expected Reply=0x47) - ControllerCommand_DeleteAllReturnRoutess (Node=21): 0x01, 0x05, 0x00, 0x47, 0x15, 0x14, 0xbc
+2018-09-13 03:33:29.318 Detail, Node021,   Received: 0x01, 0x04, 0x01, 0x47, 0x01, 0xbc
+2018-09-13 03:33:29.318 Detail, 
+2018-09-13 03:33:29.318 Info, Node021, Received reply to FUNC_ID_ZW_DELETE_RETURN_ROUTE - command in progress
+2018-09-13 03:33:29.318 Detail, Notification: ControllerCommand - InProgress
+2018-09-13 03:33:29.530 Detail, Node021,   Received: 0x01, 0x05, 0x00, 0x47, 0x14, 0x00, 0xa9
+2018-09-13 03:33:29.531 Detail, 
+2018-09-13 03:33:29.531 Info, Node021, Received reply to FUNC_ID_ZW_DELETE_RETURN_ROUTE for node 21 - SUCCESS
+2018-09-13 03:33:29.531 Detail,   Expected callbackId was received
+2018-09-13 03:33:29.531 Detail,   Expected reply was received
+2018-09-13 03:33:29.531 Detail,   Message transaction complete
+2018-09-13 03:33:29.531 Detail, 
+2018-09-13 03:33:29.531 Detail, Node021, Removing current message
+2018-09-13 03:33:29.531 Detail, Notification: ControllerCommand - Completed
+2018-09-13 03:33:29.532 Info, Assigning return route from node 21 to node 1
+2018-09-13 03:33:29.532 Detail, Node021, Queuing (Command) ControllerCommand_AssignReturnRoute (Node=21): 0x01, 0x06, 0x00, 0x46, 0x15, 0x01, 0x15, 0xbe
+2018-09-13 03:33:29.532 Detail, Notification: ControllerCommand - Starting
+2018-09-13 03:33:29.533 Detail, 
+2018-09-13 03:33:29.533 Info, Node021, Sending (Command) message (Callback ID=0x15, Expected Reply=0x46) - ControllerCommand_AssignReturnRoute (Node=21): 0x01, 0x06, 0x00, 0x46, 0x15, 0x01, 0x15, 0xbe
+2018-09-13 03:33:29.547 Detail, Node021,   Received: 0x01, 0x04, 0x01, 0x46, 0x01, 0xbd
+2018-09-13 03:33:29.547 Detail, 
+2018-09-13 03:33:29.547 Info, Node021, Received reply to FUNC_ID_ZW_ASSIGN_RETURN_ROUTE - command in progress
+2018-09-13 03:33:29.547 Detail, Notification: ControllerCommand - InProgress
+2018-09-13 03:33:30.562 Detail, Node021,   Received: 0x01, 0x05, 0x00, 0x46, 0x15, 0x00, 0xa9
+2018-09-13 03:33:30.562 Detail, 
+2018-09-13 03:33:30.562 Info, Node021, Received reply to FUNC_ID_ZW_ASSIGN_RETURN_ROUTE for node 21 - SUCCESS
+2018-09-13 03:33:30.563 Detail,   Expected callbackId was received
+2018-09-13 03:33:30.563 Detail,   Expected reply was received
+2018-09-13 03:33:30.563 Detail,   Message transaction complete
+2018-09-13 03:33:30.563 Detail, 
+2018-09-13 03:33:30.563 Detail, Node021, Removing current message
+2018-09-13 03:33:30.563 Detail, Notification: ControllerCommand - Completed
+2018-09-13 03:33:30.565 Detail, Node001, Query Stage Complete (Neighbors)
+2018-09-13 03:33:30.565 Detail, Node001, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Session live=1
+2018-09-13 03:33:30.565 Detail, Node001, QueryStage_Session
+2018-09-13 03:33:30.565 Detail, Node001, QueryStage_Dynamic
+2018-09-13 03:33:30.565 Detail, Node001, QueryStage_Configuration
+2018-09-13 03:33:30.565 Detail, Node001, QueryStage_Complete
+2018-09-13 03:33:30.565 Warning, CheckCompletedNodeQueries m_allNodesQueried=0 m_awakeNodesQueried=0
+2018-09-13 03:33:30.565 Warning, CheckCompletedNodeQueries all=0, deadFound=0 sleepingOnly=0
+2018-09-13 03:33:30.565 Detail, Node001, Notification: NodeQueriesComplete
+2018-09-13 03:33:30.569 Detail, Node013, Query Stage Complete (CacheLoad)
+2018-09-13 03:33:30.570 Detail, Node013, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Associations live=1
+2018-09-13 03:33:30.570 Detail, Node013, QueryStage_Associations
+2018-09-13 03:33:30.570 Info, Node013, Number of association groups reported for node 13 is 3.
+2018-09-13 03:33:30.570 Info, Node013, Get Associations for group 1 of node 13
+2018-09-13 03:33:30.570 Detail, Node013, Queuing (Send) AssociationCmd_Get (Node=13): 0x01, 0x0a, 0x00, 0x13, 0x0d, 0x03, 0x85, 0x02, 0x01, 0x25, 0x16, 0x5d
+2018-09-13 03:33:30.570 Detail, Node013, Queuing (Query) Query Stage Complete (Associations)
+2018-09-13 03:33:30.570 Detail, 
+2018-09-13 03:33:30.570 Info, Node013, Sending (Send) message (Callback ID=0x16, Expected Reply=0x04) - AssociationCmd_Get (Node=13): 0x01, 0x0a, 0x00, 0x13, 0x0d, 0x03, 0x85, 0x02, 0x01, 0x25, 0x16, 0x5d
+2018-09-13 03:33:30.579 Detail, Node013,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:30.579 Detail, Node013,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:30.599 Detail, Node013,   Received: 0x01, 0x07, 0x00, 0x13, 0x16, 0x00, 0x00, 0x02, 0xff
+2018-09-13 03:33:30.599 Detail, Node013,   ZW_SEND_DATA Request with callback ID 0x16 received (expected 0x16)
+2018-09-13 03:33:30.599 Info, Node013, Request RTT 28 Average Request RTT 28
+2018-09-13 03:33:30.599 Detail,   Expected callbackId was received
+2018-09-13 03:33:30.613 Detail, Node013,   Received: 0x01, 0x0c, 0x00, 0x04, 0x00, 0x0d, 0x06, 0x85, 0x03, 0x01, 0x05, 0x00, 0x01, 0x7f
+2018-09-13 03:33:30.614 Detail, 
+2018-09-13 03:33:30.614 Info, Node013, Response RTT 43 Average Response RTT 43
+2018-09-13 03:33:30.614 Info, Node013, Received Association report from node 13, group 1, containing 1 associations
+2018-09-13 03:33:30.614 Info, Node013,   The group contains:
+2018-09-13 03:33:30.614 Info, Node013,     Node 1
+2018-09-13 03:33:30.614 Info, Node013, Get Associations for group 2 of node 13
+2018-09-13 03:33:30.614 Detail, Node013, Queuing (Send) AssociationCmd_Get (Node=13): 0x01, 0x0a, 0x00, 0x13, 0x0d, 0x03, 0x85, 0x02, 0x02, 0x25, 0x17, 0x5f
+2018-09-13 03:33:30.614 Detail, Node013,   Expected reply and command class was received
+2018-09-13 03:33:30.614 Detail, Node013,   Message transaction complete
+2018-09-13 03:33:30.614 Detail, 
+2018-09-13 03:33:30.614 Detail, Node013, Removing current message
+2018-09-13 03:33:30.615 Detail, 
+2018-09-13 03:33:30.615 Info, Node013, Sending (Send) message (Callback ID=0x17, Expected Reply=0x04) - AssociationCmd_Get (Node=13): 0x01, 0x0a, 0x00, 0x13, 0x0d, 0x03, 0x85, 0x02, 0x02, 0x25, 0x17, 0x5f
+2018-09-13 03:33:30.624 Detail, Node013,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:30.625 Detail, Node013,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:30.645 Detail, Node013,   Received: 0x01, 0x07, 0x00, 0x13, 0x17, 0x00, 0x00, 0x03, 0xff
+2018-09-13 03:33:30.646 Detail, Node013,   ZW_SEND_DATA Request with callback ID 0x17 received (expected 0x17)
+2018-09-13 03:33:30.646 Info, Node013, Request RTT 30 Average Request RTT 29
+2018-09-13 03:33:30.646 Detail,   Expected callbackId was received
+2018-09-13 03:33:30.660 Detail, Node013,   Received: 0x01, 0x0b, 0x00, 0x04, 0x00, 0x0d, 0x05, 0x85, 0x03, 0x02, 0x05, 0x00, 0x79
+2018-09-13 03:33:30.660 Detail, 
+2018-09-13 03:33:30.662 Info, Node013, Response RTT 47 Average Response RTT 45
+2018-09-13 03:33:30.662 Info, Node013, Received Association report from node 13, group 2, containing 0 associations
+2018-09-13 03:33:30.662 Info, Node013, Get Associations for group 3 of node 13
+2018-09-13 03:33:30.662 Detail, Node013, Queuing (Send) AssociationCmd_Get (Node=13): 0x01, 0x0a, 0x00, 0x13, 0x0d, 0x03, 0x85, 0x02, 0x03, 0x25, 0x18, 0x51
+2018-09-13 03:33:30.662 Detail, Node013,   Expected reply and command class was received
+2018-09-13 03:33:30.662 Detail, Node013,   Message transaction complete
+2018-09-13 03:33:30.663 Detail, 
+2018-09-13 03:33:30.663 Detail, Node013, Removing current message
+2018-09-13 03:33:30.663 Detail, Node013, Notification: Group
+2018-09-13 03:33:30.663 Detail, 
+2018-09-13 03:33:30.664 Info, Node013, Sending (Send) message (Callback ID=0x18, Expected Reply=0x04) - AssociationCmd_Get (Node=13): 0x01, 0x0a, 0x00, 0x13, 0x0d, 0x03, 0x85, 0x02, 0x03, 0x25, 0x18, 0x51
+2018-09-13 03:33:30.672 Detail, Node013,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:30.673 Detail, Node013,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:30.693 Detail, Node013,   Received: 0x01, 0x07, 0x00, 0x13, 0x18, 0x00, 0x00, 0x02, 0xf1
+2018-09-13 03:33:30.693 Detail, Node013,   ZW_SEND_DATA Request with callback ID 0x18 received (expected 0x18)
+2018-09-13 03:33:30.693 Info, Node013, Request RTT 29 Average Request RTT 29
+2018-09-13 03:33:30.693 Detail,   Expected callbackId was received
+2018-09-13 03:33:30.707 Detail, Node013,   Received: 0x01, 0x0b, 0x00, 0x04, 0x00, 0x0d, 0x05, 0x85, 0x03, 0x03, 0x05, 0x00, 0x78
+2018-09-13 03:33:30.707 Detail, 
+2018-09-13 03:33:30.707 Info, Node013, Response RTT 43 Average Response RTT 44
+2018-09-13 03:33:30.707 Info, Node013, Received Association report from node 13, group 3, containing 0 associations
+2018-09-13 03:33:30.707 Info, Node013, Querying associations for node 13 is complete.
+2018-09-13 03:33:30.708 Detail, Node013,   Expected reply and command class was received
+2018-09-13 03:33:30.708 Detail, Node013,   Message transaction complete
+2018-09-13 03:33:30.708 Detail, 
+2018-09-13 03:33:30.708 Detail, Node013, Removing current message
+2018-09-13 03:33:30.708 Detail, Node013, Notification: Group
+2018-09-13 03:33:30.714 Detail, Node015, Query Stage Complete (CacheLoad)
+2018-09-13 03:33:30.714 Detail, Node015, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Associations live=1
+2018-09-13 03:33:30.714 Detail, Node015, QueryStage_Associations
+2018-09-13 03:33:30.714 Info, Node015, Number of association groups reported for node 15 is 1.
+2018-09-13 03:33:30.714 Info, Node015, Get Associations for group 1 of node 15
+2018-09-13 03:33:30.714 Detail, Node015, Queuing (Send) AssociationCmd_Get (Node=15): 0x01, 0x0a, 0x00, 0x13, 0x0f, 0x03, 0x85, 0x02, 0x01, 0x25, 0x19, 0x50
+2018-09-13 03:33:30.715 Detail, Node015, Queuing (Query) Query Stage Complete (Associations)
+2018-09-13 03:33:30.715 Detail, 
+2018-09-13 03:33:30.715 Info, Node015, Sending (Send) message (Callback ID=0x19, Expected Reply=0x04) - AssociationCmd_Get (Node=15): 0x01, 0x0a, 0x00, 0x13, 0x0f, 0x03, 0x85, 0x02, 0x01, 0x25, 0x19, 0x50
+2018-09-13 03:33:30.723 Detail, Node015,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:30.726 Detail, Node015,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:30.744 Detail, Node015,   Received: 0x01, 0x07, 0x00, 0x13, 0x19, 0x00, 0x00, 0x03, 0xf1
+2018-09-13 03:33:30.744 Detail, Node015,   ZW_SEND_DATA Request with callback ID 0x19 received (expected 0x19)
+2018-09-13 03:33:30.744 Info, Node015, Request RTT 28 Average Request RTT 28
+2018-09-13 03:33:30.744 Detail,   Expected callbackId was received
+2018-09-13 03:33:30.764 Detail, Node015,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x0f, 0x0a, 0x32, 0x02, 0x21, 0x74, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x8b
+2018-09-13 03:33:30.764 Detail, 
+2018-09-13 03:33:30.764 Info, Node015, Response RTT 49 Average Response RTT 49
+2018-09-13 03:33:30.764 Detail, Node015, Initial read of value
+2018-09-13 03:33:30.765 Info, Node015, Received Meter report from node 15: Power=0.000W
+2018-09-13 03:33:30.765 Detail, Node015, Initial read of value
+2018-09-13 03:33:30.765 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:33:30.778 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:33:30.794 Detail, Node015,   Received: 0x01, 0x0c, 0x00, 0x04, 0x00, 0x0f, 0x06, 0x85, 0x03, 0x01, 0x05, 0x00, 0x01, 0x7d
+2018-09-13 03:33:30.794 Detail, 
+2018-09-13 03:33:30.794 Info, Node015, Response RTT 79 Average Response RTT 64
+2018-09-13 03:33:30.794 Info, Node015, Received Association report from node 15, group 1, containing 1 associations
+2018-09-13 03:33:30.794 Info, Node015,   The group contains:
+2018-09-13 03:33:30.794 Info, Node015,     Node 1
+2018-09-13 03:33:30.795 Info, Node015, Querying associations for node 15 is complete.
+2018-09-13 03:33:30.795 Detail, Node015,   Expected reply and command class was received
+2018-09-13 03:33:30.795 Detail, Node015,   Message transaction complete
+2018-09-13 03:33:30.795 Detail, 
+2018-09-13 03:33:30.795 Detail, Node015, Removing current message
+2018-09-13 03:33:30.795 Detail, Node016, Query Stage Complete (CacheLoad)
+2018-09-13 03:33:30.795 Detail, Node016, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Associations live=1
+2018-09-13 03:33:30.795 Detail, Node016, QueryStage_Associations
+2018-09-13 03:33:30.795 Detail, Node016, QueryStage_Neighbors
+2018-09-13 03:33:30.795 Detail, Requesting routing info (neighbor list) for Node 16
+2018-09-13 03:33:30.795 Detail, Node016, Queuing (Command) Get Routing Info (Node=16): 0x01, 0x07, 0x00, 0x80, 0x10, 0x00, 0x00, 0x03, 0x6b
+2018-09-13 03:33:30.796 Detail, Node016, Queuing (Query) Query Stage Complete (Neighbors)
+2018-09-13 03:33:30.796 Detail, 
+2018-09-13 03:33:30.796 Info, Node016, Sending (Command) message (Callback ID=0x00, Expected Reply=0x80) - Get Routing Info (Node=16): 0x01, 0x07, 0x00, 0x80, 0x10, 0x00, 0x00, 0x03, 0x6b
+2018-09-13 03:33:30.800 Detail, Node016,   Received: 0x01, 0x20, 0x01, 0x80, 0x00, 0x50, 0x37, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x39
+2018-09-13 03:33:30.804 Detail, 
+2018-09-13 03:33:30.804 Info, Node016, Received reply to FUNC_ID_ZW_GET_ROUTING_INFO
+2018-09-13 03:33:30.804 Info, Node016,     Neighbors of this node are:
+2018-09-13 03:33:30.804 Info, Node016,     Node 13
+2018-09-13 03:33:30.805 Info, Node016,     Node 15
+2018-09-13 03:33:30.805 Info, Node016,     Node 17
+2018-09-13 03:33:30.805 Info, Node016,     Node 18
+2018-09-13 03:33:30.805 Info, Node016,     Node 19
+2018-09-13 03:33:30.805 Info, Node016,     Node 21
+2018-09-13 03:33:30.805 Info, Node016,     Node 22
+2018-09-13 03:33:30.805 Detail, Node080,   Expected reply was received
+2018-09-13 03:33:30.805 Detail, Node080,   Message transaction complete
+2018-09-13 03:33:30.805 Detail, 
+2018-09-13 03:33:30.805 Detail, Node016, Removing current message
+2018-09-13 03:33:30.805 Detail, Node017, Query Stage Complete (CacheLoad)
+2018-09-13 03:33:30.805 Detail, Node017, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Associations live=1
+2018-09-13 03:33:30.805 Detail, Node017, QueryStage_Associations
+2018-09-13 03:33:30.810 Info, Node017, Number of association groups reported for node 17 is 1.
+2018-09-13 03:33:30.810 Info, Node017, Get Associations for group 1 of node 17
+2018-09-13 03:33:30.810 Detail, Node017, Queuing (Send) AssociationCmd_Get (Node=17): 0x01, 0x0a, 0x00, 0x13, 0x11, 0x03, 0x85, 0x02, 0x01, 0x25, 0x1a, 0x4d
+2018-09-13 03:33:30.810 Detail, Node017, Queuing (Query) Query Stage Complete (Associations)
+2018-09-13 03:33:30.810 Detail, 
+2018-09-13 03:33:30.810 Info, Node017, Sending (Send) message (Callback ID=0x1a, Expected Reply=0x04) - AssociationCmd_Get (Node=17): 0x01, 0x0a, 0x00, 0x13, 0x11, 0x03, 0x85, 0x02, 0x01, 0x25, 0x1a, 0x4d
+2018-09-13 03:33:31.166 Detail, Node017,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:31.166 Detail, Node017,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:31.226 Detail, Node017,   Received: 0x01, 0x07, 0x00, 0x13, 0x1a, 0x00, 0x00, 0x29, 0xd8
+2018-09-13 03:33:31.226 Detail, Node017,   ZW_SEND_DATA Request with callback ID 0x1a received (expected 0x1a)
+2018-09-13 03:33:31.226 Info, Node017, Request RTT 416 Average Request RTT 588
+2018-09-13 03:33:31.226 Detail,   Expected callbackId was received
+2018-09-13 03:33:31.297 Detail, Node017,   Received: 0x01, 0x0c, 0x00, 0x04, 0x00, 0x11, 0x06, 0x85, 0x03, 0x01, 0x05, 0x00, 0x01, 0x63
+2018-09-13 03:33:31.297 Detail, 
+2018-09-13 03:33:31.297 Info, Node017, Response RTT 487 Average Response RTT 487
+2018-09-13 03:33:31.297 Info, Node017, Received Association report from node 17, group 1, containing 1 associations
+2018-09-13 03:33:31.297 Info, Node017,   The group contains:
+2018-09-13 03:33:31.297 Info, Node017,     Node 1
+2018-09-13 03:33:31.297 Info, Node017, Querying associations for node 17 is complete.
+2018-09-13 03:33:31.297 Detail, Node017,   Expected reply and command class was received
+2018-09-13 03:33:31.297 Detail, Node017,   Message transaction complete
+2018-09-13 03:33:31.297 Detail, 
+2018-09-13 03:33:31.298 Detail, Node017, Removing current message
+2018-09-13 03:33:31.298 Detail, Node018, Query Stage Complete (CacheLoad)
+2018-09-13 03:33:31.298 Detail, Node018, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Associations live=1
+2018-09-13 03:33:31.298 Detail, Node018, QueryStage_Associations
+2018-09-13 03:33:31.298 Info, Node018, Number of association groups reported for node 18 is 1.
+2018-09-13 03:33:31.298 Info, Node018, Get Associations for group 1 of node 18
+2018-09-13 03:33:31.298 Detail, Node018, Queuing (Send) AssociationCmd_Get (Node=18): 0x01, 0x0a, 0x00, 0x13, 0x12, 0x03, 0x85, 0x02, 0x01, 0x25, 0x1b, 0x4f
+2018-09-13 03:33:31.298 Detail, Node018, Queuing (Query) Query Stage Complete (Associations)
+2018-09-13 03:33:31.298 Detail, 
+2018-09-13 03:33:31.298 Info, Node018, Sending (Send) message (Callback ID=0x1b, Expected Reply=0x04) - AssociationCmd_Get (Node=18): 0x01, 0x0a, 0x00, 0x13, 0x12, 0x03, 0x85, 0x02, 0x01, 0x25, 0x1b, 0x4f
+2018-09-13 03:33:31.307 Detail, Node018,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:31.311 Detail, Node018,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:31.415 Detail, Node018,   Received: 0x01, 0x07, 0x00, 0x13, 0x1b, 0x00, 0x00, 0x0c, 0xfc
+2018-09-13 03:33:31.415 Detail, Node018,   ZW_SEND_DATA Request with callback ID 0x1b received (expected 0x1b)
+2018-09-13 03:33:31.415 Info, Node018, Request RTT 117 Average Request RTT 82
+2018-09-13 03:33:31.415 Detail,   Expected callbackId was received
+2018-09-13 03:33:31.483 Detail, Node018,   Received: 0x01, 0x0c, 0x00, 0x04, 0x00, 0x12, 0x06, 0x85, 0x03, 0x01, 0x05, 0x00, 0x01, 0x60
+2018-09-13 03:33:31.483 Detail, 
+2018-09-13 03:33:31.483 Info, Node018, Response RTT 185 Average Response RTT 185
+2018-09-13 03:33:31.483 Info, Node018, Received Association report from node 18, group 1, containing 1 associations
+2018-09-13 03:33:31.483 Info, Node018,   The group contains:
+2018-09-13 03:33:31.483 Info, Node018,     Node 1
+2018-09-13 03:33:31.483 Info, Node018, Querying associations for node 18 is complete.
+2018-09-13 03:33:31.483 Detail, Node018,   Expected reply and command class was received
+2018-09-13 03:33:31.484 Detail, Node018,   Message transaction complete
+2018-09-13 03:33:31.484 Detail, 
+2018-09-13 03:33:31.484 Detail, Node018, Removing current message
+2018-09-13 03:33:31.484 Detail, Node019, Query Stage Complete (CacheLoad)
+2018-09-13 03:33:31.484 Detail, Node019, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Associations live=1
+2018-09-13 03:33:31.484 Detail, Node019, QueryStage_Associations
+2018-09-13 03:33:31.484 Info, Node019, Number of association groups reported for node 19 is 1.
+2018-09-13 03:33:31.484 Info, Node019, Get Associations for group 1 of node 19
+2018-09-13 03:33:31.484 Detail, Node019, Queuing (Send) AssociationCmd_Get (Node=19): 0x01, 0x0a, 0x00, 0x13, 0x13, 0x03, 0x85, 0x02, 0x01, 0x25, 0x1c, 0x49
+2018-09-13 03:33:31.484 Detail, Node019, Queuing (Query) Query Stage Complete (Associations)
+2018-09-13 03:33:31.484 Detail, 
+2018-09-13 03:33:31.484 Info, Node019, Sending (Send) message (Callback ID=0x1c, Expected Reply=0x04) - AssociationCmd_Get (Node=19): 0x01, 0x0a, 0x00, 0x13, 0x13, 0x03, 0x85, 0x02, 0x01, 0x25, 0x1c, 0x49
+2018-09-13 03:33:31.493 Detail, Node019,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:31.494 Detail, Node019,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:31.575 Detail, Node019,   Received: 0x01, 0x07, 0x00, 0x13, 0x1c, 0x00, 0x00, 0x09, 0xfe
+2018-09-13 03:33:31.575 Detail, Node019,   ZW_SEND_DATA Request with callback ID 0x1c received (expected 0x1c)
+2018-09-13 03:33:31.575 Info, Node019, Request RTT 91 Average Request RTT 60
+2018-09-13 03:33:31.575 Detail,   Expected callbackId was received
+2018-09-13 03:33:41.484 Error, Node019, ERROR: Dropping command, expected response not received after 1 attempt(s)
+2018-09-13 03:33:41.485 Detail, Node019, Removing current message
+2018-09-13 03:33:41.485 Detail, Node019, Notification: Notification - TimeOut
+2018-09-13 03:33:41.489 Detail, Node021, Query Stage Complete (CacheLoad)
+2018-09-13 03:33:41.489 Detail, Node021, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Associations live=1
+2018-09-13 03:33:41.489 Detail, Node021, QueryStage_Associations
+2018-09-13 03:33:41.489 Info, Node021, Number of association groups reported for node 21 is 2.
+2018-09-13 03:33:41.489 Info, Node021, Get Associations for group 1 of node 21
+2018-09-13 03:33:41.490 Detail, Node021, Queuing (Send) AssociationCmd_Get (Node=21): 0x01, 0x0a, 0x00, 0x13, 0x15, 0x03, 0x85, 0x02, 0x01, 0x25, 0x1d, 0x4e
+2018-09-13 03:33:41.490 Detail, Node021, Queuing (Query) Query Stage Complete (Associations)
+2018-09-13 03:33:41.490 Detail, 
+2018-09-13 03:33:41.490 Info, Node021, Sending (Send) message (Callback ID=0x1d, Expected Reply=0x04) - AssociationCmd_Get (Node=21): 0x01, 0x0a, 0x00, 0x13, 0x15, 0x03, 0x85, 0x02, 0x01, 0x25, 0x1d, 0x4e
+2018-09-13 03:33:41.498 Detail, Node021,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:41.498 Detail, Node021,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:41.551 Detail, Node021,   Received: 0x01, 0x07, 0x00, 0x13, 0x1d, 0x00, 0x00, 0x06, 0xf0
+2018-09-13 03:33:41.551 Detail, Node021,   ZW_SEND_DATA Request with callback ID 0x1d received (expected 0x1d)
+2018-09-13 03:33:41.551 Info, Node021, Request RTT 60 Average Request RTT 168
+2018-09-13 03:33:41.551 Detail,   Expected callbackId was received
+2018-09-13 03:33:41.602 Detail, Node021,   Received: 0x01, 0x0c, 0x00, 0x04, 0x00, 0x15, 0x06, 0x85, 0x03, 0x01, 0x01, 0x00, 0x01, 0x63
+2018-09-13 03:33:41.603 Detail, 
+2018-09-13 03:33:41.603 Info, Node021, Response RTT 112 Average Response RTT 112
+2018-09-13 03:33:41.603 Info, Node021, Received Association report from node 21, group 1, containing 1 associations
+2018-09-13 03:33:41.603 Info, Node021,   The group contains:
+2018-09-13 03:33:41.603 Info, Node021,     Node 1
+2018-09-13 03:33:41.603 Info, Node021, Get Associations for group 2 of node 21
+2018-09-13 03:33:41.603 Detail, Node021, Queuing (Send) AssociationCmd_Get (Node=21): 0x01, 0x0a, 0x00, 0x13, 0x15, 0x03, 0x85, 0x02, 0x02, 0x25, 0x1e, 0x4e
+2018-09-13 03:33:41.603 Detail, Node021,   Expected reply and command class was received
+2018-09-13 03:33:41.603 Detail, Node021,   Message transaction complete
+2018-09-13 03:33:41.603 Detail, 
+2018-09-13 03:33:41.603 Detail, Node021, Removing current message
+2018-09-13 03:33:41.604 Detail, 
+2018-09-13 03:33:41.604 Info, Node021, Sending (Send) message (Callback ID=0x1e, Expected Reply=0x04) - AssociationCmd_Get (Node=21): 0x01, 0x0a, 0x00, 0x13, 0x15, 0x03, 0x85, 0x02, 0x02, 0x25, 0x1e, 0x4e
+2018-09-13 03:33:41.613 Detail, Node021,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:41.613 Detail, Node021,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:41.731 Detail, Node021,   Received: 0x01, 0x07, 0x00, 0x13, 0x1e, 0x00, 0x00, 0x0c, 0xf9
+2018-09-13 03:33:41.732 Detail, Node021,   ZW_SEND_DATA Request with callback ID 0x1e received (expected 0x1e)
+2018-09-13 03:33:41.732 Info, Node021, Request RTT 127 Average Request RTT 147
+2018-09-13 03:33:41.732 Detail,   Expected callbackId was received
+2018-09-13 03:33:41.781 Detail, Node021,   Received: 0x01, 0x0b, 0x00, 0x04, 0x00, 0x15, 0x05, 0x85, 0x03, 0x02, 0x04, 0x00, 0x60
+2018-09-13 03:33:41.782 Detail, 
+2018-09-13 03:33:41.782 Info, Node021, Response RTT 177 Average Response RTT 144
+2018-09-13 03:33:41.782 Info, Node021, Received Association report from node 21, group 2, containing 0 associations
+2018-09-13 03:33:41.782 Info, Node021, Querying associations for node 21 is complete.
+2018-09-13 03:33:41.782 Detail, Node021,   Expected reply and command class was received
+2018-09-13 03:33:41.782 Detail, Node021,   Message transaction complete
+2018-09-13 03:33:41.782 Detail, 
+2018-09-13 03:33:41.782 Detail, Node021, Removing current message
+2018-09-13 03:33:41.782 Detail, Node021, Notification: Group
+2018-09-13 03:33:41.783 Detail, Node022, Query Stage Complete (CacheLoad)
+2018-09-13 03:33:41.783 Detail, Node022, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Associations live=1
+2018-09-13 03:33:41.783 Detail, Node022, QueryStage_Associations
+2018-09-13 03:33:41.783 Detail, Node022, QueryStage_Neighbors
+2018-09-13 03:33:41.783 Detail, Requesting routing info (neighbor list) for Node 22
+2018-09-13 03:33:41.783 Detail, Node022, Queuing (Command) Get Routing Info (Node=22): 0x01, 0x07, 0x00, 0x80, 0x16, 0x00, 0x00, 0x03, 0x6d
+2018-09-13 03:33:41.783 Detail, Node022, Queuing (Query) Query Stage Complete (Neighbors)
+2018-09-13 03:33:41.784 Detail, 
+2018-09-13 03:33:41.784 Info, Node022, Sending (Command) message (Callback ID=0x00, Expected Reply=0x80) - Get Routing Info (Node=22): 0x01, 0x07, 0x00, 0x80, 0x16, 0x00, 0x00, 0x03, 0x6d
+2018-09-13 03:33:41.788 Detail, Node022,   Received: 0x01, 0x20, 0x01, 0x80, 0x01, 0xd0, 0x17, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x98
+2018-09-13 03:33:41.788 Detail, 
+2018-09-13 03:33:41.788 Info, Node022, Received reply to FUNC_ID_ZW_GET_ROUTING_INFO
+2018-09-13 03:33:41.788 Info, Node022,     Neighbors of this node are:
+2018-09-13 03:33:41.789 Info, Node022,     Node 1
+2018-09-13 03:33:41.789 Info, Node022,     Node 13
+2018-09-13 03:33:41.789 Info, Node022,     Node 15
+2018-09-13 03:33:41.789 Info, Node022,     Node 16
+2018-09-13 03:33:41.789 Info, Node022,     Node 17
+2018-09-13 03:33:41.789 Info, Node022,     Node 18
+2018-09-13 03:33:41.789 Info, Node022,     Node 19
+2018-09-13 03:33:41.789 Info, Node022,     Node 21
+2018-09-13 03:33:41.789 Detail, Node208,   Expected reply was received
+2018-09-13 03:33:41.789 Detail, Node208,   Message transaction complete
+2018-09-13 03:33:41.789 Detail, 
+2018-09-13 03:33:41.789 Detail, Node022, Removing current message
+2018-09-13 03:33:41.789 Detail, Node013, Query Stage Complete (Associations)
+2018-09-13 03:33:41.790 Detail, Node013, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Neighbors live=1
+2018-09-13 03:33:41.790 Detail, Node013, QueryStage_Neighbors
+2018-09-13 03:33:41.790 Detail, Requesting routing info (neighbor list) for Node 13
+2018-09-13 03:33:41.790 Detail, Node013, Queuing (Command) Get Routing Info (Node=13): 0x01, 0x07, 0x00, 0x80, 0x0d, 0x00, 0x00, 0x03, 0x76
+2018-09-13 03:33:41.790 Detail, Node013, Queuing (Query) Query Stage Complete (Neighbors)
+2018-09-13 03:33:41.790 Detail, 
+2018-09-13 03:33:41.790 Info, Node013, Sending (Command) message (Callback ID=0x00, Expected Reply=0x80) - Get Routing Info (Node=13): 0x01, 0x07, 0x00, 0x80, 0x0d, 0x00, 0x00, 0x03, 0x76
+2018-09-13 03:33:41.795 Detail, Node013,   Received: 0x01, 0x20, 0x01, 0x80, 0x01, 0xc0, 0x37, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xa8
+2018-09-13 03:33:41.795 Detail, 
+2018-09-13 03:33:41.795 Info, Node013, Received reply to FUNC_ID_ZW_GET_ROUTING_INFO
+2018-09-13 03:33:41.795 Info, Node013,     Neighbors of this node are:
+2018-09-13 03:33:41.795 Info, Node013,     Node 1
+2018-09-13 03:33:41.795 Info, Node013,     Node 15
+2018-09-13 03:33:41.795 Info, Node013,     Node 16
+2018-09-13 03:33:41.795 Info, Node013,     Node 17
+2018-09-13 03:33:41.795 Info, Node013,     Node 18
+2018-09-13 03:33:41.795 Info, Node013,     Node 19
+2018-09-13 03:33:41.795 Info, Node013,     Node 21
+2018-09-13 03:33:41.796 Info, Node013,     Node 22
+2018-09-13 03:33:41.796 Detail, Node192,   Expected reply was received
+2018-09-13 03:33:41.796 Detail, Node192,   Message transaction complete
+2018-09-13 03:33:41.796 Detail, 
+2018-09-13 03:33:41.796 Detail, Node013, Removing current message
+2018-09-13 03:33:41.796 Detail, Node015, Query Stage Complete (Associations)
+2018-09-13 03:33:41.796 Detail, Node015, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Neighbors live=1
+2018-09-13 03:33:41.796 Detail, Node015, QueryStage_Neighbors
+2018-09-13 03:33:41.796 Detail, Requesting routing info (neighbor list) for Node 15
+2018-09-13 03:33:41.796 Detail, Node015, Queuing (Command) Get Routing Info (Node=15): 0x01, 0x07, 0x00, 0x80, 0x0f, 0x00, 0x00, 0x03, 0x74
+2018-09-13 03:33:41.796 Detail, Node015, Queuing (Query) Query Stage Complete (Neighbors)
+2018-09-13 03:33:41.796 Detail, 
+2018-09-13 03:33:41.797 Info, Node015, Sending (Command) message (Callback ID=0x00, Expected Reply=0x80) - Get Routing Info (Node=15): 0x01, 0x07, 0x00, 0x80, 0x0f, 0x00, 0x00, 0x03, 0x74
+2018-09-13 03:33:41.801 Detail, Node015,   Received: 0x01, 0x20, 0x01, 0x80, 0x01, 0x90, 0x35, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xfa
+2018-09-13 03:33:41.801 Detail, 
+2018-09-13 03:33:41.802 Info, Node015, Received reply to FUNC_ID_ZW_GET_ROUTING_INFO
+2018-09-13 03:33:41.802 Info, Node015,     Neighbors of this node are:
+2018-09-13 03:33:41.802 Info, Node015,     Node 1
+2018-09-13 03:33:41.802 Info, Node015,     Node 13
+2018-09-13 03:33:41.802 Info, Node015,     Node 16
+2018-09-13 03:33:41.802 Info, Node015,     Node 17
+2018-09-13 03:33:41.802 Info, Node015,     Node 19
+2018-09-13 03:33:41.802 Info, Node015,     Node 21
+2018-09-13 03:33:41.802 Info, Node015,     Node 22
+2018-09-13 03:33:41.802 Detail, Node144,   Expected reply was received
+2018-09-13 03:33:41.802 Detail, Node144,   Message transaction complete
+2018-09-13 03:33:41.802 Detail, 
+2018-09-13 03:33:41.802 Detail, Node015, Removing current message
+2018-09-13 03:33:41.803 Detail, Node016, Query Stage Complete (Neighbors)
+2018-09-13 03:33:41.803 Detail, Node016, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Session live=1
+2018-09-13 03:33:41.803 Detail, Node016, QueryStage_Session
+2018-09-13 03:33:41.803 Detail, Node016, Queuing (Query) SwitchAllCmd_Get (Node=16): 0x01, 0x09, 0x00, 0x13, 0x10, 0x02, 0x27, 0x02, 0x25, 0x1f, 0xe8
+2018-09-13 03:33:41.803 Detail, Node016, Queuing (Query) PowerlevelCmd_Get (Node=16): 0x01, 0x09, 0x00, 0x13, 0x10, 0x02, 0x73, 0x02, 0x25, 0x20, 0x83
+2018-09-13 03:33:41.803 Detail, Node016, Queuing (Query) NodeNamingCmd_Get (Node=16): 0x01, 0x09, 0x00, 0x13, 0x10, 0x02, 0x77, 0x02, 0x25, 0x21, 0x86
+2018-09-13 03:33:41.803 Detail, Node016, Queuing (Query) NodeNamingCmd_LocationGet (Node=16): 0x01, 0x09, 0x00, 0x13, 0x10, 0x02, 0x77, 0x05, 0x25, 0x22, 0x82
+2018-09-13 03:33:41.803 Detail, Node016, Queuing (Query) Query Stage Complete (Session)
+2018-09-13 03:33:41.803 Detail, Node017, Query Stage Complete (Associations)
+2018-09-13 03:33:41.804 Detail, Node017, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Neighbors live=1
+2018-09-13 03:33:41.804 Detail, Node017, QueryStage_Neighbors
+2018-09-13 03:33:41.804 Detail, Requesting routing info (neighbor list) for Node 17
+2018-09-13 03:33:41.804 Detail, Node017, Queuing (Command) Get Routing Info (Node=17): 0x01, 0x07, 0x00, 0x80, 0x11, 0x00, 0x00, 0x03, 0x6a
+2018-09-13 03:33:41.804 Detail, Node017, Queuing (Query) Query Stage Complete (Neighbors)
+2018-09-13 03:33:41.804 Detail, 
+2018-09-13 03:33:41.804 Info, Node017, Sending (Command) message (Callback ID=0x00, Expected Reply=0x80) - Get Routing Info (Node=17): 0x01, 0x07, 0x00, 0x80, 0x11, 0x00, 0x00, 0x03, 0x6a
+2018-09-13 03:33:41.809 Detail, Node017,   Received: 0x01, 0x20, 0x01, 0x80, 0x00, 0xd0, 0x34, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xba
+2018-09-13 03:33:41.809 Detail, 
+2018-09-13 03:33:41.809 Info, Node017, Received reply to FUNC_ID_ZW_GET_ROUTING_INFO
+2018-09-13 03:33:41.809 Info, Node017,     Neighbors of this node are:
+2018-09-13 03:33:41.809 Info, Node017,     Node 13
+2018-09-13 03:33:41.809 Info, Node017,     Node 15
+2018-09-13 03:33:41.809 Info, Node017,     Node 16
+2018-09-13 03:33:41.809 Info, Node017,     Node 19
+2018-09-13 03:33:41.809 Info, Node017,     Node 21
+2018-09-13 03:33:41.809 Info, Node017,     Node 22
+2018-09-13 03:33:41.809 Detail, Node208,   Expected reply was received
+2018-09-13 03:33:41.809 Detail, Node208,   Message transaction complete
+2018-09-13 03:33:41.809 Detail, 
+2018-09-13 03:33:41.810 Detail, Node017, Removing current message
+2018-09-13 03:33:41.810 Detail, Node018, Query Stage Complete (Associations)
+2018-09-13 03:33:41.810 Detail, Node018, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Neighbors live=1
+2018-09-13 03:33:41.810 Detail, Node018, QueryStage_Neighbors
+2018-09-13 03:33:41.810 Detail, Requesting routing info (neighbor list) for Node 18
+2018-09-13 03:33:41.810 Detail, Node018, Queuing (Command) Get Routing Info (Node=18): 0x01, 0x07, 0x00, 0x80, 0x12, 0x00, 0x00, 0x03, 0x69
+2018-09-13 03:33:41.810 Detail, Node018, Queuing (Query) Query Stage Complete (Neighbors)
+2018-09-13 03:33:41.810 Detail, 
+2018-09-13 03:33:41.810 Info, Node018, Sending (Command) message (Callback ID=0x00, Expected Reply=0x80) - Get Routing Info (Node=18): 0x01, 0x07, 0x00, 0x80, 0x12, 0x00, 0x00, 0x03, 0x69
+2018-09-13 03:33:41.815 Detail, Node018,   Received: 0x01, 0x20, 0x01, 0x80, 0x00, 0x90, 0x34, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xfa
+2018-09-13 03:33:41.815 Detail, 
+2018-09-13 03:33:41.815 Info, Node018, Received reply to FUNC_ID_ZW_GET_ROUTING_INFO
+2018-09-13 03:33:41.815 Info, Node018,     Neighbors of this node are:
+2018-09-13 03:33:41.815 Info, Node018,     Node 13
+2018-09-13 03:33:41.815 Info, Node018,     Node 16
+2018-09-13 03:33:41.815 Info, Node018,     Node 19
+2018-09-13 03:33:41.815 Info, Node018,     Node 21
+2018-09-13 03:33:41.815 Info, Node018,     Node 22
+2018-09-13 03:33:41.816 Detail, Node144,   Expected reply was received
+2018-09-13 03:33:41.816 Detail, Node144,   Message transaction complete
+2018-09-13 03:33:41.816 Detail, 
+2018-09-13 03:33:41.816 Detail, Node018, Removing current message
+2018-09-13 03:33:41.816 Detail, Node019, Query Stage Complete (Associations)
+2018-09-13 03:33:41.816 Detail, Node019, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Neighbors live=1
+2018-09-13 03:33:41.816 Detail, Node019, QueryStage_Neighbors
+2018-09-13 03:33:41.816 Detail, Requesting routing info (neighbor list) for Node 19
+2018-09-13 03:33:41.816 Detail, Node019, Queuing (Command) Get Routing Info (Node=19): 0x01, 0x07, 0x00, 0x80, 0x13, 0x00, 0x00, 0x03, 0x68
+2018-09-13 03:33:41.816 Detail, Node019, Queuing (Query) Query Stage Complete (Neighbors)
+2018-09-13 03:33:41.816 Detail, 
+2018-09-13 03:33:41.817 Info, Node019, Sending (Command) message (Callback ID=0x00, Expected Reply=0x80) - Get Routing Info (Node=19): 0x01, 0x07, 0x00, 0x80, 0x13, 0x00, 0x00, 0x03, 0x68
+2018-09-13 03:33:41.821 Detail, Node019,   Received: 0x01, 0x20, 0x01, 0x80, 0x01, 0xd0, 0x33, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xbc
+2018-09-13 03:33:41.821 Detail, 
+2018-09-13 03:33:41.821 Info, Node019, Received reply to FUNC_ID_ZW_GET_ROUTING_INFO
+2018-09-13 03:33:41.821 Info, Node019,     Neighbors of this node are:
+2018-09-13 03:33:41.821 Info, Node019,     Node 1
+2018-09-13 03:33:41.821 Info, Node019,     Node 13
+2018-09-13 03:33:41.821 Info, Node019,     Node 15
+2018-09-13 03:33:41.821 Info, Node019,     Node 16
+2018-09-13 03:33:41.822 Info, Node019,     Node 17
+2018-09-13 03:33:41.822 Info, Node019,     Node 18
+2018-09-13 03:33:41.822 Info, Node019,     Node 21
+2018-09-13 03:33:41.822 Info, Node019,     Node 22
+2018-09-13 03:33:41.822 Detail, Node208,   Expected reply was received
+2018-09-13 03:33:41.822 Detail, Node208,   Message transaction complete
+2018-09-13 03:33:41.822 Detail, 
+2018-09-13 03:33:41.822 Detail, Node019, Removing current message
+2018-09-13 03:33:41.822 Detail, Node021, Query Stage Complete (Associations)
+2018-09-13 03:33:41.822 Detail, Node021, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Neighbors live=1
+2018-09-13 03:33:41.822 Detail, Node021, QueryStage_Neighbors
+2018-09-13 03:33:41.822 Detail, Requesting routing info (neighbor list) for Node 21
+2018-09-13 03:33:41.823 Detail, Node021, Queuing (Command) Get Routing Info (Node=21): 0x01, 0x07, 0x00, 0x80, 0x15, 0x00, 0x00, 0x03, 0x6e
+2018-09-13 03:33:41.823 Detail, Node021, Queuing (Query) Query Stage Complete (Neighbors)
+2018-09-13 03:33:41.823 Detail, 
+2018-09-13 03:33:41.823 Info, Node021, Sending (Command) message (Callback ID=0x00, Expected Reply=0x80) - Get Routing Info (Node=21): 0x01, 0x07, 0x00, 0x80, 0x15, 0x00, 0x00, 0x03, 0x6e
+2018-09-13 03:33:41.827 Detail, Node021,   Received: 0x01, 0x20, 0x01, 0x80, 0x01, 0xd0, 0x27, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xa8
+2018-09-13 03:33:41.827 Detail, 
+2018-09-13 03:33:41.828 Info, Node021, Received reply to FUNC_ID_ZW_GET_ROUTING_INFO
+2018-09-13 03:33:41.828 Info, Node021,     Neighbors of this node are:
+2018-09-13 03:33:41.828 Info, Node021,     Node 1
+2018-09-13 03:33:41.828 Info, Node021,     Node 13
+2018-09-13 03:33:41.828 Info, Node021,     Node 15
+2018-09-13 03:33:41.828 Info, Node021,     Node 16
+2018-09-13 03:33:41.828 Info, Node021,     Node 17
+2018-09-13 03:33:41.828 Info, Node021,     Node 18
+2018-09-13 03:33:41.828 Info, Node021,     Node 19
+2018-09-13 03:33:41.828 Info, Node021,     Node 22
+2018-09-13 03:33:41.828 Detail, Node208,   Expected reply was received
+2018-09-13 03:33:41.828 Detail, Node208,   Message transaction complete
+2018-09-13 03:33:41.828 Detail, 
+2018-09-13 03:33:41.828 Detail, Node021, Removing current message
+2018-09-13 03:33:41.829 Detail, Node022, Query Stage Complete (Neighbors)
+2018-09-13 03:33:41.829 Detail, Node022, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Session live=1
+2018-09-13 03:33:41.829 Detail, Node022, QueryStage_Session
+2018-09-13 03:33:41.829 Detail, Node022, Queuing (Query) SwitchAllCmd_Get (Node=22): 0x01, 0x09, 0x00, 0x13, 0x16, 0x02, 0x27, 0x02, 0x25, 0x23, 0xd2
+2018-09-13 03:33:41.829 Detail, Node022, Queuing (Query) PowerlevelCmd_Get (Node=22): 0x01, 0x09, 0x00, 0x13, 0x16, 0x02, 0x73, 0x02, 0x25, 0x24, 0x81
+2018-09-13 03:33:41.829 Detail, Node022, Queuing (Query) ProtectionCmd_Get (Node=22): 0x01, 0x09, 0x00, 0x13, 0x16, 0x02, 0x75, 0x02, 0x25, 0x25, 0x86
+2018-09-13 03:33:41.829 Detail, Node022, Queuing (Query) Query Stage Complete (Session)
+2018-09-13 03:33:41.829 Detail, Node013, Query Stage Complete (Neighbors)
+2018-09-13 03:33:41.829 Detail, Node013, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Session live=1
+2018-09-13 03:33:41.829 Detail, Node013, QueryStage_Session
+2018-09-13 03:33:41.830 Detail, Node013, Queuing (Query) SwitchAllCmd_Get (Node=13): 0x01, 0x09, 0x00, 0x13, 0x0d, 0x02, 0x27, 0x02, 0x25, 0x26, 0xcc
+2018-09-13 03:33:41.830 Detail, Node013, Queuing (Query) PowerlevelCmd_Get (Node=13): 0x01, 0x09, 0x00, 0x13, 0x0d, 0x02, 0x73, 0x02, 0x25, 0x27, 0x99
+2018-09-13 03:33:41.830 Detail, Node013, Queuing (Query) Query Stage Complete (Session)
+2018-09-13 03:33:41.830 Detail, Node015, Query Stage Complete (Neighbors)
+2018-09-13 03:33:41.830 Detail, Node015, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Session live=1
+2018-09-13 03:33:41.830 Detail, Node015, QueryStage_Session
+2018-09-13 03:33:41.830 Detail, Node015, Queuing (Query) SwitchAllCmd_Get (Node=15): 0x01, 0x09, 0x00, 0x13, 0x0f, 0x02, 0x27, 0x02, 0x25, 0x28, 0xc0
+2018-09-13 03:33:41.830 Detail, Node015, Queuing (Query) PowerlevelCmd_Get (Node=15): 0x01, 0x09, 0x00, 0x13, 0x0f, 0x02, 0x73, 0x02, 0x25, 0x29, 0x95
+2018-09-13 03:33:41.830 Detail, Node015, Queuing (Query) Query Stage Complete (Session)
+2018-09-13 03:33:41.831 Detail, 
+2018-09-13 03:33:41.831 Info, Node016, Sending (Query) message (Callback ID=0x1f, Expected Reply=0x04) - SwitchAllCmd_Get (Node=16): 0x01, 0x09, 0x00, 0x13, 0x10, 0x02, 0x27, 0x02, 0x25, 0x1f, 0xe8
+2018-09-13 03:33:41.839 Detail, Node016,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:41.839 Detail, Node016,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:41.915 Detail, Node016,   Received: 0x01, 0x07, 0x00, 0x13, 0x1f, 0x00, 0x00, 0x08, 0xfc
+2018-09-13 03:33:41.915 Detail, Node016,   ZW_SEND_DATA Request with callback ID 0x1f received (expected 0x1f)
+2018-09-13 03:33:41.915 Info, Node016, Request RTT 84 Average Request RTT 131
+2018-09-13 03:33:41.916 Detail,   Expected callbackId was received
+2018-09-13 03:33:41.971 Detail, Node016,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x10, 0x03, 0x27, 0x03, 0xff, 0x3a
+2018-09-13 03:33:41.971 Detail, 
+2018-09-13 03:33:41.971 Info, Node016, Response RTT 139 Average Response RTT 139
+2018-09-13 03:33:41.971 Detail, Node016, Initial read of value
+2018-09-13 03:33:41.971 Info, Node016, Received SwitchAll report from node 16: On and Off Enabled
+2018-09-13 03:33:41.971 Detail, Node016,   Expected reply and command class was received
+2018-09-13 03:33:41.971 Detail, Node016,   Message transaction complete
+2018-09-13 03:33:41.971 Detail, 
+2018-09-13 03:33:41.971 Detail, Node016, Removing current message
+2018-09-13 03:33:41.971 Detail, Node016, Notification: ValueChanged
+2018-09-13 03:33:41.982 Detail, 
+2018-09-13 03:33:41.982 Info, Node016, Sending (Query) message (Callback ID=0x20, Expected Reply=0x04) - PowerlevelCmd_Get (Node=16): 0x01, 0x09, 0x00, 0x13, 0x10, 0x02, 0x73, 0x02, 0x25, 0x20, 0x83
+2018-09-13 03:33:41.991 Detail, Node016,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:41.991 Detail, Node016,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:42.095 Detail, Node016,   Received: 0x01, 0x07, 0x00, 0x13, 0x20, 0x00, 0x00, 0x0b, 0xc0
+2018-09-13 03:33:42.095 Detail, Node016,   ZW_SEND_DATA Request with callback ID 0x20 received (expected 0x20)
+2018-09-13 03:33:42.095 Info, Node016, Request RTT 114 Average Request RTT 122
+2018-09-13 03:33:42.095 Detail,   Expected callbackId was received
+2018-09-13 03:33:42.149 Detail, Node016,   Received: 0x01, 0x0a, 0x00, 0x04, 0x00, 0x10, 0x04, 0x73, 0x03, 0x00, 0x00, 0x95
+2018-09-13 03:33:42.149 Detail, 
+2018-09-13 03:33:42.149 Info, Node016, Response RTT 167 Average Response RTT 153
+2018-09-13 03:33:42.149 Info, Node016, Received a PowerLevel report: PowerLevel=Normal, Timeout=0
+2018-09-13 03:33:42.149 Detail, Node016, Initial read of value
+2018-09-13 03:33:42.149 Detail, Node016, Initial read of value
+2018-09-13 03:33:42.149 Detail, Node016,   Expected reply and command class was received
+2018-09-13 03:33:42.150 Detail, Node016,   Message transaction complete
+2018-09-13 03:33:42.150 Detail, 
+2018-09-13 03:33:42.150 Detail, Node016, Removing current message
+2018-09-13 03:33:42.150 Detail, Node016, Notification: ValueChanged
+2018-09-13 03:33:42.161 Detail, Node016, Notification: ValueChanged
+2018-09-13 03:33:42.173 Detail, 
+2018-09-13 03:33:42.174 Info, Node016, Sending (Query) message (Callback ID=0x21, Expected Reply=0x04) - NodeNamingCmd_Get (Node=16): 0x01, 0x09, 0x00, 0x13, 0x10, 0x02, 0x77, 0x02, 0x25, 0x21, 0x86
+2018-09-13 03:33:42.181 Detail, Node016,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:42.182 Detail, Node016,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:42.275 Detail, Node016,   Received: 0x01, 0x07, 0x00, 0x13, 0x21, 0x00, 0x00, 0x0a, 0xc0
+2018-09-13 03:33:42.275 Detail, Node016,   ZW_SEND_DATA Request with callback ID 0x21 received (expected 0x21)
+2018-09-13 03:33:42.275 Info, Node016, Request RTT 101 Average Request RTT 111
+2018-09-13 03:33:42.275 Detail,   Expected callbackId was received
+2018-09-13 03:33:42.329 Detail, Node016,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x10, 0x03, 0x77, 0x03, 0x00, 0x95
+2018-09-13 03:33:42.329 Detail, 
+2018-09-13 03:33:42.329 Info, Node016, Response RTT 155 Average Response RTT 154
+2018-09-13 03:33:42.329 Info, Node016, Received the name: .
+2018-09-13 03:33:42.329 Detail, Node016,   Expected reply and command class was received
+2018-09-13 03:33:42.329 Detail, Node016,   Message transaction complete
+2018-09-13 03:33:42.329 Detail, 
+2018-09-13 03:33:42.329 Detail, Node016, Removing current message
+2018-09-13 03:33:42.329 Detail, Node016, Notification: NodeNaming
+2018-09-13 03:33:42.334 Detail, 
+2018-09-13 03:33:42.337 Info, Node016, Sending (Query) message (Callback ID=0x22, Expected Reply=0x04) - NodeNamingCmd_LocationGet (Node=16): 0x01, 0x09, 0x00, 0x13, 0x10, 0x02, 0x77, 0x05, 0x25, 0x22, 0x82
+2018-09-13 03:33:42.345 Detail, Node016,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:42.345 Detail, Node016,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:42.455 Detail, Node016,   Received: 0x01, 0x07, 0x00, 0x13, 0x22, 0x00, 0x00, 0x0c, 0xc5
+2018-09-13 03:33:42.455 Detail, Node016,   ZW_SEND_DATA Request with callback ID 0x22 received (expected 0x22)
+2018-09-13 03:33:42.455 Info, Node016, Request RTT 118 Average Request RTT 114
+2018-09-13 03:33:42.455 Detail,   Expected callbackId was received
+2018-09-13 03:33:42.510 Detail, Node016,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x10, 0x03, 0x77, 0x06, 0x00, 0x90
+2018-09-13 03:33:42.510 Detail, 
+2018-09-13 03:33:42.510 Info, Node016, Response RTT 173 Average Response RTT 163
+2018-09-13 03:33:42.510 Info, Node016, Received the location: .
+2018-09-13 03:33:42.510 Detail, Node016,   Expected reply and command class was received
+2018-09-13 03:33:42.510 Detail, Node016,   Message transaction complete
+2018-09-13 03:33:42.510 Detail, 
+2018-09-13 03:33:42.510 Detail, Node016, Removing current message
+2018-09-13 03:33:42.511 Detail, Node016, Notification: NodeNaming
+2018-09-13 03:33:42.513 Detail, Node016, Query Stage Complete (Session)
+2018-09-13 03:33:42.513 Detail, Node016, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Dynamic live=1
+2018-09-13 03:33:42.513 Detail, Node016, QueryStage_Dynamic
+2018-09-13 03:33:42.513 Detail, Node016, Queuing (Send) SwitchMultilevelCmd_Get (Node=16): 0x01, 0x09, 0x00, 0x13, 0x10, 0x02, 0x26, 0x02, 0x25, 0x2a, 0xdc
+2018-09-13 03:33:42.513 Detail, Node016, Queuing (Query) Query Stage Complete (Dynamic)
+2018-09-13 03:33:42.513 Detail, 
+2018-09-13 03:33:42.513 Info, Node016, Sending (Send) message (Callback ID=0x2a, Expected Reply=0x04) - SwitchMultilevelCmd_Get (Node=16): 0x01, 0x09, 0x00, 0x13, 0x10, 0x02, 0x26, 0x02, 0x25, 0x2a, 0xdc
+2018-09-13 03:33:42.522 Detail, Node016,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:42.522 Detail, Node016,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:42.635 Detail, Node016,   Received: 0x01, 0x07, 0x00, 0x13, 0x2a, 0x00, 0x00, 0x0c, 0xcd
+2018-09-13 03:33:42.637 Detail, Node016,   ZW_SEND_DATA Request with callback ID 0x2a received (expected 0x2a)
+2018-09-13 03:33:42.637 Info, Node016, Request RTT 123 Average Request RTT 118
+2018-09-13 03:33:42.637 Detail,   Expected callbackId was received
+2018-09-13 03:33:42.690 Detail, Node016,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x10, 0x03, 0x26, 0x03, 0x40, 0x84
+2018-09-13 03:33:42.690 Detail, 
+2018-09-13 03:33:42.690 Info, Node016, Response RTT 176 Average Response RTT 169
+2018-09-13 03:33:42.690 Info, Node016, Received SwitchMultiLevel report: level=64
+2018-09-13 03:33:42.690 Detail, Node016, Initial read of value
+2018-09-13 03:33:42.690 Detail, Node016,   Expected reply and command class was received
+2018-09-13 03:33:42.690 Detail, Node016,   Message transaction complete
+2018-09-13 03:33:42.690 Detail, 
+2018-09-13 03:33:42.690 Detail, Node016, Removing current message
+2018-09-13 03:33:42.690 Detail, Node016, Notification: ValueChanged
+2018-09-13 03:33:42.695 Detail, Node017, Query Stage Complete (Neighbors)
+2018-09-13 03:33:42.695 Detail, Node017, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Session live=1
+2018-09-13 03:33:42.696 Detail, Node017, QueryStage_Session
+2018-09-13 03:33:42.696 Detail, Node017, Queuing (Query) SwitchAllCmd_Get (Node=17): 0x01, 0x09, 0x00, 0x13, 0x11, 0x02, 0x27, 0x02, 0x25, 0x2b, 0xdd
+2018-09-13 03:33:42.696 Detail, Node017, Queuing (Query) PowerlevelCmd_Get (Node=17): 0x01, 0x09, 0x00, 0x13, 0x11, 0x02, 0x73, 0x02, 0x25, 0x2c, 0x8e
+2018-09-13 03:33:42.696 Detail, Node017, Queuing (Query) Query Stage Complete (Session)
+2018-09-13 03:33:42.696 Detail, Node018, Query Stage Complete (Neighbors)
+2018-09-13 03:33:42.696 Detail, Node018, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Session live=1
+2018-09-13 03:33:42.696 Detail, Node018, QueryStage_Session
+2018-09-13 03:33:42.696 Detail, Node018, Queuing (Query) SwitchAllCmd_Get (Node=18): 0x01, 0x09, 0x00, 0x13, 0x12, 0x02, 0x27, 0x02, 0x25, 0x2d, 0xd8
+2018-09-13 03:33:42.696 Detail, Node018, Queuing (Query) PowerlevelCmd_Get (Node=18): 0x01, 0x09, 0x00, 0x13, 0x12, 0x02, 0x73, 0x02, 0x25, 0x2e, 0x8f
+2018-09-13 03:33:42.696 Detail, Node018, Queuing (Query) Query Stage Complete (Session)
+2018-09-13 03:33:42.696 Detail, Node019, Query Stage Complete (Neighbors)
+2018-09-13 03:33:42.696 Detail, Node019, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Session live=1
+2018-09-13 03:33:42.696 Detail, Node019, QueryStage_Session
+2018-09-13 03:33:42.696 Detail, Node019, Queuing (Query) SwitchAllCmd_Get (Node=19): 0x01, 0x09, 0x00, 0x13, 0x13, 0x02, 0x27, 0x02, 0x25, 0x2f, 0xdb
+2018-09-13 03:33:42.696 Detail, Node019, Queuing (Query) PowerlevelCmd_Get (Node=19): 0x01, 0x09, 0x00, 0x13, 0x13, 0x02, 0x73, 0x02, 0x25, 0x30, 0x90
+2018-09-13 03:33:42.696 Detail, Node019, Queuing (Query) ProtectionCmd_Get (Node=19): 0x01, 0x09, 0x00, 0x13, 0x13, 0x02, 0x75, 0x02, 0x25, 0x31, 0x97
+2018-09-13 03:33:42.696 Detail, Node019, Queuing (Query) NodeNamingCmd_Get (Node=19): 0x01, 0x09, 0x00, 0x13, 0x13, 0x02, 0x77, 0x02, 0x25, 0x32, 0x96
+2018-09-13 03:33:42.696 Detail, Node019, Queuing (Query) NodeNamingCmd_LocationGet (Node=19): 0x01, 0x09, 0x00, 0x13, 0x13, 0x02, 0x77, 0x05, 0x25, 0x33, 0x90
+2018-09-13 03:33:42.696 Detail, Node019, Queuing (Query) Query Stage Complete (Session)
+2018-09-13 03:33:42.696 Detail, Node021, Query Stage Complete (Neighbors)
+2018-09-13 03:33:42.696 Detail, Node021, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Session live=1
+2018-09-13 03:33:42.696 Detail, Node021, QueryStage_Session
+2018-09-13 03:33:42.697 Detail, Node021, Queuing (Query) SwitchAllCmd_Get (Node=21): 0x01, 0x09, 0x00, 0x13, 0x15, 0x02, 0x27, 0x02, 0x25, 0x34, 0xc6
+2018-09-13 03:33:42.697 Detail, Node021, Queuing (Query) PowerlevelCmd_Get (Node=21): 0x01, 0x09, 0x00, 0x13, 0x15, 0x02, 0x73, 0x02, 0x25, 0x35, 0x93
+2018-09-13 03:33:42.697 Detail, Node021, Queuing (Query) Query Stage Complete (Session)
+2018-09-13 03:33:42.697 Detail, 
+2018-09-13 03:33:42.697 Info, Node022, Sending (Query) message (Callback ID=0x23, Expected Reply=0x04) - SwitchAllCmd_Get (Node=22): 0x01, 0x09, 0x00, 0x13, 0x16, 0x02, 0x27, 0x02, 0x25, 0x23, 0xd2
+2018-09-13 03:33:42.706 Detail, Node022,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:42.706 Detail, Node022,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:42.809 Detail, Node022,   Received: 0x01, 0x07, 0x00, 0x13, 0x23, 0x00, 0x00, 0x0b, 0xc3
+2018-09-13 03:33:42.809 Detail, Node022,   ZW_SEND_DATA Request with callback ID 0x23 received (expected 0x23)
+2018-09-13 03:33:42.809 Info, Node022, Request RTT 112 Average Request RTT 83
+2018-09-13 03:33:42.809 Detail,   Expected callbackId was received
+2018-09-13 03:33:42.856 Detail, Node022,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x16, 0x03, 0x27, 0x03, 0xff, 0x3c
+2018-09-13 03:33:42.856 Detail, 
+2018-09-13 03:33:42.857 Info, Node022, Response RTT 159 Average Response RTT 159
+2018-09-13 03:33:42.857 Detail, Node022, Initial read of value
+2018-09-13 03:33:42.857 Info, Node022, Received SwitchAll report from node 22: On and Off Enabled
+2018-09-13 03:33:42.857 Detail, Node022,   Expected reply and command class was received
+2018-09-13 03:33:42.857 Detail, Node022,   Message transaction complete
+2018-09-13 03:33:42.857 Detail, 
+2018-09-13 03:33:42.857 Detail, Node022, Removing current message
+2018-09-13 03:33:42.857 Detail, Node022, Notification: ValueChanged
+2018-09-13 03:33:42.862 Detail, 
+2018-09-13 03:33:42.862 Info, Node022, Sending (Query) message (Callback ID=0x24, Expected Reply=0x04) - PowerlevelCmd_Get (Node=22): 0x01, 0x09, 0x00, 0x13, 0x16, 0x02, 0x73, 0x02, 0x25, 0x24, 0x81
+2018-09-13 03:33:42.870 Detail, Node022,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:42.870 Detail, Node022,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:42.978 Detail, Node022,   Received: 0x01, 0x07, 0x00, 0x13, 0x24, 0x00, 0x00, 0x0b, 0xc4
+2018-09-13 03:33:42.979 Detail, Node022,   ZW_SEND_DATA Request with callback ID 0x24 received (expected 0x24)
+2018-09-13 03:33:42.979 Info, Node022, Request RTT 116 Average Request RTT 99
+2018-09-13 03:33:42.979 Detail,   Expected callbackId was received
+2018-09-13 03:33:43.027 Detail, Node022,   Received: 0x01, 0x0a, 0x00, 0x04, 0x00, 0x16, 0x04, 0x73, 0x03, 0x00, 0x00, 0x93
+2018-09-13 03:33:43.027 Detail, 
+2018-09-13 03:33:43.027 Info, Node022, Response RTT 165 Average Response RTT 162
+2018-09-13 03:33:43.027 Info, Node022, Received a PowerLevel report: PowerLevel=Normal, Timeout=0
+2018-09-13 03:33:43.027 Detail, Node022, Initial read of value
+2018-09-13 03:33:43.027 Detail, Node022, Initial read of value
+2018-09-13 03:33:43.027 Detail, Node022,   Expected reply and command class was received
+2018-09-13 03:33:43.027 Detail, Node022,   Message transaction complete
+2018-09-13 03:33:43.027 Detail, 
+2018-09-13 03:33:43.027 Detail, Node022, Removing current message
+2018-09-13 03:33:43.027 Detail, Node022, Notification: ValueChanged
+2018-09-13 03:33:43.032 Detail, Node022, Notification: ValueChanged
+2018-09-13 03:33:43.037 Detail, 
+2018-09-13 03:33:43.037 Info, Node022, Sending (Query) message (Callback ID=0x25, Expected Reply=0x04) - ProtectionCmd_Get (Node=22): 0x01, 0x09, 0x00, 0x13, 0x16, 0x02, 0x75, 0x02, 0x25, 0x25, 0x86
+2018-09-13 03:33:43.045 Detail, Node022,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:43.045 Detail, Node022,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:43.148 Detail, Node022,   Received: 0x01, 0x07, 0x00, 0x13, 0x25, 0x00, 0x00, 0x0b, 0xc5
+2018-09-13 03:33:43.148 Detail, Node022,   ZW_SEND_DATA Request with callback ID 0x25 received (expected 0x25)
+2018-09-13 03:33:43.148 Info, Node022, Request RTT 110 Average Request RTT 104
+2018-09-13 03:33:43.148 Detail,   Expected callbackId was received
+2018-09-13 03:33:43.197 Detail, Node022,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x16, 0x03, 0x75, 0x03, 0x00, 0x91
+2018-09-13 03:33:43.197 Detail, 
+2018-09-13 03:33:43.197 Info, Node022, Response RTT 159 Average Response RTT 160
+2018-09-13 03:33:43.197 Info, Node022, Received a Protection report: Unprotected
+2018-09-13 03:33:43.197 Detail, Node022, Initial read of value
+2018-09-13 03:33:43.197 Detail, Node022,   Expected reply and command class was received
+2018-09-13 03:33:43.197 Detail, Node022,   Message transaction complete
+2018-09-13 03:33:43.197 Detail, 
+2018-09-13 03:33:43.198 Detail, Node022, Removing current message
+2018-09-13 03:33:43.198 Detail, Node022, Notification: ValueChanged
+2018-09-13 03:33:43.209 Detail, Node022, Query Stage Complete (Session)
+2018-09-13 03:33:43.209 Detail, Node022, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Dynamic live=1
+2018-09-13 03:33:43.209 Detail, Node022, QueryStage_Dynamic
+2018-09-13 03:33:43.209 Detail, Node022, Queuing (Send) SwitchBinaryCmd_Get (Node=22): 0x01, 0x09, 0x00, 0x13, 0x16, 0x02, 0x25, 0x02, 0x25, 0x36, 0xc5
+2018-09-13 03:33:43.209 Detail, Node022, Queuing (Query) Query Stage Complete (Dynamic)
+2018-09-13 03:33:43.210 Detail, 
+2018-09-13 03:33:43.210 Info, Node022, Sending (Send) message (Callback ID=0x36, Expected Reply=0x04) - SwitchBinaryCmd_Get (Node=22): 0x01, 0x09, 0x00, 0x13, 0x16, 0x02, 0x25, 0x02, 0x25, 0x36, 0xc5
+2018-09-13 03:33:43.218 Detail, Node022,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:43.218 Detail, Node022,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:43.318 Detail, Node022,   Received: 0x01, 0x07, 0x00, 0x13, 0x36, 0x00, 0x00, 0x0b, 0xd6
+2018-09-13 03:33:43.319 Detail, Node022,   ZW_SEND_DATA Request with callback ID 0x36 received (expected 0x36)
+2018-09-13 03:33:43.319 Info, Node022, Request RTT 108 Average Request RTT 106
+2018-09-13 03:33:43.319 Detail,   Expected callbackId was received
+2018-09-13 03:33:43.367 Detail, Node022,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x16, 0x03, 0x25, 0x03, 0x00, 0xc1
+2018-09-13 03:33:43.368 Detail, 
+2018-09-13 03:33:43.368 Info, Node022, Response RTT 157 Average Response RTT 158
+2018-09-13 03:33:43.368 Info, Node022, Received SwitchBinary report from node 22: level=Off
+2018-09-13 03:33:43.368 Detail, Node022, Initial read of value
+2018-09-13 03:33:43.368 Detail, Node022,   Expected reply and command class was received
+2018-09-13 03:33:43.368 Detail, Node022,   Message transaction complete
+2018-09-13 03:33:43.368 Detail, 
+2018-09-13 03:33:43.368 Detail, Node022, Removing current message
+2018-09-13 03:33:43.368 Detail, Node022, Notification: ValueChanged
+2018-09-13 03:33:43.380 Detail, 
+2018-09-13 03:33:43.380 Info, Node013, Sending (Query) message (Callback ID=0x26, Expected Reply=0x04) - SwitchAllCmd_Get (Node=13): 0x01, 0x09, 0x00, 0x13, 0x0d, 0x02, 0x27, 0x02, 0x25, 0x26, 0xcc
+2018-09-13 03:33:43.389 Detail, Node013,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:43.389 Detail, Node013,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:43.462 Detail, Node013,   Received: 0x01, 0x07, 0x00, 0x13, 0x26, 0x00, 0x00, 0x08, 0xc5
+2018-09-13 03:33:43.463 Detail, Node013,   ZW_SEND_DATA Request with callback ID 0x26 received (expected 0x26)
+2018-09-13 03:33:43.463 Info, Node013, Request RTT 82 Average Request RTT 55
+2018-09-13 03:33:43.463 Detail,   Expected callbackId was received
+2018-09-13 03:33:43.476 Detail, Node013,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x0d, 0x03, 0x27, 0x03, 0x00, 0xd8
+2018-09-13 03:33:43.476 Detail, 
+2018-09-13 03:33:43.477 Info, Node013, Response RTT 96 Average Response RTT 70
+2018-09-13 03:33:43.477 Detail, Node013, Initial read of value
+2018-09-13 03:33:43.477 Info, Node013, Received SwitchAll report from node 13: Disabled
+2018-09-13 03:33:43.477 Detail, Node013,   Expected reply and command class was received
+2018-09-13 03:33:43.477 Detail, Node013,   Message transaction complete
+2018-09-13 03:33:43.477 Detail, 
+2018-09-13 03:33:43.477 Detail, Node013, Removing current message
+2018-09-13 03:33:43.477 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:33:43.482 Detail, 
+2018-09-13 03:33:43.482 Info, Node013, Sending (Query) message (Callback ID=0x27, Expected Reply=0x04) - PowerlevelCmd_Get (Node=13): 0x01, 0x09, 0x00, 0x13, 0x0d, 0x02, 0x73, 0x02, 0x25, 0x27, 0x99
+2018-09-13 03:33:43.491 Detail, Node013,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:43.491 Detail, Node013,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:43.511 Detail, Node013,   Received: 0x01, 0x07, 0x00, 0x13, 0x27, 0x00, 0x00, 0x02, 0xce
+2018-09-13 03:33:43.511 Detail, Node013,   ZW_SEND_DATA Request with callback ID 0x27 received (expected 0x27)
+2018-09-13 03:33:43.511 Info, Node013, Request RTT 28 Average Request RTT 41
+2018-09-13 03:33:43.511 Detail,   Expected callbackId was received
+2018-09-13 03:33:43.525 Detail, Node013,   Received: 0x01, 0x0a, 0x00, 0x04, 0x00, 0x0d, 0x04, 0x73, 0x03, 0x00, 0x00, 0x88
+2018-09-13 03:33:43.525 Detail, 
+2018-09-13 03:33:43.525 Info, Node013, Response RTT 42 Average Response RTT 56
+2018-09-13 03:33:43.525 Info, Node013, Received a PowerLevel report: PowerLevel=Normal, Timeout=0
+2018-09-13 03:33:43.525 Detail, Node013, Initial read of value
+2018-09-13 03:33:43.525 Detail, Node013, Initial read of value
+2018-09-13 03:33:43.525 Detail, Node013,   Expected reply and command class was received
+2018-09-13 03:33:43.525 Detail, Node013,   Message transaction complete
+2018-09-13 03:33:43.525 Detail, 
+2018-09-13 03:33:43.525 Detail, Node013, Removing current message
+2018-09-13 03:33:43.525 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:33:43.530 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:33:43.535 Detail, Node013, Query Stage Complete (Session)
+2018-09-13 03:33:43.536 Detail, Node013, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Dynamic live=1
+2018-09-13 03:33:43.536 Detail, Node013, QueryStage_Dynamic
+2018-09-13 03:33:43.536 Detail, Node013, Queuing (Send) SwitchBinaryCmd_Get (Node=13): 0x01, 0x09, 0x00, 0x13, 0x0d, 0x02, 0x25, 0x02, 0x25, 0x37, 0xdf
+2018-09-13 03:33:43.536 Detail, Node013, Queuing (Send) MeterCmd_Get (Node=13): 0x01, 0x0a, 0x00, 0x13, 0x0d, 0x03, 0x32, 0x01, 0x00, 0x25, 0x38, 0xc6
+2018-09-13 03:33:43.536 Detail, Node013, Queuing (Send) MeterCmd_Get (Node=13): 0x01, 0x0a, 0x00, 0x13, 0x0d, 0x03, 0x32, 0x01, 0x10, 0x25, 0x39, 0xd7
+2018-09-13 03:33:43.536 Detail, Node013, Queuing (Send) MeterCmd_Get (Node=13): 0x01, 0x0a, 0x00, 0x13, 0x0d, 0x03, 0x32, 0x01, 0x20, 0x25, 0x3a, 0xe4
+2018-09-13 03:33:43.536 Detail, Node013, Queuing (Send) MeterCmd_Get (Node=13): 0x01, 0x0a, 0x00, 0x13, 0x0d, 0x03, 0x32, 0x01, 0x28, 0x25, 0x3b, 0xed
+2018-09-13 03:33:43.536 Detail, Node013, Queuing (Send) AlarmCmd_Get (Node=13): 0x01, 0x0c, 0x00, 0x13, 0x0d, 0x05, 0x71, 0x04, 0x00, 0x08, 0x01, 0x25, 0x3c, 0x8d
+2018-09-13 03:33:43.536 Detail, Node013, Queuing (Query) Query Stage Complete (Dynamic)
+2018-09-13 03:33:43.536 Detail, 
+2018-09-13 03:33:43.536 Info, Node013, Sending (Send) message (Callback ID=0x37, Expected Reply=0x04) - SwitchBinaryCmd_Get (Node=13): 0x01, 0x09, 0x00, 0x13, 0x0d, 0x02, 0x25, 0x02, 0x25, 0x37, 0xdf
+2018-09-13 03:33:43.544 Detail, Node013,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:43.544 Detail, Node013,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:43.564 Detail, Node013,   Received: 0x01, 0x07, 0x00, 0x13, 0x37, 0x00, 0x00, 0x03, 0xdf
+2018-09-13 03:33:43.564 Detail, Node013,   ZW_SEND_DATA Request with callback ID 0x37 received (expected 0x37)
+2018-09-13 03:33:43.564 Info, Node013, Request RTT 27 Average Request RTT 34
+2018-09-13 03:33:43.564 Detail,   Expected callbackId was received
+2018-09-13 03:33:43.578 Detail, Node013,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x0d, 0x03, 0x25, 0x03, 0x00, 0xda
+2018-09-13 03:33:43.578 Detail, 
+2018-09-13 03:33:43.578 Info, Node013, Response RTT 41 Average Response RTT 48
+2018-09-13 03:33:43.578 Info, Node013, Received SwitchBinary report from node 13: level=Off
+2018-09-13 03:33:43.578 Detail, Node013, Initial read of value
+2018-09-13 03:33:43.578 Detail, Node013,   Expected reply and command class was received
+2018-09-13 03:33:43.578 Detail, Node013,   Message transaction complete
+2018-09-13 03:33:43.578 Detail, 
+2018-09-13 03:33:43.578 Detail, Node013, Removing current message
+2018-09-13 03:33:43.578 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:33:43.584 Detail, 
+2018-09-13 03:33:43.584 Info, Node013, Sending (Send) message (Callback ID=0x38, Expected Reply=0x04) - MeterCmd_Get (Node=13): 0x01, 0x0a, 0x00, 0x13, 0x0d, 0x03, 0x32, 0x01, 0x00, 0x25, 0x38, 0xc6
+2018-09-13 03:33:43.592 Detail, Node013,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:43.592 Detail, Node013,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:43.614 Detail, Node013,   Received: 0x01, 0x07, 0x00, 0x13, 0x38, 0x00, 0x00, 0x03, 0xd0
+2018-09-13 03:33:43.614 Detail, Node013,   ZW_SEND_DATA Request with callback ID 0x38 received (expected 0x38)
+2018-09-13 03:33:43.614 Info, Node013, Request RTT 29 Average Request RTT 31
+2018-09-13 03:33:43.614 Detail,   Expected callbackId was received
+2018-09-13 03:33:43.640 Detail, Node013,   Received: 0x01, 0x14, 0x00, 0x04, 0x00, 0x0d, 0x0e, 0x32, 0x02, 0x21, 0x44, 0x00, 0x00, 0x00, 0x01, 0x00, 0x81, 0x00, 0x00, 0x00, 0x01, 0x38
+2018-09-13 03:33:43.640 Detail, 
+2018-09-13 03:33:43.641 Info, Node013, Response RTT 56 Average Response RTT 52
+2018-09-13 03:33:43.641 Detail, Node013, Initial read of value
+2018-09-13 03:33:43.641 Info, Node013, Received Meter report from node 13: Energy=0.01kWh
+2018-09-13 03:33:43.641 Detail, Node013, Initial read of value
+2018-09-13 03:33:43.641 Info, Node013,     Previous value was 0.01, received 129 seconds ago.
+2018-09-13 03:33:43.641 Detail, Node013, Initial read of value
+2018-09-13 03:33:43.641 Detail, Node013, Initial read of value
+2018-09-13 03:33:43.641 Detail, Node013,   Expected reply and command class was received
+2018-09-13 03:33:43.641 Detail, Node013,   Message transaction complete
+2018-09-13 03:33:43.641 Detail, 
+2018-09-13 03:33:43.641 Detail, Node013, Removing current message
+2018-09-13 03:33:43.641 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:33:43.648 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:33:43.653 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:33:43.659 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:33:43.664 Detail, 
+2018-09-13 03:33:43.665 Info, Node013, Sending (Send) message (Callback ID=0x39, Expected Reply=0x04) - MeterCmd_Get (Node=13): 0x01, 0x0a, 0x00, 0x13, 0x0d, 0x03, 0x32, 0x01, 0x10, 0x25, 0x39, 0xd7
+2018-09-13 03:33:43.673 Detail, Node013,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:43.673 Detail, Node013,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:43.693 Detail, Node013,   Received: 0x01, 0x07, 0x00, 0x13, 0x39, 0x00, 0x00, 0x03, 0xd1
+2018-09-13 03:33:43.693 Detail, Node013,   ZW_SEND_DATA Request with callback ID 0x39 received (expected 0x39)
+2018-09-13 03:33:43.693 Info, Node013, Request RTT 28 Average Request RTT 29
+2018-09-13 03:33:43.693 Detail,   Expected callbackId was received
+2018-09-13 03:33:43.710 Detail, Node013,   Received: 0x01, 0x14, 0x00, 0x04, 0x00, 0x0d, 0x0e, 0x32, 0x02, 0x21, 0x54, 0x00, 0x00, 0x00, 0x00, 0x00, 0x81, 0x00, 0x00, 0x00, 0x00, 0x28
+2018-09-13 03:33:43.710 Detail, 
+2018-09-13 03:33:43.710 Info, Node013, Response RTT 45 Average Response RTT 48
+2018-09-13 03:33:43.710 Detail, Node013, Refreshed Value: old value=false, new value=false, type=bool
+2018-09-13 03:33:43.710 Detail, Node013, Changes to this value are not verified
+2018-09-13 03:33:43.710 Info, Node013, Received Meter report from node 13: Power=0.00W
+2018-09-13 03:33:43.710 Detail, Node013, Initial read of value
+2018-09-13 03:33:43.710 Info, Node013,     Previous value was 0.00W, received 129 seconds ago.
+2018-09-13 03:33:43.710 Detail, Node013, Initial read of value
+2018-09-13 03:33:43.710 Detail, Node013, Initial read of value
+2018-09-13 03:33:43.710 Detail, Node013,   Expected reply and command class was received
+2018-09-13 03:33:43.710 Detail, Node013,   Message transaction complete
+2018-09-13 03:33:43.710 Detail, 
+2018-09-13 03:33:43.710 Detail, Node013, Removing current message
+2018-09-13 03:33:43.710 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:33:43.716 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:33:43.725 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:33:43.730 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:33:43.736 Detail, 
+2018-09-13 03:33:43.737 Info, Node013, Sending (Send) message (Callback ID=0x3a, Expected Reply=0x04) - MeterCmd_Get (Node=13): 0x01, 0x0a, 0x00, 0x13, 0x0d, 0x03, 0x32, 0x01, 0x20, 0x25, 0x3a, 0xe4
+2018-09-13 03:33:43.745 Detail, Node013,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:43.745 Detail, Node013,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:43.766 Detail, Node013,   Received: 0x01, 0x07, 0x00, 0x13, 0x3a, 0x00, 0x00, 0x03, 0xd2
+2018-09-13 03:33:43.766 Detail, Node013,   ZW_SEND_DATA Request with callback ID 0x3a received (expected 0x3a)
+2018-09-13 03:33:43.766 Info, Node013, Request RTT 29 Average Request RTT 29
+2018-09-13 03:33:43.766 Detail,   Expected callbackId was received
+2018-09-13 03:33:43.781 Detail, Node013,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x0d, 0x0a, 0x32, 0x02, 0xa1, 0x42, 0x30, 0x21, 0x00, 0x81, 0x30, 0x2f, 0xb0
+2018-09-13 03:33:43.781 Detail, 
+2018-09-13 03:33:43.781 Info, Node013, Response RTT 44 Average Response RTT 46
+2018-09-13 03:33:43.781 Detail, Node013, Refreshed Value: old value=false, new value=false, type=bool
+2018-09-13 03:33:43.781 Detail, Node013, Changes to this value are not verified
+2018-09-13 03:33:43.781 Info, Node013, Received Meter report from node 13: Voltage=123.21V
+2018-09-13 03:33:43.781 Detail, Node013, Initial read of value
+2018-09-13 03:33:43.781 Info, Node013,     Previous value was 123.35V, received 129 seconds ago.
+2018-09-13 03:33:43.781 Detail, Node013, Initial read of value
+2018-09-13 03:33:43.781 Detail, Node013, Initial read of value
+2018-09-13 03:33:43.781 Detail, Node013,   Expected reply and command class was received
+2018-09-13 03:33:43.781 Detail, Node013,   Message transaction complete
+2018-09-13 03:33:43.781 Detail, 
+2018-09-13 03:33:43.781 Detail, Node013, Removing current message
+2018-09-13 03:33:43.781 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:33:43.792 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:33:43.798 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:33:43.806 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:33:43.813 Detail, 
+2018-09-13 03:33:43.815 Info, Node013, Sending (Send) message (Callback ID=0x3b, Expected Reply=0x04) - MeterCmd_Get (Node=13): 0x01, 0x0a, 0x00, 0x13, 0x0d, 0x03, 0x32, 0x01, 0x28, 0x25, 0x3b, 0xed
+2018-09-13 03:33:43.824 Detail, Node013,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:43.824 Detail, Node013,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:43.845 Detail, Node013,   Received: 0x01, 0x07, 0x00, 0x13, 0x3b, 0x00, 0x00, 0x03, 0xd3
+2018-09-13 03:33:43.845 Detail, Node013,   ZW_SEND_DATA Request with callback ID 0x3b received (expected 0x3b)
+2018-09-13 03:33:43.845 Info, Node013, Request RTT 29 Average Request RTT 29
+2018-09-13 03:33:43.845 Detail,   Expected callbackId was received
+2018-09-13 03:33:43.859 Detail, Node013,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x0d, 0x0a, 0x32, 0x02, 0xa1, 0x4a, 0x00, 0x00, 0x00, 0x81, 0x00, 0x00, 0xb6
+2018-09-13 03:33:43.859 Detail, 
+2018-09-13 03:33:43.859 Info, Node013, Response RTT 44 Average Response RTT 45
+2018-09-13 03:33:43.859 Detail, Node013, Refreshed Value: old value=false, new value=false, type=bool
+2018-09-13 03:33:43.859 Detail, Node013, Changes to this value are not verified
+2018-09-13 03:33:43.859 Info, Node013, Received Meter report from node 13: Current=0.00A
+2018-09-13 03:33:43.859 Detail, Node013, Initial read of value
+2018-09-13 03:33:43.859 Info, Node013,     Previous value was 0.00A, received 129 seconds ago.
+2018-09-13 03:33:43.859 Detail, Node013, Initial read of value
+2018-09-13 03:33:43.859 Detail, Node013, Initial read of value
+2018-09-13 03:33:43.860 Detail, Node013,   Expected reply and command class was received
+2018-09-13 03:33:43.860 Detail, Node013,   Message transaction complete
+2018-09-13 03:33:43.860 Detail, 
+2018-09-13 03:33:43.860 Detail, Node013, Removing current message
+2018-09-13 03:33:43.860 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:33:43.873 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:33:43.884 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:33:43.905 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:33:43.911 Detail, 
+2018-09-13 03:33:43.912 Info, Node013, Sending (Send) message (Callback ID=0x3c, Expected Reply=0x04) - AlarmCmd_Get (Node=13): 0x01, 0x0c, 0x00, 0x13, 0x0d, 0x05, 0x71, 0x04, 0x00, 0x08, 0x01, 0x25, 0x3c, 0x8d
+2018-09-13 03:33:43.922 Detail, Node013,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:43.922 Detail, Node013,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:43.941 Detail, Node013,   Received: 0x01, 0x07, 0x00, 0x13, 0x3c, 0x00, 0x00, 0x02, 0xd5
+2018-09-13 03:33:43.941 Detail, Node013,   ZW_SEND_DATA Request with callback ID 0x3c received (expected 0x3c)
+2018-09-13 03:33:43.941 Info, Node013, Request RTT 29 Average Request RTT 29
+2018-09-13 03:33:43.941 Detail,   Expected callbackId was received
+2018-09-13 03:33:43.961 Detail, Node013,   Received: 0x01, 0x0f, 0x00, 0x04, 0x00, 0x0d, 0x09, 0x71, 0x05, 0x00, 0x00, 0x00, 0xff, 0x08, 0xfe, 0x00, 0x8d
+2018-09-13 03:33:43.961 Detail, 
+2018-09-13 03:33:43.961 Info, Node013, Response RTT 48 Average Response RTT 46
+2018-09-13 03:33:43.961 Info, Node013, Received Alarm report: type=0, level=0, sensorSrcID=0, type:Power Management event:254, status=255
+2018-09-13 03:33:43.961 Detail, Node013, Initial read of value
+2018-09-13 03:33:43.961 Detail, Node013, Initial read of value
+2018-09-13 03:33:43.961 Detail, Node013, Initial read of value
+2018-09-13 03:33:43.961 Detail, Node013, Initial read of value
+2018-09-13 03:33:43.961 Detail, Node013,   Expected reply and command class was received
+2018-09-13 03:33:43.961 Detail, Node013,   Message transaction complete
+2018-09-13 03:33:43.961 Detail, 
+2018-09-13 03:33:43.961 Detail, Node013, Removing current message
+2018-09-13 03:33:43.961 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:33:43.967 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:33:43.977 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:33:43.988 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:33:43.995 Detail, 
+2018-09-13 03:33:43.995 Info, Node015, Sending (Query) message (Callback ID=0x28, Expected Reply=0x04) - SwitchAllCmd_Get (Node=15): 0x01, 0x09, 0x00, 0x13, 0x0f, 0x02, 0x27, 0x02, 0x25, 0x28, 0xc0
+2018-09-13 03:33:44.004 Detail, Node015,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:44.004 Detail, Node015,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:44.032 Detail, Node015,   Received: 0x01, 0x07, 0x00, 0x13, 0x28, 0x00, 0x00, 0x03, 0xc0
+2018-09-13 03:33:44.032 Detail, Node015,   ZW_SEND_DATA Request with callback ID 0x28 received (expected 0x28)
+2018-09-13 03:33:44.032 Info, Node015, Request RTT 37 Average Request RTT 32
+2018-09-13 03:33:44.032 Detail,   Expected callbackId was received
+2018-09-13 03:33:44.039 Detail, Node015,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x0f, 0x03, 0x27, 0x03, 0xff, 0x25
+2018-09-13 03:33:44.039 Detail, 
+2018-09-13 03:33:44.039 Info, Node015, Response RTT 44 Average Response RTT 54
+2018-09-13 03:33:44.039 Detail, Node015, Initial read of value
+2018-09-13 03:33:44.039 Info, Node015, Received SwitchAll report from node 15: On and Off Enabled
+2018-09-13 03:33:44.039 Detail, Node015,   Expected reply and command class was received
+2018-09-13 03:33:44.040 Detail, Node015,   Message transaction complete
+2018-09-13 03:33:44.040 Detail, 
+2018-09-13 03:33:44.040 Detail, Node015, Removing current message
+2018-09-13 03:33:44.040 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:33:44.049 Detail, 
+2018-09-13 03:33:44.050 Info, Node015, Sending (Query) message (Callback ID=0x29, Expected Reply=0x04) - PowerlevelCmd_Get (Node=15): 0x01, 0x09, 0x00, 0x13, 0x0f, 0x02, 0x73, 0x02, 0x25, 0x29, 0x95
+2018-09-13 03:33:44.058 Detail, Node015,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:44.063 Detail, Node015,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:44.079 Detail, Node015,   Received: 0x01, 0x07, 0x00, 0x13, 0x29, 0x00, 0x00, 0x03, 0xc1
+2018-09-13 03:33:44.079 Detail, Node015,   ZW_SEND_DATA Request with callback ID 0x29 received (expected 0x29)
+2018-09-13 03:33:44.079 Info, Node015, Request RTT 28 Average Request RTT 30
+2018-09-13 03:33:44.079 Detail,   Expected callbackId was received
+2018-09-13 03:33:44.093 Detail, Node015,   Received: 0x01, 0x0a, 0x00, 0x04, 0x00, 0x0f, 0x04, 0x73, 0x03, 0x00, 0x00, 0x8a
+2018-09-13 03:33:44.094 Detail, 
+2018-09-13 03:33:44.094 Info, Node015, Response RTT 43 Average Response RTT 48
+2018-09-13 03:33:44.094 Info, Node015, Received a PowerLevel report: PowerLevel=Normal, Timeout=0
+2018-09-13 03:33:44.094 Detail, Node015, Initial read of value
+2018-09-13 03:33:44.094 Detail, Node015, Initial read of value
+2018-09-13 03:33:44.094 Detail, Node015,   Expected reply and command class was received
+2018-09-13 03:33:44.094 Detail, Node015,   Message transaction complete
+2018-09-13 03:33:44.094 Detail, 
+2018-09-13 03:33:44.094 Detail, Node015, Removing current message
+2018-09-13 03:33:44.094 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:33:44.106 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:33:44.131 Detail, Node015, Query Stage Complete (Session)
+2018-09-13 03:33:44.131 Detail, Node015, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Dynamic live=1
+2018-09-13 03:33:44.131 Detail, Node015, QueryStage_Dynamic
+2018-09-13 03:33:44.131 Detail, Node015, Queuing (Send) SwitchBinaryCmd_Get (Node=15): 0x01, 0x09, 0x00, 0x13, 0x0f, 0x02, 0x25, 0x02, 0x25, 0x3d, 0xd7
+2018-09-13 03:33:44.132 Detail, Node015, Queuing (Send) MeterCmd_Get (Node=15): 0x01, 0x0a, 0x00, 0x13, 0x0f, 0x03, 0x32, 0x01, 0x00, 0x25, 0x3e, 0xc2
+2018-09-13 03:33:44.132 Detail, Node015, Queuing (Send) MeterCmd_Get (Node=15): 0x01, 0x0a, 0x00, 0x13, 0x0f, 0x03, 0x32, 0x01, 0x10, 0x25, 0x3f, 0xd3
+2018-09-13 03:33:44.132 Detail, Node015, Queuing (Send) MeterCmd_Get (Node=15): 0x01, 0x0a, 0x00, 0x13, 0x0f, 0x03, 0x32, 0x01, 0x20, 0x25, 0x40, 0x9c
+2018-09-13 03:33:44.132 Detail, Node015, Queuing (Send) MeterCmd_Get (Node=15): 0x01, 0x0a, 0x00, 0x13, 0x0f, 0x03, 0x32, 0x01, 0x28, 0x25, 0x41, 0x95
+2018-09-13 03:33:44.132 Detail, Node015, Queuing (Query) Query Stage Complete (Dynamic)
+2018-09-13 03:33:44.132 Detail, 
+2018-09-13 03:33:44.132 Info, Node015, Sending (Send) message (Callback ID=0x3d, Expected Reply=0x04) - SwitchBinaryCmd_Get (Node=15): 0x01, 0x09, 0x00, 0x13, 0x0f, 0x02, 0x25, 0x02, 0x25, 0x3d, 0xd7
+2018-09-13 03:33:44.140 Detail, Node015,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:44.140 Detail, Node015,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:44.160 Detail, Node015,   Received: 0x01, 0x07, 0x00, 0x13, 0x3d, 0x00, 0x00, 0x02, 0xd4
+2018-09-13 03:33:44.160 Detail, Node015,   ZW_SEND_DATA Request with callback ID 0x3d received (expected 0x3d)
+2018-09-13 03:33:44.160 Info, Node015, Request RTT 28 Average Request RTT 29
+2018-09-13 03:33:44.160 Detail,   Expected callbackId was received
+2018-09-13 03:33:44.174 Detail, Node015,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x0f, 0x03, 0x25, 0x03, 0x00, 0xd8
+2018-09-13 03:33:44.174 Detail, 
+2018-09-13 03:33:44.174 Info, Node015, Response RTT 42 Average Response RTT 45
+2018-09-13 03:33:44.174 Info, Node015, Received SwitchBinary report from node 15: level=Off
+2018-09-13 03:33:44.175 Detail, Node015, Initial read of value
+2018-09-13 03:33:44.175 Detail, Node015,   Expected reply and command class was received
+2018-09-13 03:33:44.175 Detail, Node015,   Message transaction complete
+2018-09-13 03:33:44.175 Detail, 
+2018-09-13 03:33:44.175 Detail, Node015, Removing current message
+2018-09-13 03:33:44.175 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:33:44.181 Detail, 
+2018-09-13 03:33:44.184 Info, Node015, Sending (Send) message (Callback ID=0x3e, Expected Reply=0x04) - MeterCmd_Get (Node=15): 0x01, 0x0a, 0x00, 0x13, 0x0f, 0x03, 0x32, 0x01, 0x00, 0x25, 0x3e, 0xc2
+2018-09-13 03:33:44.192 Detail, Node015,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:44.192 Detail, Node015,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:44.213 Detail, Node015,   Received: 0x01, 0x07, 0x00, 0x13, 0x3e, 0x00, 0x00, 0x02, 0xd7
+2018-09-13 03:33:44.213 Detail, Node015,   ZW_SEND_DATA Request with callback ID 0x3e received (expected 0x3e)
+2018-09-13 03:33:44.213 Info, Node015, Request RTT 29 Average Request RTT 29
+2018-09-13 03:33:44.213 Detail,   Expected callbackId was received
+2018-09-13 03:33:44.229 Detail, Node015,   Received: 0x01, 0x14, 0x00, 0x04, 0x00, 0x0f, 0x0e, 0x32, 0x02, 0x21, 0x64, 0x00, 0x00, 0x23, 0x96, 0x00, 0x67, 0x00, 0x00, 0x23, 0x96, 0xfc
+2018-09-13 03:33:44.229 Detail, 
+2018-09-13 03:33:44.229 Info, Node015, Response RTT 45 Average Response RTT 45
+2018-09-13 03:33:44.229 Detail, Node015, Refreshed Value: old value=false, new value=false, type=bool
+2018-09-13 03:33:44.229 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:33:44.230 Info, Node015, Received Meter report from node 15: Energy=9.110kWh
+2018-09-13 03:33:44.230 Detail, Node015, Initial read of value
+2018-09-13 03:33:44.230 Info, Node015,     Previous value was 9.110kWh, received 103 seconds ago.
+2018-09-13 03:33:44.230 Detail, Node015, Initial read of value
+2018-09-13 03:33:44.230 Detail, Node015, Initial read of value
+2018-09-13 03:33:44.230 Detail, Node015,   Expected reply and command class was received
+2018-09-13 03:33:44.230 Detail, Node015,   Message transaction complete
+2018-09-13 03:33:44.230 Detail, 
+2018-09-13 03:33:44.230 Detail, Node015, Removing current message
+2018-09-13 03:33:44.230 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:33:44.236 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:33:44.243 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:33:44.250 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:33:44.255 Detail, 
+2018-09-13 03:33:44.256 Info, Node015, Sending (Send) message (Callback ID=0x3f, Expected Reply=0x04) - MeterCmd_Get (Node=15): 0x01, 0x0a, 0x00, 0x13, 0x0f, 0x03, 0x32, 0x01, 0x10, 0x25, 0x3f, 0xd3
+2018-09-13 03:33:44.263 Detail, Node015,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:44.264 Detail, Node015,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:44.285 Detail, Node015,   Received: 0x01, 0x07, 0x00, 0x13, 0x3f, 0x00, 0x00, 0x03, 0xd7
+2018-09-13 03:33:44.285 Detail, Node015,   ZW_SEND_DATA Request with callback ID 0x3f received (expected 0x3f)
+2018-09-13 03:33:44.285 Info, Node015, Request RTT 29 Average Request RTT 29
+2018-09-13 03:33:44.285 Detail,   Expected callbackId was received
+2018-09-13 03:33:44.300 Detail, Node015,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x0f, 0x0a, 0x32, 0x02, 0x21, 0x74, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x8b
+2018-09-13 03:33:44.301 Detail, 
+2018-09-13 03:33:44.301 Info, Node015, Response RTT 45 Average Response RTT 45
+2018-09-13 03:33:44.301 Detail, Node015, Refreshed Value: old value=false, new value=false, type=bool
+2018-09-13 03:33:44.301 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:33:44.301 Info, Node015, Received Meter report from node 15: Power=0.000W
+2018-09-13 03:33:44.301 Detail, Node015, Refreshed Value: old value=0.000, new value=0.000, type=decimal
+2018-09-13 03:33:44.302 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:33:44.302 Detail, Node015,   Expected reply and command class was received
+2018-09-13 03:33:44.302 Detail, Node015,   Message transaction complete
+2018-09-13 03:33:44.302 Detail, 
+2018-09-13 03:33:44.302 Detail, Node015, Removing current message
+2018-09-13 03:33:44.302 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:33:44.308 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:33:44.320 Detail, 
+2018-09-13 03:33:44.320 Info, Node015, Sending (Send) message (Callback ID=0x40, Expected Reply=0x04) - MeterCmd_Get (Node=15): 0x01, 0x0a, 0x00, 0x13, 0x0f, 0x03, 0x32, 0x01, 0x20, 0x25, 0x40, 0x9c
+2018-09-13 03:33:44.328 Detail, Node015,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:44.328 Detail, Node015,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:44.350 Detail, Node015,   Received: 0x01, 0x07, 0x00, 0x13, 0x40, 0x00, 0x00, 0x03, 0xa8
+2018-09-13 03:33:44.351 Detail, Node015,   ZW_SEND_DATA Request with callback ID 0x40 received (expected 0x40)
+2018-09-13 03:33:44.351 Info, Node015, Request RTT 30 Average Request RTT 29
+2018-09-13 03:33:44.351 Detail,   Expected callbackId was received
+2018-09-13 03:33:44.364 Detail, Node015,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x0f, 0x0a, 0x32, 0x02, 0xa1, 0x64, 0x00, 0x01, 0xd5, 0xae, 0x00, 0x00, 0x61
+2018-09-13 03:33:44.364 Detail, 
+2018-09-13 03:33:44.365 Info, Node015, Response RTT 44 Average Response RTT 44
+2018-09-13 03:33:44.365 Detail, Node015, Refreshed Value: old value=false, new value=false, type=bool
+2018-09-13 03:33:44.365 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:33:44.365 Info, Node015, Received Meter report from node 15: Voltage=120.238V
+2018-09-13 03:33:44.365 Detail, Node015, Initial read of value
+2018-09-13 03:33:44.365 Detail, Node015,   Expected reply and command class was received
+2018-09-13 03:33:44.365 Detail, Node015,   Message transaction complete
+2018-09-13 03:33:44.365 Detail, 
+2018-09-13 03:33:44.365 Detail, Node015, Removing current message
+2018-09-13 03:33:44.365 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:33:44.371 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:33:44.379 Detail, 
+2018-09-13 03:33:44.379 Info, Node015, Sending (Send) message (Callback ID=0x41, Expected Reply=0x04) - MeterCmd_Get (Node=15): 0x01, 0x0a, 0x00, 0x13, 0x0f, 0x03, 0x32, 0x01, 0x28, 0x25, 0x41, 0x95
+2018-09-13 03:33:44.387 Detail, Node015,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:44.387 Detail, Node015,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:44.411 Detail, Node015,   Received: 0x01, 0x07, 0x00, 0x13, 0x41, 0x00, 0x00, 0x03, 0xa9
+2018-09-13 03:33:44.411 Detail, Node015,   ZW_SEND_DATA Request with callback ID 0x41 received (expected 0x41)
+2018-09-13 03:33:44.411 Info, Node015, Request RTT 32 Average Request RTT 30
+2018-09-13 03:33:44.412 Detail,   Expected callbackId was received
+2018-09-13 03:33:44.424 Detail, Node015,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x0f, 0x0a, 0x32, 0x02, 0xa1, 0x6c, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x13
+2018-09-13 03:33:44.424 Detail, 
+2018-09-13 03:33:44.424 Info, Node015, Response RTT 44 Average Response RTT 44
+2018-09-13 03:33:44.424 Detail, Node015, Refreshed Value: old value=false, new value=false, type=bool
+2018-09-13 03:33:44.424 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:33:44.424 Info, Node015, Received Meter report from node 15: Current=0.000A
+2018-09-13 03:33:44.424 Detail, Node015, Initial read of value
+2018-09-13 03:33:44.424 Detail, Node015,   Expected reply and command class was received
+2018-09-13 03:33:44.424 Detail, Node015,   Message transaction complete
+2018-09-13 03:33:44.425 Detail, 
+2018-09-13 03:33:44.425 Detail, Node015, Removing current message
+2018-09-13 03:33:44.425 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:33:44.430 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:33:44.439 Detail, Node016, Query Stage Complete (Dynamic)
+2018-09-13 03:33:44.439 Detail, Node016, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Configuration live=1
+2018-09-13 03:33:44.439 Detail, Node016, QueryStage_Configuration
+2018-09-13 03:33:44.439 Detail, Node016, QueryStage_Complete
+2018-09-13 03:33:44.439 Warning, CheckCompletedNodeQueries m_allNodesQueried=0 m_awakeNodesQueried=0
+2018-09-13 03:33:44.440 Warning, CheckCompletedNodeQueries all=0, deadFound=0 sleepingOnly=0
+2018-09-13 03:33:44.440 Detail, Node016, Notification: NodeQueriesComplete
+2018-09-13 03:33:44.447 Detail, 
+2018-09-13 03:33:44.447 Info, Node017, Sending (Query) message (Callback ID=0x2b, Expected Reply=0x04) - SwitchAllCmd_Get (Node=17): 0x01, 0x09, 0x00, 0x13, 0x11, 0x02, 0x27, 0x02, 0x25, 0x2b, 0xdd
+2018-09-13 03:33:44.455 Detail, Node017,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:44.458 Detail, Node017,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:44.514 Detail, Node017,   Received: 0x01, 0x07, 0x00, 0x13, 0x2b, 0x00, 0x00, 0x07, 0xc7
+2018-09-13 03:33:44.514 Detail, Node017,   ZW_SEND_DATA Request with callback ID 0x2b received (expected 0x2b)
+2018-09-13 03:33:44.514 Info, Node017, Request RTT 67 Average Request RTT 327
+2018-09-13 03:33:44.514 Detail,   Expected callbackId was received
+2018-09-13 03:33:44.586 Detail, Node017,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x11, 0x03, 0x27, 0x03, 0xff, 0x3b
+2018-09-13 03:33:44.586 Detail, 
+2018-09-13 03:33:44.586 Info, Node017, Response RTT 139 Average Response RTT 313
+2018-09-13 03:33:44.586 Detail, Node017, Initial read of value
+2018-09-13 03:33:44.586 Info, Node017, Received SwitchAll report from node 17: On and Off Enabled
+2018-09-13 03:33:44.586 Detail, Node017,   Expected reply and command class was received
+2018-09-13 03:33:44.586 Detail, Node017,   Message transaction complete
+2018-09-13 03:33:44.586 Detail, 
+2018-09-13 03:33:44.586 Detail, Node017, Removing current message
+2018-09-13 03:33:44.586 Detail, Node017, Notification: ValueChanged
+2018-09-13 03:33:44.592 Detail, 
+2018-09-13 03:33:44.592 Info, Node017, Sending (Query) message (Callback ID=0x2c, Expected Reply=0x04) - PowerlevelCmd_Get (Node=17): 0x01, 0x09, 0x00, 0x13, 0x11, 0x02, 0x73, 0x02, 0x25, 0x2c, 0x8e
+2018-09-13 03:33:44.600 Detail, Node017,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:44.600 Detail, Node017,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:44.712 Detail, Node017,   Received: 0x01, 0x07, 0x00, 0x13, 0x2c, 0x00, 0x00, 0x0b, 0xcc
+2018-09-13 03:33:44.713 Detail, Node017,   ZW_SEND_DATA Request with callback ID 0x2c received (expected 0x2c)
+2018-09-13 03:33:44.713 Info, Node017, Request RTT 120 Average Request RTT 223
+2018-09-13 03:33:44.713 Detail,   Expected callbackId was received
+2018-09-13 03:33:44.786 Detail, Node017,   Received: 0x01, 0x0a, 0x00, 0x04, 0x00, 0x11, 0x04, 0x73, 0x03, 0x00, 0x00, 0x94
+2018-09-13 03:33:44.786 Detail, 
+2018-09-13 03:33:44.786 Info, Node017, Response RTT 194 Average Response RTT 253
+2018-09-13 03:33:44.787 Info, Node017, Received a PowerLevel report: PowerLevel=Normal, Timeout=0
+2018-09-13 03:33:44.787 Detail, Node017, Initial read of value
+2018-09-13 03:33:44.787 Detail, Node017, Initial read of value
+2018-09-13 03:33:44.787 Detail, Node017,   Expected reply and command class was received
+2018-09-13 03:33:44.787 Detail, Node017,   Message transaction complete
+2018-09-13 03:33:44.787 Detail, 
+2018-09-13 03:33:44.787 Detail, Node017, Removing current message
+2018-09-13 03:33:44.787 Detail, Node017, Notification: ValueChanged
+2018-09-13 03:33:44.792 Detail, Node017, Notification: ValueChanged
+2018-09-13 03:33:44.796 Detail, Node017, Query Stage Complete (Session)
+2018-09-13 03:33:44.796 Detail, Node017, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Dynamic live=1
+2018-09-13 03:33:44.796 Detail, Node017, QueryStage_Dynamic
+2018-09-13 03:33:44.797 Detail, Node017, Queuing (Send) SwitchBinaryCmd_Get (Node=17): 0x01, 0x09, 0x00, 0x13, 0x11, 0x02, 0x25, 0x02, 0x25, 0x42, 0xb6
+2018-09-13 03:33:44.797 Detail, Node017, Queuing (Query) Query Stage Complete (Dynamic)
+2018-09-13 03:33:44.797 Detail, 
+2018-09-13 03:33:44.797 Info, Node017, Sending (Send) message (Callback ID=0x42, Expected Reply=0x04) - SwitchBinaryCmd_Get (Node=17): 0x01, 0x09, 0x00, 0x13, 0x11, 0x02, 0x25, 0x02, 0x25, 0x42, 0xb6
+2018-09-13 03:33:44.805 Detail, Node017,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:44.805 Detail, Node017,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:44.922 Detail, Node017,   Received: 0x01, 0x07, 0x00, 0x13, 0x42, 0x00, 0x00, 0x0c, 0xa5
+2018-09-13 03:33:44.922 Detail, Node017,   ZW_SEND_DATA Request with callback ID 0x42 received (expected 0x42)
+2018-09-13 03:33:44.922 Info, Node017, Request RTT 125 Average Request RTT 174
+2018-09-13 03:33:44.922 Detail,   Expected callbackId was received
+2018-09-13 03:33:44.996 Detail, Node017,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x11, 0x03, 0x25, 0x03, 0xff, 0x39
+2018-09-13 03:33:44.996 Detail, 
+2018-09-13 03:33:44.996 Info, Node017, Response RTT 198 Average Response RTT 225
+2018-09-13 03:33:44.996 Info, Node017, Received SwitchBinary report from node 17: level=On
+2018-09-13 03:33:44.996 Detail, Node017, Initial read of value
+2018-09-13 03:33:44.996 Detail, Node017,   Expected reply and command class was received
+2018-09-13 03:33:44.996 Detail, Node017,   Message transaction complete
+2018-09-13 03:33:44.996 Detail, 
+2018-09-13 03:33:44.996 Detail, Node017, Removing current message
+2018-09-13 03:33:44.996 Detail, Node017, Notification: ValueChanged
+2018-09-13 03:33:45.001 Detail, 
+2018-09-13 03:33:45.001 Info, Node018, Sending (Query) message (Callback ID=0x2d, Expected Reply=0x04) - SwitchAllCmd_Get (Node=18): 0x01, 0x09, 0x00, 0x13, 0x12, 0x02, 0x27, 0x02, 0x25, 0x2d, 0xd8
+2018-09-13 03:33:45.010 Detail, Node018,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:45.010 Detail, Node018,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:45.104 Detail, Node018,   Received: 0x01, 0x07, 0x00, 0x13, 0x2d, 0x00, 0x00, 0x0a, 0xcc
+2018-09-13 03:33:45.104 Detail, Node018,   ZW_SEND_DATA Request with callback ID 0x2d received (expected 0x2d)
+2018-09-13 03:33:45.104 Info, Node018, Request RTT 102 Average Request RTT 92
+2018-09-13 03:33:45.104 Detail,   Expected callbackId was received
+2018-09-13 03:33:45.173 Detail, Node018,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x12, 0x03, 0x27, 0x03, 0xff, 0x38
+2018-09-13 03:33:45.173 Detail, 
+2018-09-13 03:33:45.173 Info, Node018, Response RTT 171 Average Response RTT 178
+2018-09-13 03:33:45.173 Detail, Node018, Initial read of value
+2018-09-13 03:33:45.173 Info, Node018, Received SwitchAll report from node 18: On and Off Enabled
+2018-09-13 03:33:45.173 Detail, Node018,   Expected reply and command class was received
+2018-09-13 03:33:45.173 Detail, Node018,   Message transaction complete
+2018-09-13 03:33:45.173 Detail, 
+2018-09-13 03:33:45.173 Detail, Node018, Removing current message
+2018-09-13 03:33:45.173 Detail, Node018, Notification: ValueChanged
+2018-09-13 03:33:45.181 Detail, 
+2018-09-13 03:33:45.181 Info, Node018, Sending (Query) message (Callback ID=0x2e, Expected Reply=0x04) - PowerlevelCmd_Get (Node=18): 0x01, 0x09, 0x00, 0x13, 0x12, 0x02, 0x73, 0x02, 0x25, 0x2e, 0x8f
+2018-09-13 03:33:45.189 Detail, Node018,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:45.192 Detail, Node018,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:45.285 Detail, Node018,   Received: 0x01, 0x07, 0x00, 0x13, 0x2e, 0x00, 0x00, 0x0a, 0xcf
+2018-09-13 03:33:45.285 Detail, Node018,   ZW_SEND_DATA Request with callback ID 0x2e received (expected 0x2e)
+2018-09-13 03:33:45.285 Info, Node018, Request RTT 103 Average Request RTT 97
+2018-09-13 03:33:45.285 Detail,   Expected callbackId was received
+2018-09-13 03:33:45.353 Detail, Node018,   Received: 0x01, 0x0a, 0x00, 0x04, 0x00, 0x12, 0x04, 0x73, 0x03, 0x00, 0x00, 0x97
+2018-09-13 03:33:45.354 Detail, 
+2018-09-13 03:33:45.354 Info, Node018, Response RTT 171 Average Response RTT 174
+2018-09-13 03:33:45.354 Info, Node018, Received a PowerLevel report: PowerLevel=Normal, Timeout=0
+2018-09-13 03:33:45.354 Detail, Node018, Initial read of value
+2018-09-13 03:33:45.354 Detail, Node018, Initial read of value
+2018-09-13 03:33:45.354 Detail, Node018,   Expected reply and command class was received
+2018-09-13 03:33:45.354 Detail, Node018,   Message transaction complete
+2018-09-13 03:33:45.354 Detail, 
+2018-09-13 03:33:45.354 Detail, Node018, Removing current message
+2018-09-13 03:33:45.354 Detail, Node018, Notification: ValueChanged
+2018-09-13 03:33:45.359 Detail, Node018, Notification: ValueChanged
+2018-09-13 03:33:45.365 Detail, Node018, Query Stage Complete (Session)
+2018-09-13 03:33:45.365 Detail, Node018, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Dynamic live=1
+2018-09-13 03:33:45.365 Detail, Node018, QueryStage_Dynamic
+2018-09-13 03:33:45.365 Detail, Node018, Queuing (Send) SwitchBinaryCmd_Get (Node=18): 0x01, 0x09, 0x00, 0x13, 0x12, 0x02, 0x25, 0x02, 0x25, 0x43, 0xb4
+2018-09-13 03:33:45.365 Detail, Node018, Queuing (Query) Query Stage Complete (Dynamic)
+2018-09-13 03:33:45.365 Detail, 
+2018-09-13 03:33:45.365 Info, Node018, Sending (Send) message (Callback ID=0x43, Expected Reply=0x04) - SwitchBinaryCmd_Get (Node=18): 0x01, 0x09, 0x00, 0x13, 0x12, 0x02, 0x25, 0x02, 0x25, 0x43, 0xb4
+2018-09-13 03:33:45.374 Detail, Node018,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:45.374 Detail, Node018,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:45.476 Detail, Node018,   Received: 0x01, 0x07, 0x00, 0x13, 0x43, 0x00, 0x00, 0x0b, 0xa3
+2018-09-13 03:33:45.476 Detail, Node018,   ZW_SEND_DATA Request with callback ID 0x43 received (expected 0x43)
+2018-09-13 03:33:45.476 Info, Node018, Request RTT 110 Average Request RTT 103
+2018-09-13 03:33:45.476 Detail,   Expected callbackId was received
+2018-09-13 03:33:45.503 Detail, Node018,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x12, 0x03, 0x25, 0x03, 0xff, 0x3a
+2018-09-13 03:33:45.503 Detail, 
+2018-09-13 03:33:45.503 Info, Node018, Response RTT 137 Average Response RTT 155
+2018-09-13 03:33:45.503 Info, Node018, Received SwitchBinary report from node 18: level=On
+2018-09-13 03:33:45.503 Detail, Node018, Initial read of value
+2018-09-13 03:33:45.503 Detail, Node018,   Expected reply and command class was received
+2018-09-13 03:33:45.503 Detail, Node018,   Message transaction complete
+2018-09-13 03:33:45.503 Detail, 
+2018-09-13 03:33:45.503 Detail, Node018, Removing current message
+2018-09-13 03:33:45.503 Detail, Node018, Notification: ValueChanged
+2018-09-13 03:33:45.511 Detail, 
+2018-09-13 03:33:45.511 Info, Node019, Sending (Query) message (Callback ID=0x2f, Expected Reply=0x04) - SwitchAllCmd_Get (Node=19): 0x01, 0x09, 0x00, 0x13, 0x13, 0x02, 0x27, 0x02, 0x25, 0x2f, 0xdb
+2018-09-13 03:33:45.519 Detail, Node019,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:45.520 Detail, Node019,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:45.595 Detail, Node019,   Received: 0x01, 0x07, 0x00, 0x13, 0x2f, 0x00, 0x00, 0x08, 0xcc
+2018-09-13 03:33:45.595 Detail, Node019,   ZW_SEND_DATA Request with callback ID 0x2f received (expected 0x2f)
+2018-09-13 03:33:45.595 Info, Node019, Request RTT 84 Average Request RTT 72
+2018-09-13 03:33:45.596 Detail,   Expected callbackId was received
+2018-09-13 03:33:45.610 Detail, Node019,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x13, 0x03, 0x27, 0x03, 0xff, 0x39
+2018-09-13 03:33:45.610 Detail, 
+2018-09-13 03:33:45.610 Info, Node019, Response RTT 99 Average Response RTT 99
+2018-09-13 03:33:45.611 Detail, Node019, Initial read of value
+2018-09-13 03:33:45.611 Info, Node019, Received SwitchAll report from node 19: On and Off Enabled
+2018-09-13 03:33:45.611 Detail, Node019,   Expected reply and command class was received
+2018-09-13 03:33:45.611 Detail, Node019,   Message transaction complete
+2018-09-13 03:33:45.611 Detail, 
+2018-09-13 03:33:45.611 Detail, Node019, Removing current message
+2018-09-13 03:33:45.611 Detail, Node019, Notification: ValueChanged
+2018-09-13 03:33:45.638 Detail, 
+2018-09-13 03:33:45.638 Info, Node019, Sending (Query) message (Callback ID=0x30, Expected Reply=0x04) - PowerlevelCmd_Get (Node=19): 0x01, 0x09, 0x00, 0x13, 0x13, 0x02, 0x73, 0x02, 0x25, 0x30, 0x90
+2018-09-13 03:33:45.648 Detail, Node019,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:45.648 Detail, Node019,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:45.668 Detail, Node019,   Received: 0x01, 0x07, 0x00, 0x13, 0x30, 0x00, 0x00, 0x03, 0xd8
+2018-09-13 03:33:45.668 Detail, Node019,   ZW_SEND_DATA Request with callback ID 0x30 received (expected 0x30)
+2018-09-13 03:33:45.668 Info, Node019, Request RTT 29 Average Request RTT 50
+2018-09-13 03:33:45.668 Detail,   Expected callbackId was received
+2018-09-13 03:33:45.683 Detail, Node019,   Received: 0x01, 0x0a, 0x00, 0x04, 0x00, 0x13, 0x04, 0x73, 0x03, 0x00, 0x00, 0x96
+2018-09-13 03:33:45.683 Detail, 
+2018-09-13 03:33:45.683 Info, Node019, Response RTT 44 Average Response RTT 71
+2018-09-13 03:33:45.683 Info, Node019, Received a PowerLevel report: PowerLevel=Normal, Timeout=0
+2018-09-13 03:33:45.683 Detail, Node019, Initial read of value
+2018-09-13 03:33:45.683 Detail, Node019, Initial read of value
+2018-09-13 03:33:45.683 Detail, Node019,   Expected reply and command class was received
+2018-09-13 03:33:45.683 Detail, Node019,   Message transaction complete
+2018-09-13 03:33:45.683 Detail, 
+2018-09-13 03:33:45.683 Detail, Node019, Removing current message
+2018-09-13 03:33:45.683 Detail, Node019, Notification: ValueChanged
+2018-09-13 03:33:45.688 Detail, Node019, Notification: ValueChanged
+2018-09-13 03:33:45.694 Detail, 
+2018-09-13 03:33:45.695 Info, Node019, Sending (Query) message (Callback ID=0x31, Expected Reply=0x04) - ProtectionCmd_Get (Node=19): 0x01, 0x09, 0x00, 0x13, 0x13, 0x02, 0x75, 0x02, 0x25, 0x31, 0x97
+2018-09-13 03:33:45.703 Detail, Node019,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:45.709 Detail, Node019,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:45.725 Detail, Node019,   Received: 0x01, 0x07, 0x00, 0x13, 0x31, 0x00, 0x00, 0x03, 0xd9
+2018-09-13 03:33:45.725 Detail, Node019,   ZW_SEND_DATA Request with callback ID 0x31 received (expected 0x31)
+2018-09-13 03:33:45.725 Info, Node019, Request RTT 30 Average Request RTT 40
+2018-09-13 03:33:45.725 Detail,   Expected callbackId was received
+2018-09-13 03:33:45.740 Detail, Node019,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x13, 0x03, 0x75, 0x03, 0x00, 0x94
+2018-09-13 03:33:45.740 Detail, 
+2018-09-13 03:33:45.740 Info, Node019, Response RTT 45 Average Response RTT 58
+2018-09-13 03:33:45.740 Info, Node019, Received a Protection report: Unprotected
+2018-09-13 03:33:45.740 Detail, Node019, Initial read of value
+2018-09-13 03:33:45.740 Detail, Node019,   Expected reply and command class was received
+2018-09-13 03:33:45.740 Detail, Node019,   Message transaction complete
+2018-09-13 03:33:45.740 Detail, 
+2018-09-13 03:33:45.740 Detail, Node019, Removing current message
+2018-09-13 03:33:45.740 Detail, Node019, Notification: ValueChanged
+2018-09-13 03:33:45.745 Detail, 
+2018-09-13 03:33:45.745 Info, Node019, Sending (Query) message (Callback ID=0x32, Expected Reply=0x04) - NodeNamingCmd_Get (Node=19): 0x01, 0x09, 0x00, 0x13, 0x13, 0x02, 0x77, 0x02, 0x25, 0x32, 0x96
+2018-09-13 03:33:45.754 Detail, Node019,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:45.754 Detail, Node019,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:45.775 Detail, Node019,   Received: 0x01, 0x07, 0x00, 0x13, 0x32, 0x00, 0x00, 0x03, 0xda
+2018-09-13 03:33:45.775 Detail, Node019,   ZW_SEND_DATA Request with callback ID 0x32 received (expected 0x32)
+2018-09-13 03:33:45.775 Info, Node019, Request RTT 30 Average Request RTT 35
+2018-09-13 03:33:45.775 Detail,   Expected callbackId was received
+2018-09-13 03:33:45.790 Detail, Node019,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x13, 0x03, 0x77, 0x03, 0x00, 0x96
+2018-09-13 03:33:45.790 Detail, 
+2018-09-13 03:33:45.790 Info, Node019, Response RTT 45 Average Response RTT 51
+2018-09-13 03:33:45.790 Info, Node019, Received the name: .
+2018-09-13 03:33:45.791 Detail, Node019,   Expected reply and command class was received
+2018-09-13 03:33:45.791 Detail, Node019,   Message transaction complete
+2018-09-13 03:33:45.791 Detail, 
+2018-09-13 03:33:45.791 Detail, Node019, Removing current message
+2018-09-13 03:33:45.791 Detail, Node019, Notification: NodeNaming
+2018-09-13 03:33:45.794 Detail, 
+2018-09-13 03:33:45.794 Info, Node019, Sending (Query) message (Callback ID=0x33, Expected Reply=0x04) - NodeNamingCmd_LocationGet (Node=19): 0x01, 0x09, 0x00, 0x13, 0x13, 0x02, 0x77, 0x05, 0x25, 0x33, 0x90
+2018-09-13 03:33:45.802 Detail, Node019,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:45.802 Detail, Node019,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:45.824 Detail, Node019,   Received: 0x01, 0x07, 0x00, 0x13, 0x33, 0x00, 0x00, 0x03, 0xdb
+2018-09-13 03:33:45.825 Detail, Node019,   ZW_SEND_DATA Request with callback ID 0x33 received (expected 0x33)
+2018-09-13 03:33:45.825 Info, Node019, Request RTT 31 Average Request RTT 33
+2018-09-13 03:33:45.825 Detail,   Expected callbackId was received
+2018-09-13 03:33:45.840 Detail, Node019,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x13, 0x03, 0x77, 0x06, 0x00, 0x93
+2018-09-13 03:33:45.840 Detail, 
+2018-09-13 03:33:45.840 Info, Node019, Response RTT 45 Average Response RTT 48
+2018-09-13 03:33:45.840 Info, Node019, Received the location: .
+2018-09-13 03:33:45.840 Detail, Node019,   Expected reply and command class was received
+2018-09-13 03:33:45.840 Detail, Node019,   Message transaction complete
+2018-09-13 03:33:45.840 Detail, 
+2018-09-13 03:33:45.840 Detail, Node019, Removing current message
+2018-09-13 03:33:45.840 Detail, Node019, Notification: NodeNaming
+2018-09-13 03:33:45.842 Detail, Node019, Query Stage Complete (Session)
+2018-09-13 03:33:45.842 Detail, Node019, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Dynamic live=1
+2018-09-13 03:33:45.842 Detail, Node019, QueryStage_Dynamic
+2018-09-13 03:33:45.842 Detail, Node019, Queuing (Send) SwitchBinaryCmd_Get (Node=19): 0x01, 0x09, 0x00, 0x13, 0x13, 0x02, 0x25, 0x02, 0x25, 0x44, 0xb2
+2018-09-13 03:33:45.842 Detail, Node019, Queuing (Query) Query Stage Complete (Dynamic)
+2018-09-13 03:33:45.843 Detail, 
+2018-09-13 03:33:45.843 Info, Node019, Sending (Send) message (Callback ID=0x44, Expected Reply=0x04) - SwitchBinaryCmd_Get (Node=19): 0x01, 0x09, 0x00, 0x13, 0x13, 0x02, 0x25, 0x02, 0x25, 0x44, 0xb2
+2018-09-13 03:33:45.851 Detail, Node019,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:45.851 Detail, Node019,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:45.872 Detail, Node019,   Received: 0x01, 0x07, 0x00, 0x13, 0x44, 0x00, 0x00, 0x02, 0xad
+2018-09-13 03:33:45.873 Detail, Node019,   ZW_SEND_DATA Request with callback ID 0x44 received (expected 0x44)
+2018-09-13 03:33:45.873 Info, Node019, Request RTT 29 Average Request RTT 31
+2018-09-13 03:33:45.873 Detail,   Expected callbackId was received
+2018-09-13 03:33:45.887 Detail, Node019,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x13, 0x03, 0x25, 0x03, 0xff, 0x3b
+2018-09-13 03:33:45.888 Detail, 
+2018-09-13 03:33:45.888 Info, Node019, Response RTT 44 Average Response RTT 46
+2018-09-13 03:33:45.888 Info, Node019, Received SwitchBinary report from node 19: level=On
+2018-09-13 03:33:45.888 Detail, Node019, Initial read of value
+2018-09-13 03:33:45.888 Detail, Node019,   Expected reply and command class was received
+2018-09-13 03:33:45.888 Detail, Node019,   Message transaction complete
+2018-09-13 03:33:45.888 Detail, 
+2018-09-13 03:33:45.888 Detail, Node019, Removing current message
+2018-09-13 03:33:45.888 Detail, Node019, Notification: ValueChanged
+2018-09-13 03:33:45.899 Detail, 
+2018-09-13 03:33:45.899 Info, Node021, Sending (Query) message (Callback ID=0x34, Expected Reply=0x04) - SwitchAllCmd_Get (Node=21): 0x01, 0x09, 0x00, 0x13, 0x15, 0x02, 0x27, 0x02, 0x25, 0x34, 0xc6
+2018-09-13 03:33:45.907 Detail, Node021,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:45.907 Detail, Node021,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:45.955 Detail, Node021,   Received: 0x01, 0x07, 0x00, 0x13, 0x34, 0x00, 0x00, 0x06, 0xd9
+2018-09-13 03:33:45.956 Detail, Node021,   ZW_SEND_DATA Request with callback ID 0x34 received (expected 0x34)
+2018-09-13 03:33:45.956 Info, Node021, Request RTT 56 Average Request RTT 101
+2018-09-13 03:33:45.956 Detail,   Expected callbackId was received
+2018-09-13 03:33:46.004 Detail, Node021,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x15, 0x03, 0x27, 0x03, 0xff, 0x3f
+2018-09-13 03:33:46.005 Detail, 
+2018-09-13 03:33:46.005 Info, Node021, Response RTT 106 Average Response RTT 125
+2018-09-13 03:33:46.005 Detail, Node021, Initial read of value
+2018-09-13 03:33:46.005 Info, Node021, Received SwitchAll report from node 21: On and Off Enabled
+2018-09-13 03:33:46.005 Detail, Node021,   Expected reply and command class was received
+2018-09-13 03:33:46.005 Detail, Node021,   Message transaction complete
+2018-09-13 03:33:46.005 Detail, 
+2018-09-13 03:33:46.005 Detail, Node021, Removing current message
+2018-09-13 03:33:46.005 Detail, Node021, Notification: ValueChanged
+2018-09-13 03:33:46.012 Detail, 
+2018-09-13 03:33:46.012 Info, Node021, Sending (Query) message (Callback ID=0x35, Expected Reply=0x04) - PowerlevelCmd_Get (Node=21): 0x01, 0x09, 0x00, 0x13, 0x15, 0x02, 0x73, 0x02, 0x25, 0x35, 0x93
+2018-09-13 03:33:46.021 Detail, Node021,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:46.021 Detail, Node021,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:46.130 Detail, Node021,   Received: 0x01, 0x07, 0x00, 0x13, 0x35, 0x00, 0x00, 0x0b, 0xd5
+2018-09-13 03:33:46.130 Detail, Node021,   ZW_SEND_DATA Request with callback ID 0x35 received (expected 0x35)
+2018-09-13 03:33:46.130 Info, Node021, Request RTT 118 Average Request RTT 109
+2018-09-13 03:33:46.130 Detail,   Expected callbackId was received
+2018-09-13 03:33:46.182 Detail, Node021,   Received: 0x01, 0x0a, 0x00, 0x04, 0x00, 0x15, 0x04, 0x73, 0x03, 0x00, 0x00, 0x90
+2018-09-13 03:33:46.182 Detail, 
+2018-09-13 03:33:46.182 Info, Node021, Response RTT 169 Average Response RTT 147
+2018-09-13 03:33:46.182 Info, Node021, Received a PowerLevel report: PowerLevel=Normal, Timeout=0
+2018-09-13 03:33:46.182 Detail, Node021, Initial read of value
+2018-09-13 03:33:46.182 Detail, Node021, Initial read of value
+2018-09-13 03:33:46.182 Detail, Node021,   Expected reply and command class was received
+2018-09-13 03:33:46.182 Detail, Node021,   Message transaction complete
+2018-09-13 03:33:46.182 Detail, 
+2018-09-13 03:33:46.182 Detail, Node021, Removing current message
+2018-09-13 03:33:46.182 Detail, Node021, Notification: ValueChanged
+2018-09-13 03:33:46.188 Detail, Node021, Notification: ValueChanged
+2018-09-13 03:33:46.192 Detail, Node021, Query Stage Complete (Session)
+2018-09-13 03:33:46.192 Detail, Node021, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Dynamic live=1
+2018-09-13 03:33:46.192 Detail, Node021, QueryStage_Dynamic
+2018-09-13 03:33:46.192 Detail, Node021, Queuing (Send) SwitchMultilevelCmd_Get (Node=21): 0x01, 0x09, 0x00, 0x13, 0x15, 0x02, 0x26, 0x02, 0x25, 0x45, 0xb6
+2018-09-13 03:33:46.192 Detail, Node021, Queuing (Query) Query Stage Complete (Dynamic)
+2018-09-13 03:33:46.193 Detail, 
+2018-09-13 03:33:46.193 Info, Node021, Sending (Send) message (Callback ID=0x45, Expected Reply=0x04) - SwitchMultilevelCmd_Get (Node=21): 0x01, 0x09, 0x00, 0x13, 0x15, 0x02, 0x26, 0x02, 0x25, 0x45, 0xb6
+2018-09-13 03:33:46.201 Detail, Node021,   Received: 0x01, 0x04, 0x01, 0x13, 0x01, 0xe8
+2018-09-13 03:33:46.201 Detail, Node021,   ZW_SEND_DATA delivered to Z-Wave stack
+2018-09-13 03:33:46.311 Detail, Node021,   Received: 0x01, 0x07, 0x00, 0x13, 0x45, 0x00, 0x00, 0x0b, 0xa5
+2018-09-13 03:33:46.311 Detail, Node021,   ZW_SEND_DATA Request with callback ID 0x45 received (expected 0x45)
+2018-09-13 03:33:46.311 Info, Node021, Request RTT 118 Average Request RTT 113
+2018-09-13 03:33:46.311 Detail,   Expected callbackId was received
+2018-09-13 03:33:46.361 Detail, Node021,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x15, 0x03, 0x26, 0x03, 0x00, 0xc1
+2018-09-13 03:33:46.362 Detail, 
+2018-09-13 03:33:46.362 Info, Node021, Response RTT 169 Average Response RTT 158
+2018-09-13 03:33:46.362 Info, Node021, Received SwitchMultiLevel report: level=0
+2018-09-13 03:33:46.362 Detail, Node021, Initial read of value
+2018-09-13 03:33:46.362 Detail, Node021,   Expected reply and command class was received
+2018-09-13 03:33:46.362 Detail, Node021,   Message transaction complete
+2018-09-13 03:33:46.363 Detail, 
+2018-09-13 03:33:46.363 Detail, Node021, Removing current message
+2018-09-13 03:33:46.363 Detail, Node021, Notification: ValueChanged
+2018-09-13 03:33:46.381 Detail, Node022, Query Stage Complete (Dynamic)
+2018-09-13 03:33:46.381 Detail, Node022, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Configuration live=1
+2018-09-13 03:33:46.381 Detail, Node022, QueryStage_Configuration
+2018-09-13 03:33:46.381 Detail, Node022, QueryStage_Complete
+2018-09-13 03:33:46.381 Warning, CheckCompletedNodeQueries m_allNodesQueried=0 m_awakeNodesQueried=0
+2018-09-13 03:33:46.381 Warning, CheckCompletedNodeQueries all=0, deadFound=0 sleepingOnly=0
+2018-09-13 03:33:46.381 Detail, Node022, Notification: NodeQueriesComplete
+2018-09-13 03:33:46.386 Detail, Node013, Query Stage Complete (Dynamic)
+2018-09-13 03:33:46.387 Detail, Node013, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Configuration live=1
+2018-09-13 03:33:46.387 Detail, Node013, QueryStage_Configuration
+2018-09-13 03:33:46.387 Detail, Node013, QueryStage_Complete
+2018-09-13 03:33:46.387 Warning, CheckCompletedNodeQueries m_allNodesQueried=0 m_awakeNodesQueried=0
+2018-09-13 03:33:46.387 Warning, CheckCompletedNodeQueries all=0, deadFound=0 sleepingOnly=0
+2018-09-13 03:33:46.389 Detail, Node013, Notification: NodeQueriesComplete
+2018-09-13 03:33:46.397 Detail, Node015, Query Stage Complete (Dynamic)
+2018-09-13 03:33:46.397 Detail, Node015, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Configuration live=1
+2018-09-13 03:33:46.397 Detail, Node015, QueryStage_Configuration
+2018-09-13 03:33:46.397 Detail, Node015, QueryStage_Complete
+2018-09-13 03:33:46.397 Warning, CheckCompletedNodeQueries m_allNodesQueried=0 m_awakeNodesQueried=0
+2018-09-13 03:33:46.397 Warning, CheckCompletedNodeQueries all=0, deadFound=0 sleepingOnly=0
+2018-09-13 03:33:46.397 Detail, Node015, Notification: NodeQueriesComplete
+2018-09-13 03:33:46.407 Detail, Node017, Query Stage Complete (Dynamic)
+2018-09-13 03:33:46.407 Detail, Node017, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Configuration live=1
+2018-09-13 03:33:46.408 Detail, Node017, QueryStage_Configuration
+2018-09-13 03:33:46.408 Detail, Node017, QueryStage_Complete
+2018-09-13 03:33:46.408 Warning, CheckCompletedNodeQueries m_allNodesQueried=0 m_awakeNodesQueried=0
+2018-09-13 03:33:46.408 Warning, CheckCompletedNodeQueries all=0, deadFound=0 sleepingOnly=0
+2018-09-13 03:33:46.408 Detail, Node017, Notification: NodeQueriesComplete
+2018-09-13 03:33:46.413 Detail, Node018, Query Stage Complete (Dynamic)
+2018-09-13 03:33:46.413 Detail, Node018, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Configuration live=1
+2018-09-13 03:33:46.413 Detail, Node018, QueryStage_Configuration
+2018-09-13 03:33:46.413 Detail, Node018, QueryStage_Complete
+2018-09-13 03:33:46.413 Warning, CheckCompletedNodeQueries m_allNodesQueried=0 m_awakeNodesQueried=0
+2018-09-13 03:33:46.413 Warning, CheckCompletedNodeQueries all=0, deadFound=0 sleepingOnly=0
+2018-09-13 03:33:46.414 Detail, Node018, Notification: NodeQueriesComplete
+2018-09-13 03:33:46.418 Detail, Node019, Query Stage Complete (Dynamic)
+2018-09-13 03:33:46.418 Detail, Node019, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Configuration live=1
+2018-09-13 03:33:46.418 Detail, Node019, QueryStage_Configuration
+2018-09-13 03:33:46.418 Detail, Node019, QueryStage_Complete
+2018-09-13 03:33:46.419 Warning, CheckCompletedNodeQueries m_allNodesQueried=0 m_awakeNodesQueried=0
+2018-09-13 03:33:46.419 Warning, CheckCompletedNodeQueries all=0, deadFound=0 sleepingOnly=0
+2018-09-13 03:33:46.419 Detail, Node019, Notification: NodeQueriesComplete
+2018-09-13 03:33:46.424 Detail, Node021, Query Stage Complete (Dynamic)
+2018-09-13 03:33:46.427 Detail, Node021, AdvanceQueries queryPending=0 queryRetries=0 queryStage=Configuration live=1
+2018-09-13 03:33:46.427 Detail, Node021, QueryStage_Configuration
+2018-09-13 03:33:46.427 Detail, Node021, QueryStage_Complete
+2018-09-13 03:33:46.427 Warning, CheckCompletedNodeQueries m_allNodesQueried=0 m_awakeNodesQueried=0
+2018-09-13 03:33:46.427 Warning, CheckCompletedNodeQueries all=1, deadFound=0 sleepingOnly=1
+2018-09-13 03:33:46.427 Info,          Node query processing complete.
+2018-09-13 03:33:46.427 Detail, Node021, Notification: NodeQueriesComplete
+2018-09-13 03:33:46.432 Detail, contrlr, Notification: AllNodesQueried
+2018-09-13 03:34:00.718 Detail, Node015,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x0f, 0x0a, 0x32, 0x02, 0x21, 0x74, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x8b
+2018-09-13 03:34:00.718 Detail, 
+2018-09-13 03:34:00.718 Detail, Node015, Refreshed Value: old value=false, new value=false, type=bool
+2018-09-13 03:34:00.718 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:34:00.718 Info, Node015, Received Meter report from node 15: Power=0.000W
+2018-09-13 03:34:00.719 Detail, Node015, Refreshed Value: old value=0.000, new value=0.000, type=decimal
+2018-09-13 03:34:00.719 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:34:00.719 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:34:00.730 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:34:30.718 Detail, Node015,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x0f, 0x0a, 0x32, 0x02, 0x21, 0x74, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x8b
+2018-09-13 03:34:30.718 Detail, 
+2018-09-13 03:34:30.719 Detail, Node015, Refreshed Value: old value=false, new value=false, type=bool
+2018-09-13 03:34:30.719 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:34:30.719 Info, Node015, Received Meter report from node 15: Power=0.000W
+2018-09-13 03:34:30.719 Detail, Node015, Refreshed Value: old value=0.000, new value=0.000, type=decimal
+2018-09-13 03:34:30.719 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:34:30.719 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:34:30.731 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:35:00.718 Detail, Node015,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x0f, 0x0a, 0x32, 0x02, 0x21, 0x74, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x8b
+2018-09-13 03:35:00.718 Detail, 
+2018-09-13 03:35:00.722 Detail, Node015, Refreshed Value: old value=false, new value=false, type=bool
+2018-09-13 03:35:00.722 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:35:00.722 Info, Node015, Received Meter report from node 15: Power=0.000W
+2018-09-13 03:35:00.722 Detail, Node015, Refreshed Value: old value=0.000, new value=0.000, type=decimal
+2018-09-13 03:35:00.722 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:35:00.722 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:35:00.734 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:35:30.718 Detail, Node015,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x0f, 0x0a, 0x32, 0x02, 0x21, 0x74, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x8b
+2018-09-13 03:35:30.719 Detail, 
+2018-09-13 03:35:30.719 Detail, Node015, Refreshed Value: old value=false, new value=false, type=bool
+2018-09-13 03:35:30.719 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:35:30.719 Info, Node015, Received Meter report from node 15: Power=0.000W
+2018-09-13 03:35:30.719 Detail, Node015, Refreshed Value: old value=0.000, new value=0.000, type=decimal
+2018-09-13 03:35:30.719 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:35:30.719 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:35:30.731 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:36:00.718 Detail, Node015,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x0f, 0x0a, 0x32, 0x02, 0x21, 0x74, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x8b
+2018-09-13 03:36:00.718 Detail, 
+2018-09-13 03:36:00.718 Detail, Node015, Refreshed Value: old value=false, new value=false, type=bool
+2018-09-13 03:36:00.718 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:36:00.719 Info, Node015, Received Meter report from node 15: Power=0.000W
+2018-09-13 03:36:00.719 Detail, Node015, Refreshed Value: old value=0.000, new value=0.000, type=decimal
+2018-09-13 03:36:00.719 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:36:00.719 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:36:00.730 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:36:30.718 Detail, Node015,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x0f, 0x0a, 0x32, 0x02, 0x21, 0x74, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x8b
+2018-09-13 03:36:30.718 Detail, 
+2018-09-13 03:36:30.718 Detail, Node015, Refreshed Value: old value=false, new value=false, type=bool
+2018-09-13 03:36:30.718 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:36:30.718 Info, Node015, Received Meter report from node 15: Power=0.000W
+2018-09-13 03:36:30.718 Detail, Node015, Refreshed Value: old value=0.000, new value=0.000, type=decimal
+2018-09-13 03:36:30.718 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:36:30.718 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:36:30.723 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:36:35.150 Detail, Node013,   Received: 0x01, 0x14, 0x00, 0x04, 0x00, 0x0d, 0x0e, 0x32, 0x02, 0x21, 0x44, 0x00, 0x00, 0x00, 0x01, 0x00, 0xad, 0x00, 0x00, 0x00, 0x01, 0x14
+2018-09-13 03:36:35.150 Detail, 
+2018-09-13 03:36:35.150 Detail, Node013, Refreshed Value: old value=false, new value=false, type=bool
+2018-09-13 03:36:35.150 Detail, Node013, Changes to this value are not verified
+2018-09-13 03:36:35.150 Info, Node013, Received Meter report from node 13: Energy=0.01kWh
+2018-09-13 03:36:35.150 Detail, Node013, Refreshed Value: old value=0.01, new value=0.01, type=decimal
+2018-09-13 03:36:35.150 Detail, Node013, Changes to this value are not verified
+2018-09-13 03:36:35.151 Info, Node013,     Previous value was 0.01, received 173 seconds ago.
+2018-09-13 03:36:35.151 Detail, Node013, Refreshed Value: old value=0.01, new value=0.01, type=decimal
+2018-09-13 03:36:35.151 Detail, Node013, Changes to this value are not verified
+2018-09-13 03:36:35.151 Detail, Node013, Refreshed Value: old value=129, new value=173, type=int
+2018-09-13 03:36:35.151 Detail, Node013, Changes to this value are not verified
+2018-09-13 03:36:35.151 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:36:35.165 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:36:35.178 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:36:35.191 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:36:36.101 Detail, Node013,   Received: 0x01, 0x14, 0x00, 0x04, 0x00, 0x0d, 0x0e, 0x32, 0x02, 0x21, 0x54, 0x00, 0x00, 0x00, 0x00, 0x00, 0xad, 0x00, 0x00, 0x00, 0x00, 0x04
+2018-09-13 03:36:36.101 Detail, 
+2018-09-13 03:36:36.101 Detail, Node013, Refreshed Value: old value=false, new value=false, type=bool
+2018-09-13 03:36:36.101 Detail, Node013, Changes to this value are not verified
+2018-09-13 03:36:36.101 Info, Node013, Received Meter report from node 13: Power=0.00W
+2018-09-13 03:36:36.101 Detail, Node013, Refreshed Value: old value=0.00, new value=0.00, type=decimal
+2018-09-13 03:36:36.101 Detail, Node013, Changes to this value are not verified
+2018-09-13 03:36:36.102 Info, Node013,     Previous value was 0.00W, received 173 seconds ago.
+2018-09-13 03:36:36.102 Detail, Node013, Refreshed Value: old value=0.00, new value=0.00, type=decimal
+2018-09-13 03:36:36.102 Detail, Node013, Changes to this value are not verified
+2018-09-13 03:36:36.102 Detail, Node013, Refreshed Value: old value=129, new value=173, type=int
+2018-09-13 03:36:36.102 Detail, Node013, Changes to this value are not verified
+2018-09-13 03:36:36.102 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:36:36.115 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:36:36.137 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:36:36.154 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:36:37.100 Detail, Node013,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x0d, 0x0a, 0x32, 0x02, 0xa1, 0x42, 0x30, 0x4a, 0x00, 0xad, 0x30, 0x21, 0xf9
+2018-09-13 03:36:37.101 Detail, 
+2018-09-13 03:36:37.101 Detail, Node013, Refreshed Value: old value=false, new value=false, type=bool
+2018-09-13 03:36:37.101 Detail, Node013, Changes to this value are not verified
+2018-09-13 03:36:37.101 Info, Node013, Received Meter report from node 13: Voltage=123.62V
+2018-09-13 03:36:37.101 Detail, Node013, Refreshed Value: old value=123.21, new value=123.62, type=decimal
+2018-09-13 03:36:37.101 Detail, Node013, Changes to this value are not verified
+2018-09-13 03:36:37.101 Info, Node013,     Previous value was 123.21V, received 173 seconds ago.
+2018-09-13 03:36:37.101 Detail, Node013, Refreshed Value: old value=123.35, new value=123.21, type=decimal
+2018-09-13 03:36:37.101 Detail, Node013, Changes to this value are not verified
+2018-09-13 03:36:37.101 Detail, Node013, Refreshed Value: old value=129, new value=173, type=int
+2018-09-13 03:36:37.101 Detail, Node013, Changes to this value are not verified
+2018-09-13 03:36:37.102 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:36:37.115 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:36:37.145 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:36:37.161 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:36:38.100 Detail, Node013,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x0d, 0x0a, 0x32, 0x02, 0xa1, 0x4a, 0x00, 0x00, 0x00, 0xad, 0x00, 0x00, 0x9a
+2018-09-13 03:36:38.100 Detail, 
+2018-09-13 03:36:38.100 Detail, Node013, Refreshed Value: old value=false, new value=false, type=bool
+2018-09-13 03:36:38.100 Detail, Node013, Changes to this value are not verified
+2018-09-13 03:36:38.100 Info, Node013, Received Meter report from node 13: Current=0.00A
+2018-09-13 03:36:38.100 Detail, Node013, Refreshed Value: old value=0.00, new value=0.00, type=decimal
+2018-09-13 03:36:38.100 Detail, Node013, Changes to this value are not verified
+2018-09-13 03:36:38.100 Info, Node013,     Previous value was 0.00A, received 173 seconds ago.
+2018-09-13 03:36:38.100 Detail, Node013, Refreshed Value: old value=0.00, new value=0.00, type=decimal
+2018-09-13 03:36:38.100 Detail, Node013, Changes to this value are not verified
+2018-09-13 03:36:38.101 Detail, Node013, Refreshed Value: old value=129, new value=173, type=int
+2018-09-13 03:36:38.101 Detail, Node013, Changes to this value are not verified
+2018-09-13 03:36:38.101 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:36:38.113 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:36:38.125 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:36:38.138 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:37:00.719 Detail, Node015,   Received: 0x01, 0x14, 0x00, 0x04, 0x00, 0x0f, 0x0e, 0x32, 0x02, 0x21, 0x64, 0x00, 0x00, 0x23, 0x96, 0x00, 0xc5, 0x00, 0x00, 0x23, 0x96, 0x5e
+2018-09-13 03:37:00.720 Detail, 
+2018-09-13 03:37:00.720 Detail, Node015, Refreshed Value: old value=false, new value=false, type=bool
+2018-09-13 03:37:00.720 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:37:00.720 Info, Node015, Received Meter report from node 15: Energy=9.110kWh
+2018-09-13 03:37:00.720 Detail, Node015, Refreshed Value: old value=9.110, new value=9.110, type=decimal
+2018-09-13 03:37:00.720 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:37:00.720 Info, Node015,     Previous value was 9.110kWh, received 197 seconds ago.
+2018-09-13 03:37:00.720 Detail, Node015, Refreshed Value: old value=9.110, new value=9.110, type=decimal
+2018-09-13 03:37:00.720 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:37:00.720 Detail, Node015, Refreshed Value: old value=103, new value=197, type=int
+2018-09-13 03:37:00.720 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:37:00.721 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:37:00.732 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:37:00.744 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:37:00.756 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:37:00.817 Detail, Node015,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x0f, 0x0a, 0x32, 0x02, 0x21, 0x74, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x8b
+2018-09-13 03:37:00.818 Detail, 
+2018-09-13 03:37:00.818 Detail, Node015, Refreshed Value: old value=false, new value=false, type=bool
+2018-09-13 03:37:00.818 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:37:00.818 Info, Node015, Received Meter report from node 15: Power=0.000W
+2018-09-13 03:37:00.818 Detail, Node015, Refreshed Value: old value=0.000, new value=0.000, type=decimal
+2018-09-13 03:37:00.818 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:37:00.818 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:37:00.829 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:37:30.719 Detail, Node015,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x0f, 0x0a, 0x32, 0x02, 0x21, 0x74, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x8b
+2018-09-13 03:37:30.719 Detail, 
+2018-09-13 03:37:30.719 Detail, Node015, Refreshed Value: old value=false, new value=false, type=bool
+2018-09-13 03:37:30.719 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:37:30.719 Info, Node015, Received Meter report from node 15: Power=0.000W
+2018-09-13 03:37:30.720 Detail, Node015, Refreshed Value: old value=0.000, new value=0.000, type=decimal
+2018-09-13 03:37:30.720 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:37:30.720 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:37:30.732 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:38:00.719 Detail, Node015,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x0f, 0x0a, 0x32, 0x02, 0x21, 0x74, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x8b
+2018-09-13 03:38:00.719 Detail, 
+2018-09-13 03:38:00.719 Detail, Node015, Refreshed Value: old value=false, new value=false, type=bool
+2018-09-13 03:38:00.719 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:38:00.719 Info, Node015, Received Meter report from node 15: Power=0.000W
+2018-09-13 03:38:00.720 Detail, Node015, Refreshed Value: old value=0.000, new value=0.000, type=decimal
+2018-09-13 03:38:00.720 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:38:00.720 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:38:00.731 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:38:30.718 Detail, Node015,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x0f, 0x0a, 0x32, 0x02, 0x21, 0x74, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x8b
+2018-09-13 03:38:30.718 Detail, 
+2018-09-13 03:38:30.718 Detail, Node015, Refreshed Value: old value=false, new value=false, type=bool
+2018-09-13 03:38:30.718 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:38:30.718 Info, Node015, Received Meter report from node 15: Power=0.000W
+2018-09-13 03:38:30.718 Detail, Node015, Refreshed Value: old value=0.000, new value=0.000, type=decimal
+2018-09-13 03:38:30.718 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:38:30.719 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:38:30.724 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:39:00.719 Detail, Node015,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x0f, 0x0a, 0x32, 0x02, 0x21, 0x74, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x8b
+2018-09-13 03:39:00.719 Detail, 
+2018-09-13 03:39:00.719 Detail, Node015, Refreshed Value: old value=false, new value=false, type=bool
+2018-09-13 03:39:00.719 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:39:00.719 Info, Node015, Received Meter report from node 15: Power=0.000W
+2018-09-13 03:39:00.719 Detail, Node015, Refreshed Value: old value=0.000, new value=0.000, type=decimal
+2018-09-13 03:39:00.719 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:39:00.720 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:39:00.731 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:39:30.718 Detail, Node015,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x0f, 0x0a, 0x32, 0x02, 0x21, 0x74, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x8b
+2018-09-13 03:39:30.718 Detail, 
+2018-09-13 03:39:30.718 Detail, Node015, Refreshed Value: old value=false, new value=false, type=bool
+2018-09-13 03:39:30.718 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:39:30.718 Info, Node015, Received Meter report from node 15: Power=0.000W
+2018-09-13 03:39:30.718 Detail, Node015, Refreshed Value: old value=0.000, new value=0.000, type=decimal
+2018-09-13 03:39:30.718 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:39:30.719 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:39:30.725 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:40:00.719 Detail, Node015,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x0f, 0x0a, 0x32, 0x02, 0x21, 0x74, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x8b
+2018-09-13 03:40:00.719 Detail, 
+2018-09-13 03:40:00.724 Detail, Node015, Refreshed Value: old value=false, new value=false, type=bool
+2018-09-13 03:40:00.724 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:40:00.724 Info, Node015, Received Meter report from node 15: Power=0.000W
+2018-09-13 03:40:00.724 Detail, Node015, Refreshed Value: old value=0.000, new value=0.000, type=decimal
+2018-09-13 03:40:00.724 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:40:00.724 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:40:00.736 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:40:30.719 Detail, Node015,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x0f, 0x0a, 0x32, 0x02, 0x21, 0x74, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x8b
+2018-09-13 03:40:30.719 Detail, 
+2018-09-13 03:40:30.719 Detail, Node015, Refreshed Value: old value=false, new value=false, type=bool
+2018-09-13 03:40:30.719 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:40:30.719 Info, Node015, Received Meter report from node 15: Power=0.000W
+2018-09-13 03:40:30.719 Detail, Node015, Refreshed Value: old value=0.000, new value=0.000, type=decimal
+2018-09-13 03:40:30.719 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:40:30.719 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:40:30.725 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:41:00.718 Detail, Node015,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x0f, 0x0a, 0x32, 0x02, 0x21, 0x74, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x8b
+2018-09-13 03:41:00.719 Detail, 
+2018-09-13 03:41:00.719 Detail, Node015, Refreshed Value: old value=false, new value=false, type=bool
+2018-09-13 03:41:00.719 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:41:00.719 Info, Node015, Received Meter report from node 15: Power=0.000W
+2018-09-13 03:41:00.719 Detail, Node015, Refreshed Value: old value=0.000, new value=0.000, type=decimal
+2018-09-13 03:41:00.719 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:41:00.719 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:41:00.731 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:41:30.719 Detail, Node015,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x0f, 0x0a, 0x32, 0x02, 0x21, 0x74, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x8b
+2018-09-13 03:41:30.719 Detail, 
+2018-09-13 03:41:30.719 Detail, Node015, Refreshed Value: old value=false, new value=false, type=bool
+2018-09-13 03:41:30.719 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:41:30.719 Info, Node015, Received Meter report from node 15: Power=0.000W
+2018-09-13 03:41:30.719 Detail, Node015, Refreshed Value: old value=0.000, new value=0.000, type=decimal
+2018-09-13 03:41:30.719 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:41:30.720 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:41:30.731 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:41:35.128 Detail, Node013,   Received: 0x01, 0x14, 0x00, 0x04, 0x00, 0x0d, 0x0e, 0x32, 0x02, 0x21, 0x44, 0x00, 0x00, 0x00, 0x01, 0x01, 0x2d, 0x00, 0x00, 0x00, 0x01, 0x95
+2018-09-13 03:41:35.128 Detail, 
+2018-09-13 03:41:35.128 Detail, Node013, Refreshed Value: old value=false, new value=false, type=bool
+2018-09-13 03:41:35.128 Detail, Node013, Changes to this value are not verified
+2018-09-13 03:41:35.128 Info, Node013, Received Meter report from node 13: Energy=0.01kWh
+2018-09-13 03:41:35.129 Detail, Node013, Refreshed Value: old value=0.01, new value=0.01, type=decimal
+2018-09-13 03:41:35.129 Detail, Node013, Changes to this value are not verified
+2018-09-13 03:41:35.129 Info, Node013,     Previous value was 0.01, received 301 seconds ago.
+2018-09-13 03:41:35.129 Detail, Node013, Refreshed Value: old value=0.01, new value=0.01, type=decimal
+2018-09-13 03:41:35.129 Detail, Node013, Changes to this value are not verified
+2018-09-13 03:41:35.129 Detail, Node013, Refreshed Value: old value=173, new value=301, type=int
+2018-09-13 03:41:35.129 Detail, Node013, Changes to this value are not verified
+2018-09-13 03:41:35.129 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:41:35.142 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:41:35.155 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:41:35.168 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:41:36.102 Detail, Node013,   Received: 0x01, 0x14, 0x00, 0x04, 0x00, 0x0d, 0x0e, 0x32, 0x02, 0x21, 0x54, 0x00, 0x00, 0x00, 0x00, 0x01, 0x2d, 0x00, 0x00, 0x00, 0x00, 0x85
+2018-09-13 03:41:36.102 Detail, 
+2018-09-13 03:41:36.103 Detail, Node013, Refreshed Value: old value=false, new value=false, type=bool
+2018-09-13 03:41:36.103 Detail, Node013, Changes to this value are not verified
+2018-09-13 03:41:36.103 Info, Node013, Received Meter report from node 13: Power=0.00W
+2018-09-13 03:41:36.103 Detail, Node013, Refreshed Value: old value=0.00, new value=0.00, type=decimal
+2018-09-13 03:41:36.103 Detail, Node013, Changes to this value are not verified
+2018-09-13 03:41:36.103 Info, Node013,     Previous value was 0.00W, received 301 seconds ago.
+2018-09-13 03:41:36.103 Detail, Node013, Refreshed Value: old value=0.00, new value=0.00, type=decimal
+2018-09-13 03:41:36.103 Detail, Node013, Changes to this value are not verified
+2018-09-13 03:41:36.103 Detail, Node013, Refreshed Value: old value=173, new value=301, type=int
+2018-09-13 03:41:36.103 Detail, Node013, Changes to this value are not verified
+2018-09-13 03:41:36.103 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:41:36.116 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:41:36.137 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:41:36.153 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:41:37.101 Detail, Node013,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x0d, 0x0a, 0x32, 0x02, 0xa1, 0x42, 0x30, 0x82, 0x01, 0x2d, 0x30, 0x4a, 0xdb
+2018-09-13 03:41:37.102 Detail, 
+2018-09-13 03:41:37.102 Detail, Node013, Refreshed Value: old value=false, new value=false, type=bool
+2018-09-13 03:41:37.102 Detail, Node013, Changes to this value are not verified
+2018-09-13 03:41:37.102 Info, Node013, Received Meter report from node 13: Voltage=124.18V
+2018-09-13 03:41:37.102 Detail, Node013, Refreshed Value: old value=123.62, new value=124.18, type=decimal
+2018-09-13 03:41:37.102 Detail, Node013, Changes to this value are not verified
+2018-09-13 03:41:37.102 Info, Node013,     Previous value was 123.62V, received 301 seconds ago.
+2018-09-13 03:41:37.102 Detail, Node013, Refreshed Value: old value=123.21, new value=123.62, type=decimal
+2018-09-13 03:41:37.102 Detail, Node013, Changes to this value are not verified
+2018-09-13 03:41:37.102 Detail, Node013, Refreshed Value: old value=173, new value=301, type=int
+2018-09-13 03:41:37.102 Detail, Node013, Changes to this value are not verified
+2018-09-13 03:41:37.103 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:41:37.119 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:41:37.134 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:41:37.147 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:41:38.101 Detail, Node013,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x0d, 0x0a, 0x32, 0x02, 0xa1, 0x4a, 0x00, 0x00, 0x01, 0x2d, 0x00, 0x00, 0x1b
+2018-09-13 03:41:38.101 Detail, 
+2018-09-13 03:41:38.101 Detail, Node013, Refreshed Value: old value=false, new value=false, type=bool
+2018-09-13 03:41:38.101 Detail, Node013, Changes to this value are not verified
+2018-09-13 03:41:38.101 Info, Node013, Received Meter report from node 13: Current=0.00A
+2018-09-13 03:41:38.101 Detail, Node013, Refreshed Value: old value=0.00, new value=0.00, type=decimal
+2018-09-13 03:41:38.101 Detail, Node013, Changes to this value are not verified
+2018-09-13 03:41:38.101 Info, Node013,     Previous value was 0.00A, received 301 seconds ago.
+2018-09-13 03:41:38.101 Detail, Node013, Refreshed Value: old value=0.00, new value=0.00, type=decimal
+2018-09-13 03:41:38.102 Detail, Node013, Changes to this value are not verified
+2018-09-13 03:41:38.102 Detail, Node013, Refreshed Value: old value=173, new value=301, type=int
+2018-09-13 03:41:38.102 Detail, Node013, Changes to this value are not verified
+2018-09-13 03:41:38.102 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:41:38.114 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:41:38.127 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:41:38.139 Detail, Node013, Notification: ValueChanged
+2018-09-13 03:42:00.719 Detail, Node015,   Received: 0x01, 0x14, 0x00, 0x04, 0x00, 0x0f, 0x0e, 0x32, 0x02, 0x21, 0x64, 0x00, 0x00, 0x23, 0x96, 0x01, 0x2c, 0x00, 0x00, 0x23, 0x96, 0xb6
+2018-09-13 03:42:00.719 Detail, 
+2018-09-13 03:42:00.723 Detail, Node015, Refreshed Value: old value=false, new value=false, type=bool
+2018-09-13 03:42:00.723 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:42:00.723 Info, Node015, Received Meter report from node 15: Energy=9.110kWh
+2018-09-13 03:42:00.723 Detail, Node015, Refreshed Value: old value=9.110, new value=9.110, type=decimal
+2018-09-13 03:42:00.723 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:42:00.723 Info, Node015,     Previous value was 9.110kWh, received 300 seconds ago.
+2018-09-13 03:42:00.723 Detail, Node015, Refreshed Value: old value=9.110, new value=9.110, type=decimal
+2018-09-13 03:42:00.723 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:42:00.724 Detail, Node015, Refreshed Value: old value=197, new value=300, type=int
+2018-09-13 03:42:00.724 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:42:00.724 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:42:00.736 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:42:00.750 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:42:00.762 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:42:00.817 Detail, Node015,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x0f, 0x0a, 0x32, 0x02, 0x21, 0x74, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x8b
+2018-09-13 03:42:00.818 Detail, 
+2018-09-13 03:42:00.818 Detail, Node015, Refreshed Value: old value=false, new value=false, type=bool
+2018-09-13 03:42:00.818 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:42:00.818 Info, Node015, Received Meter report from node 15: Power=0.000W
+2018-09-13 03:42:00.818 Detail, Node015, Refreshed Value: old value=0.000, new value=0.000, type=decimal
+2018-09-13 03:42:00.818 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:42:00.818 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:42:00.829 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:42:30.718 Detail, Node015,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x0f, 0x0a, 0x32, 0x02, 0x21, 0x74, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x8b
+2018-09-13 03:42:30.718 Detail, 
+2018-09-13 03:42:30.718 Detail, Node015, Refreshed Value: old value=false, new value=false, type=bool
+2018-09-13 03:42:30.718 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:42:30.718 Info, Node015, Received Meter report from node 15: Power=0.000W
+2018-09-13 03:42:30.718 Detail, Node015, Refreshed Value: old value=0.000, new value=0.000, type=decimal
+2018-09-13 03:42:30.718 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:42:30.718 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:42:30.730 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:43:00.718 Detail, Node015,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x0f, 0x0a, 0x32, 0x02, 0x21, 0x74, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x8b
+2018-09-13 03:43:00.718 Detail, 
+2018-09-13 03:43:00.718 Detail, Node015, Refreshed Value: old value=false, new value=false, type=bool
+2018-09-13 03:43:00.718 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:43:00.718 Info, Node015, Received Meter report from node 15: Power=0.000W
+2018-09-13 03:43:00.718 Detail, Node015, Refreshed Value: old value=0.000, new value=0.000, type=decimal
+2018-09-13 03:43:00.718 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:43:00.719 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:43:00.730 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:43:30.718 Detail, Node015,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x0f, 0x0a, 0x32, 0x02, 0x21, 0x74, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x8b
+2018-09-13 03:43:30.718 Detail, 
+2018-09-13 03:43:30.718 Detail, Node015, Refreshed Value: old value=false, new value=false, type=bool
+2018-09-13 03:43:30.718 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:43:30.718 Info, Node015, Received Meter report from node 15: Power=0.000W
+2018-09-13 03:43:30.718 Detail, Node015, Refreshed Value: old value=0.000, new value=0.000, type=decimal
+2018-09-13 03:43:30.718 Detail, Node015, Changes to this value are not verified
+2018-09-13 03:43:30.719 Detail, Node015, Notification: ValueChanged
+2018-09-13 03:43:30.730 Detail, Node015, Notification: ValueChanged
